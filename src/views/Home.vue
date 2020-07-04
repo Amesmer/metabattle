@@ -38,7 +38,7 @@
           <el-submenu index="2">
             <template slot="title"><span class="mytitle">游戏模式</span></template>
             <el-menu-item index="2-1">
-              <div class="darkiconitem"><img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(pvp)</span></div>
+              <div class="darkiconitem"><img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(PVP)</span></div>
               </el-menu-item>
                           <el-menu-item index="2-2">
               <div class="darkiconitem"><img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>迷雾碎层</span></div>
@@ -47,10 +47,10 @@
               <div class="darkiconitem"><img src="@/assets/images/Pve_fp_all.png" alt=""><span>开放世界</span></div>
               </el-menu-item>
                           <el-menu-item index="2-4">
-              <div class="darkiconitem"><img src="@/assets/images/Raid_fp_icon.png" alt=""><span>Raid</span></div>
+              <div class="darkiconitem"><img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span></div>
               </el-menu-item>
                           <el-menu-item index="2-5">
-              <div class="darkiconitem"><img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>WvW</span></div>
+              <div class="darkiconitem"><img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战(WVW)</span></div>
              </el-menu-item>
           </el-submenu>
           <el-submenu  index="3" >
@@ -65,121 +65,167 @@
             <el-menu-item index="4-1">选项1</el-menu-item>
             <el-menu-item index="4-2">选项2</el-menu-item>
             <el-menu-item index="4-3">选项3</el-menu-item>
-          </el-submenu>            
+          </el-submenu>
         </el-menu>
         <div class="line"></div>
-   </div>
+       </div>
        <!-- banner -->
        <div></div>
        <!-- content  game mode -->
       <div class="content">
         <div class="gamemode">
-           <div class="title"><span>Builds By Game Mode </span><i>Quick Browse</i></div>
+           <div class="title"><span>根据游戏模式划分的配置</span><i>快速浏览</i></div>
           <ul>
             <li>
               <div class="left">
-                <img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(PVP)</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
+              </div>
+            </li> 
+             <li>
+              <div class="left">
+                <img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>迷雾碎层</span>
+              </div>
+              <div>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Pve_fp_all.png" alt=""><span>开放世界</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Pve_fp_all.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Raid_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战(WVW)</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
-              </div>
-            </li>
-             <li>
-              <div class="left">
-                <img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>conquest(pvp)</span>
-              </div>
-              <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
           </ul>
         </div>
                 <!-- content  profession -->
       <div class=" profession">
-          <div class="title"><span>Builds By Profession </span><i>Quick Browse</i></div>
+          <div class="title"><span>根据职业划分的配置</span><i>快速浏览</i></div>
           <ul>
             <li>
               <div class="left">
-                <img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Dark-icon-elementalist.png" alt=""><span>元素</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Dark-icon-engineer.png" alt=""><span>工程</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Pve_fp_all.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Dark-icon-guardian.png" alt=""><span>守护</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Raid_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Dark-icon-mesmer.png" alt=""><span>幻术</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀
+</a>-
+                <a href="">良好</a>
               </div>
             </li>
              <li>
               <div class="left">
-                <img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>conquest(pvp)</span>
+                <img src="@/assets/images/Dark-icon-necromancer.png" alt=""><span>死灵</span>
               </div>
               <div>
-                <a href="">meta</a>-
-                <a href="">great</a>-
-                <a href="">good</a>
+                <a href="">卓越</a>-
+                <a href="">优秀
+</a>-
+                <a href="">良好</a>
+              </div>
+            </li>
+                         <li>
+              <div class="left">
+                <img src="@/assets/images/Dark-icon-revenant.png" alt=""><span>游侠</span>
+              </div>
+              <div>
+                <a href="">卓越</a>-
+                <a href="">优秀
+</a>-
+                <a href="">良好</a>
+              </div>
+            </li>
+                         <li>
+              <div class="left">
+                <img src="@/assets/images/Dark-icon-thief.png" alt=""><span>魂武</span>
+              </div>
+              <div>
+                <a href="">卓越</a>-
+                <a href="">优秀
+</a>-
+                <a href="">良好</a>
+              </div>
+            </li>
+                         <li>
+              <div class="left">
+                <img src="@/assets/images/Dark-icon-warrior.png" alt=""><span>盗贼</span>
+              </div>
+              <div>
+                <a href="">卓越</a>-
+                <a href="">优秀
+</a>-
+                <a href="">良好</a>
+              </div>
+            </li>
+                         <li>
+              <div class="left">
+                <img src="@/assets/images/Dark-icon-necromancer.png" alt=""><span>战士</span>
+              </div>
+              <div>
+                <a href="">卓越</a>-
+                <a href="">优秀
+</a>-
+                <a href="">良好</a>
               </div>
             </li>
           </ul>
@@ -187,7 +233,7 @@
 
       </div>
 
- 
+
   </div>
 
 
@@ -211,8 +257,8 @@ export default {
 .el-menu--horizontal .el-menu--popup {
   min-width: 1.3rem;
 }
-.el-menu--horizontal > .el-submenu .el-submenu__title {
-  margin-right: 0.2rem;
+.el-menu--horizontal>.el-submenu .el-submenu__title{
+  margin-right: .2rem
 }
 </style>
 
@@ -240,13 +286,13 @@ export default {
   align-items: center;
 }
 .darkiconitem img {
-  width: 0.2rem;
-  height: 0.2rem;
+  width: .2rem;
+  height: .2rem;
   // margin-right: 0.15rem;
 }
-.darkiconitem span {
-  width: 0.6rem;
-  text-align: center;
+.darkiconitem span{
+  width: .6rem;
+  text-align: center
 }
 .el-menu-demo {
   .mytitle {
@@ -271,78 +317,110 @@ export default {
 }
 .el-menu--horizontal .el-menu .el-menu-item {
   width: 100% !important;
-  text-align: center;
+  text-align: center
 }
 
-.content {
+.content{
   min-width: 11.15rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.16rem;
+  font-size: .16rem;
   color: #fff;
   background-color: #111;
-  padding: 0 0.1rem;
-  .title {
-    padding: 0.05rem 0.1rem;
+  padding:  0 .1rem;
+  .title{
+    padding: .05rem .1rem;
     font-size: 1.25em;
     background-color: #1d1d1d;
     font-weight: 700;
     display: flex;
-    height: 0.36rem;
-    line-height: 0.36rem;
-    margin: 0.1rem 0;
+    height: .36rem;
+    line-height: .36rem;
+    margin: .1rem 0;
     justify-content: space-between;
   }
-  li {
+  li{
     box-sizing: border-box;
 
     background-size: contain;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 0.54rem;
-    padding: 0.1rem 0.1rem 0.1rem 0.15rem;
+    height: .54rem;
+    padding: .1rem .1rem .1rem  .15rem
+
   }
-  li:nth-child(1) {
-    background: url('../assets/images/Pvp_fp.png') no-repeat;
+  li:hover{
+    background-color: rgba(255,255,255,.1)!important;
+    color: #f9a916;
   }
-  li:nth-child(2) {
-    background: url('../assets/images/Fractal_fp.png') no-repeat;
+  li:nth-child(1){
+        background: url("../assets/images/Pvp_fp.png") no-repeat ;
   }
-  li:nth-child(3) {
-    background: url('../assets/images/Raid_fp.png') no-repeat;
+    li:nth-child(2){
+        background: url("../assets/images/Fractal_fp.png") no-repeat ;
   }
-  li:nth-child(4) {
-    background: url('../assets/images/Openworld_fp.png') no-repeat;
+    li:nth-child(3){
+        background: url("../assets/images/Raid_fp.png") no-repeat ;
   }
-  li:nth-child(5) {
-    background: url('../assets/images/Wvw_fp.png') no-repeat;
+    li:nth-child(4){
+        background: url("../assets/images/Openworld_fp.png") no-repeat ;
   }
-  .left {
+    li:nth-child(5){
+        background: url("../assets/images/Wvw_fp.png") no-repeat ;
+  }
+    .left{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .left span:hover {
+  .left span:hover{
     color: #f9a916;
   }
-  li img {
-    width: 0.32rem;
-    height: 0.32rem;
-    margin-right: 0.2rem;
+  li img{
+    width: .32rem;
+    height: .32rem;
+    margin-right: .2rem;
   }
-  li a {
+  li a{
     color: #f9a916;
   }
-  li a:hover {
+   li a:hover{
     color: #fff;
   }
+
 }
 
-// .profession{
-//   top: 5rem;
-// }
+.profession{
+      li:nth-child(1){
+        background: url("../assets/images/Ele_fp.png") no-repeat ;
+  }
+     li:nth-child(2){
+        background: url("../assets/images/Eng_fp.png") no-repeat ;
+  }
+     li:nth-child(3){
+        background: url("../assets/images/Guard_fp.png") no-repeat ;
+  }
+     li:nth-child(4){
+        background: url("../assets/images/Mes_fp.png") no-repeat ;
+  }
+     li:nth-child(5){
+        background: url("../assets/images/Nec_fp.png") no-repeat ;
+  }
+     li:nth-child(6){
+        background: url("../assets/images/Rang_fp.png") no-repeat ;
+  }
+     li:nth-child(7){
+        background: url("../assets/images/Rev_fp.png") no-repeat ;
+  }
+     li:nth-child(8){
+        background: url("../assets/images/Thief_fp.png") no-repeat ;
+  }
+     li:nth-child(9){
+        background: url("../assets/images/War_fp.png") no-repeat ;
+  }
+
+}
+
 </style>
-
-
