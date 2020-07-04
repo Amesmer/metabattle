@@ -68,7 +68,7 @@
           </el-submenu>            
         </el-menu>
         <div class="line"></div>
-       </div>
+   </div>
        <!-- banner -->
        <div></div>
        <!-- content  game mode -->
@@ -211,8 +211,8 @@ export default {
 .el-menu--horizontal .el-menu--popup {
   min-width: 1.3rem;
 }
-.el-menu--horizontal>.el-submenu .el-submenu__title{
-  margin-right: .2rem
+.el-menu--horizontal > .el-submenu .el-submenu__title {
+  margin-right: 0.2rem;
 }
 </style>
 
@@ -240,13 +240,13 @@ export default {
   align-items: center;
 }
 .darkiconitem img {
-  width: .2rem;
-  height: .2rem;
+  width: 0.2rem;
+  height: 0.2rem;
   // margin-right: 0.15rem;
 }
-.darkiconitem span{
-  width: .6rem;
-  text-align: center
+.darkiconitem span {
+  width: 0.6rem;
+  text-align: center;
 }
 .el-menu-demo {
   .mytitle {
@@ -271,80 +271,80 @@ export default {
 }
 .el-menu--horizontal .el-menu .el-menu-item {
   width: 100% !important;
-  text-align: center
+  text-align: center;
 }
 
-.content{
+.content {
   min-width: 11.15rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: .16rem;
+  font-size: 0.16rem;
   color: #fff;
   background-color: #111;
-  padding:  0 .1rem;
-  .title{
-    padding: .05rem .1rem;
+  padding: 0 0.1rem;
+  .title {
+    padding: 0.05rem 0.1rem;
     font-size: 1.25em;
     background-color: #1d1d1d;
     font-weight: 700;
     display: flex;
-    height: .36rem;
-    line-height: .36rem;
-    margin: .1rem 0;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    margin: 0.1rem 0;
     justify-content: space-between;
   }
-  li{
+  li {
     box-sizing: border-box;
 
     background-size: contain;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: .54rem;
-    padding: .1rem .1rem .1rem  .15rem
-    
+    height: 0.54rem;
+    padding: 0.1rem 0.1rem 0.1rem 0.15rem;
   }
-  li:nth-child(1){
-        background: url("../assets/images/Pvp_fp.png") no-repeat ;
+  li:nth-child(1) {
+    background: url('../assets/images/Pvp_fp.png') no-repeat;
   }
-    li:nth-child(2){
-        background: url("../assets/images/Fractal_fp.png") no-repeat ;
+  li:nth-child(2) {
+    background: url('../assets/images/Fractal_fp.png') no-repeat;
   }
-    li:nth-child(3){
-        background: url("../assets/images/Raid_fp.png") no-repeat ;
+  li:nth-child(3) {
+    background: url('../assets/images/Raid_fp.png') no-repeat;
   }
-    li:nth-child(4){
-        background: url("../assets/images/Openworld_fp.png") no-repeat ;
+  li:nth-child(4) {
+    background: url('../assets/images/Openworld_fp.png') no-repeat;
   }
-    li:nth-child(5){
-        background: url("../assets/images/Wvw_fp.png") no-repeat ;
+  li:nth-child(5) {
+    background: url('../assets/images/Wvw_fp.png') no-repeat;
   }
-    .left{
+  .left {
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
   }
-  .left span:hover{
+  .left span:hover {
     color: #f9a916;
   }
-  li img{
-    width: .32rem;
-    height: .32rem;
-    margin-right: .2rem;
+  li img {
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-right: 0.2rem;
   }
-  li a{
+  li a {
     color: #f9a916;
   }
-   li a:hover{
+  li a:hover {
     color: #fff;
   }
-
 }
 
-// .profession{
-//   top: 5rem;
-// }
+
+.profession{
+    
+}
+
 
 </style>
 
