@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Conquest from '../views/conquest.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +9,13 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+
+  },
+  {
+    path: '/conquest',
+    component: Conquest,
+    name: 'conquest',
   }
 ]
 

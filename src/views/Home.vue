@@ -1,74 +1,7 @@
 <template>
   <div class="container">
-   <!-- 顶部navigation -->
-   <div class="nav">
-            <el-menu   :default-active="activeIndex"
-          class="el-menu-demo"
-          mode="horizontal"
-          @select="tabSelect"
-          background-color="#31394D"
-          text-color="#cdcac7"
-          active-text-color="#ffd04b">
-          <el-submenu  index="1">
-            <template slot="title"><span class="mytitle">职业</span> </template>
-            <el-menu-item index="1-1">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-elementalist.png" alt=""><span>元素</span></div>
-            </el-menu-item>
-            <el-menu-item index="1-2"> <div class="darkiconitem"><img src="@/assets/images/Dark-icon-engineer.png" alt=""><span>工程</span></div></el-menu-item>
-            <el-menu-item index="1-3"> <div class="darkiconitem"><img src="@/assets/images/Dark-icon-guardian.png" alt=""><span>魂武</span></div></el-menu-item>
-          <el-menu-item index="1-4">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-mesmer.png" alt=""><span>幻术</span></div>
-            </el-menu-item>
-            <el-menu-item index="1-5">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-necromancer.png" alt=""><span>死灵</span></div>
-            </el-menu-item>
-            <el-menu-item index="1-6">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-ranger.png" alt=""><span>游侠</span></div>
-            </el-menu-item>
-            <el-menu-item index="1-7">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-revenant.png" alt=""><span>魂武</span></div>
-            </el-menu-item>
-            <el-menu-item index="1-8">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-thief.png" alt=""><span>盗贼</span></div>
-            </el-menu-item>
-            <el-menu-item index="1-9">
-              <div class="darkiconitem"><img src="@/assets/images/Dark-icon-warrior.png" alt=""><span>战士</span></div>
-            </el-menu-item>
-          </el-submenu>
-          <el-submenu index="2">
-            <template slot="title"><span class="mytitle">游戏模式</span></template>
-            <el-menu-item index="2-1">
-              <div class="darkiconitem"><img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(PVP)</span></div>
-              </el-menu-item>
-                          <el-menu-item index="2-2">
-              <div class="darkiconitem"><img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>迷雾碎层</span></div>
-              </el-menu-item>
-                          <el-menu-item index="2-3">
-              <div class="darkiconitem"><img src="@/assets/images/Pve_fp_all.png" alt=""><span>开放世界</span></div>
-              </el-menu-item>
-                          <el-menu-item index="2-4">
-              <div class="darkiconitem"><img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span></div>
-              </el-menu-item>
-                          <el-menu-item index="2-5">
-              <div class="darkiconitem"><img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战(WVW)</span></div>
-             </el-menu-item>
-          </el-submenu>
-          <el-submenu  index="3" >
-            <template slot="title"><span class="mytitle">导航</span></template>
-            <el-menu-item index="3-1">achievement</el-menu-item>
-            <el-menu-item index="3-2">pvp</el-menu-item>
-            <el-menu-item index="3-3">wvw</el-menu-item>
-            <el-menu-item index="3-3">all</el-menu-item>
-          </el-submenu>
-          <el-submenu  index="4">
-            <template slot="title"><span class="mytitle">others</span></template>
-            <el-menu-item index="4-1">选项1</el-menu-item>
-            <el-menu-item index="4-2">选项2</el-menu-item>
-            <el-menu-item index="4-3">选项3</el-menu-item>
-          </el-submenu>
-        </el-menu>
-        <div class="line"></div>
-       </div>
+    <!-- navigation -->
+      <navigation></navigation>
        <!-- banner -->
        <div></div>
        <!-- content  game mode -->
@@ -168,8 +101,7 @@
               </div>
               <div>
                 <a href="">卓越</a>-
-                <a href="">优秀
-</a>-
+                <a href="">优秀</a>-
                 <a href="">良好</a>
               </div>
             </li>
@@ -179,8 +111,7 @@
               </div>
               <div>
                 <a href="">卓越</a>-
-                <a href="">优秀
-</a>-
+                <a href="">优秀</a>-
                 <a href="">良好</a>
               </div>
             </li>
@@ -190,8 +121,7 @@
               </div>
               <div>
                 <a href="">卓越</a>-
-                <a href="">优秀
-</a>-
+                <a href="">优秀</a>-
                 <a href="">良好</a>
               </div>
             </li>
@@ -201,8 +131,7 @@
               </div>
               <div>
                 <a href="">卓越</a>-
-                <a href="">优秀
-</a>-
+                <a href="">优秀</a>-
                 <a href="">良好</a>
               </div>
             </li>
@@ -212,8 +141,7 @@
               </div>
               <div>
                 <a href="">卓越</a>-
-                <a href="">优秀
-</a>-
+                <a href="">优秀</a>-
                 <a href="">良好</a>
               </div>
             </li>
@@ -223,8 +151,7 @@
               </div>
               <div>
                 <a href="">卓越</a>-
-                <a href="">优秀
-</a>-
+                <a href="">优秀</a>-
                 <a href="">良好</a>
               </div>
             </li>
@@ -240,27 +167,22 @@
 </template>
 
 <script>
+import navigation from '@/components/navigation.vue'
 export default {
   data() {
     return {
-      activeIndex: '1'
+     
     }
   },
+  components:{
+      navigation
+  },
   methods: {
-    tabSelect(key, keyPath) {
-      console.log(key, keyPath)
-    }
+
   }
 }
 </script>
-<style>
-.el-menu--horizontal .el-menu--popup {
-  min-width: 1.3rem;
-}
-.el-menu--horizontal>.el-submenu .el-submenu__title{
-  margin-right: .2rem
-}
-</style>
+
 
 <style lang="less" scoped>
 /deep/ .el-menu--horizontal > .el-submenu .el-submenu__icon-arrow {
@@ -331,7 +253,7 @@ export default {
   padding:  0 .1rem;
   .title{
     padding: .05rem .1rem;
-    font-size: 1.25em;
+    font-size: .175rem;
     background-color: #1d1d1d;
     font-weight: 700;
     display: flex;

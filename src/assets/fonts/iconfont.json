@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "880335",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "1170172",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "5478626",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e937",
+      "unicode_decimal": 59703
+    }
+  ]
+}
