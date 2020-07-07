@@ -17,206 +17,59 @@
            <div class="title"><span>Meta</span></div>
           <ul>
             <!-- 魂武 -->
-            <li>
+            <li v-for="(item,i) in tableData" :key="i">
               <div class="left">
-                <img src="@/assets/profession/Dark-icon-herald.png" alt=""><span>Condition Mallyx</span>
+                <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
               <!-- 职业技能 -->
                   <ul class="skills">
-                      <li><img src="@/assets/skills/32px-Legendary_Demon_Stance.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Legendary_Dragon_Stance.png" alt=""></li>
+                      <li v-if="!!item.skill_1" >
+                        <a href="#javascript" :title="item.skill_1_name"><img :src="require(`@/assets/skills/${item.skill_1}.png`)" alt=""></a></li>
+                         <li v-if="!!item.skill_2">
+                        <a href="#javascript" :title="item.skill_2_name"><img :src="require(`@/assets/skills/${item.skill_2}.png`)" alt=""></a></li>
+                         <li v-if="!!item.skill_3">
+                        <a href="#javascript" :title="item.skill_3_name"><img :src="require(`@/assets/skills/${item.skill_3}.png`)" alt=""></a></li>
+                         <li v-if="!!item.skill_4">
+                        <a href="#javascript" :title="item.skill_4_name"><img :src="require(`@/assets/skills/${item.skill_4}.png`)" alt=""></a></li>
+                         <li v-if="!!item.skill_5" >
+                        <a href="#javascript" :title="item.skill_5_name"><img :src="require(`@/assets/skills/${item.skill_5}.png`)" alt=""></a></li>
                   </ul>
                     <span  class="iconfont ">&#xe937;</span>
                     <div class="equment">
                       <div class="weaps">
                                 <div>
-                                    <i>M/A</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exposure.png" alt="">
+                                    <i>{{item.weapon_1}}</i>
+                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
+                             
                                     <img src="@/assets/images/16px-I.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Doom.png" alt="">
+                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
+
                                 </div>
-                                      <div>
-                                    <i>Sw/Sh</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Cleansing.png" alt="">
+                                      <div v-if="!!item.weapon_2">
+                                    <i>{{item.weapon_2}}</i>
+                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
+                                    
                                     <img src="@/assets/images/16px-II.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Energy.png" alt="">
+                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
+                                   
                                 </div>
                                 
                     </div>
                     <div class="ra">
-                       <img src="@/assets/superiorRune/32px-Superior_Rune_of_Resistance.png" alt="">
-                       <img src="@/assets/amulet/32px-Carrion_Amulet.png" alt="">
+                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
+                     
+                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
+                     
                     </div>
                     </div>
          
                   <div class="community">
-                        <div class="rate">5</div>
+                        <div class="rate">{{item.rate}}</div>
                          <span  class="iconfont "> &#xe662;</span>
                        
                   </div>
             </li> 
-            <!-- 工程 -->
-            <li>
-              <div class="left">
-                <img src="@/assets/profession/Dark-icon-holosmith.png" alt=""><span>Explosive Sword</span>
-              </div>
-              <!-- 职业技能 -->
-                  <ul class="skills">
-                      <li><img src="@/assets/skills/32px-Elixir_H.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Elixir_S.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Elixir_U.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Grenade_Kit.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Elixir_X.png" alt=""></li>
-                  </ul>
-                    <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>Sw/Sh</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Intelligence.png" alt="">
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Energy.png" alt="">
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                       <img src="@/assets/superiorRune/32px-Superior_Rune_of_the_Revenant.png" alt="">
-                       <img src="@/assets/amulet/32px-Berserker_Amulet.png" alt="">
-                    </div>
-                    </div>
-         
-                  <div class="community">
-                        <div class="rate">5</div>
-                         <span  class="iconfont "> &#xe662;</span>
-                       
-                  </div>
-            </li> 
-            <!-- 死灵 -->
-            <li>
-              <div class="left">
-                <img src="@/assets/profession/Dark-icon-necromancer.png" alt=""><span>Vanilla Condi Necro</span>
-              </div>
-              <!-- 职业技能 -->
-                  <ul class="skills">
-                      <li><img src="@/assets/skills/32px-Consume_Conditions.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Skill.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Corrupt_Boon.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Spectral_Walk.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Lich_Form.png" alt=""></li>
-                  </ul>
-                    <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>D/P</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exploitation.png" alt="">
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Compounding.png" alt="">
-                                </div>
-                                      <div>
-                                    <i>S/P</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exploitation.png" alt="">
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Compounding.png" alt="">
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                       <img src="@/assets/superiorRune/32px-Superior_Rune_of_Resistance.png" alt="">
-                       <img src="@/assets/amulet/32px-Carrion_Amulet.png" alt="">
-                    </div>
-                    </div>
-         
-                  <div class="community">
-                        <div class="rate">5</div>
-                         <span  class="iconfont "> &#xe662;</span>
-                       
-                  </div>
-            </li> 
-            <!-- 元素 -->
-             <li>
-              <div class="left">
-                <img src="@/assets/profession/Dark-icon-tempest.png" alt=""><span>D/F Auramancer</span>
-              </div>
-              <!-- 职业技能 -->
-                  <ul class="skills">
-                       <li><img src="@/assets/skills/32px-Consume_Conditions.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Skill.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Corrupt_Boon.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Spectral_Walk.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Lich_Form.png" alt=""></li>
-                  </ul>
-                    <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>D/P</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exploitation.png" alt="">
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Compounding.png" alt="">
-                                </div>
-                                      <div>
-                                    <i>S/P</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exploitation.png" alt="">
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Compounding.png" alt="">
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                       <img src="@/assets/superiorRune/32px-Superior_Rune_of_Resistance.png" alt="">
-                       <img src="@/assets/amulet/32px-Carrion_Amulet.png" alt="">
-                    </div>
-                    </div>
-         
-                  <div class="community">
-                        <div class="rate">5</div>
-                         <span  class="iconfont "> &#xe662;</span>
-                       
-                  </div>
-            </li> 
-            <!-- 盗贼 -->
-             <li>
-              <div class="left">
-                <img src="@/assets/profession/Dark-icon-thief.png" alt=""><span>Core P/D Condition</span>
-              </div>
-              <!-- 职业技能 -->
-                  <ul class="skills">
-                        <li><img src="@/assets/skills/32px-Consume_Conditions.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Skill.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Corrupt_Boon.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Spectral_Walk.png" alt=""></li>
-                      <li><img src="@/assets/skills/32px-Lich_Form.png" alt=""></li>
-                  </ul>
-                    <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>D/P</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exploitation.png" alt="">
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Compounding.png" alt="">
-                                </div>
-                                      <div>
-                                    <i>S/P</i>
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Exploitation.png" alt="">
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                    <img src="@/assets/sigil/32px-Superior_Sigil_of_Compounding.png" alt="">
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                       <img src="@/assets/superiorRune/32px-Superior_Rune_of_Resistance.png" alt="">
-                       <img src="@/assets/amulet/32px-Carrion_Amulet.png" alt="">
-                    </div>
-                    </div>
-         
-                  <div class="community">
-                        <div class="rate">5</div>
-                         <span  class="iconfont "> &#xe662;</span>
-                       
-                  </div>
-            </li> 
+
           </ul>
 
 
@@ -1057,7 +910,151 @@
 import navigation from '@/components/navigation.vue'
 export default {
   data() {
-    return {}
+    return {
+      tableData: [
+        // 魂武
+        {
+          professionicon: 'Dark-icon-herald',
+          bdname: 'Condition Mallyx',
+          skill_1: '32px-Legendary_Demon_Stance',
+          skill_1_name: '32px-Legendary_Dragon_Stance',
+          skill_2: '32px-Legendary_Demon_Stance',
+          skill_2_name: '32px-Legendary_Dragon_Stance',
+          weapon_1: 'M/A',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Exposure',
+          weapon_1sigil_1_name: '上海',
+          weapon_1sigil_2: '32px-Superior_Sigil_of_Doom',
+          weapon_1sigil_2_name: '上海',
+          weapon_2: 'Sw/Sh',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Cleansing',
+          weapon_2sigil_1_name: '上海',
+          weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
+          weapon_2sigil_2_name: '上海',
+          rune: '32px-Superior_Rune_of_Resistance',
+          runename: '',
+          amulet: '32px-Carrion_Amulet',
+          amuletname: '',
+          rate: '5',
+          comment: ''
+        },//工程
+         {
+          professionicon: 'Dark-icon-holosmith',
+          bdname: 'Explosive Sword',
+          skill_1: '32px-Elixir_H',
+          skill_1_name: '',
+          skill_2: '32px-Elixir_S',
+          skill_2_name: '',
+          skill_3: '32px-Elixir_U',
+          skill_3_name: '',
+          skill_4: '32px-Grenade_Kit',
+          skill_4_name: '',
+          skill_5: '32px-Elixir_X',
+          skill_5_name: '',
+          weapon_1: 'Sw/Sh',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Intelligence',
+          weapon_1sigil_1_name: '上海',
+          weapon_1sigil_2: '32px-Superior_Sigil_of_Energy',
+          weapon_1sigil_2_name: '上海',
+
+          rune: '32px-Superior_Rune_of_the_Revenant',
+          runename: '',
+          amulet: '32px-Berserker_Amulet',
+          amuletname: '',
+          rate: '5',
+          comment: ''
+        }, //死灵
+        {
+          professionicon: 'Dark-icon-necromancer',
+          bdname: 'Vanilla Condi Necro',
+          skill_1: '32px-Consume_Conditions',
+          skill_1_name: '',
+          skill_2: '32px-Skill',
+          skill_2_name: '',
+           skill_3: '32px-Corrupt_Boon',
+          skill_3_name: '',
+          skill_4: '32px-Spectral_Walk',
+          skill_4_name: '',
+          skill_5: '32px-Lich_Form',
+          skill_5_name: '',
+          weapon_1: 'D/P',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Exposure',
+          weapon_1sigil_1_name: '上海',
+          weapon_1sigil_2: '32px-Superior_Sigil_of_Doom',
+          weapon_1sigil_2_name: '上海',
+          weapon_2: 'S/P',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Cleansing',
+          weapon_2sigil_1_name: '上海',
+          weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
+          weapon_2sigil_2_name: '上海',
+          rune: '32px-Superior_Rune_of_Resistance',
+          runename: '',
+          amulet: '32px-Carrion_Amulet',
+          amuletname: '',
+          rate: '5',
+          comment: ''
+        },//元素
+        {
+          professionicon: 'Dark-icon-tempest',
+          bdname: 'D/F Auramancer',
+          skill_1: '32px-Consume_Conditions',
+          skill_1_name: '',
+          skill_2: '32px-Skill',
+          skill_2_name: '',
+           skill_3: '32px-Corrupt_Boon',
+          skill_3_name: '',
+          skill_4: '32px-Spectral_Walk',
+          skill_4_name: '',
+          skill_5: '32px-Lich_Form',  
+          skill_5_name: '',
+          weapon_1: 'D/P',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Exposure',
+          weapon_1sigil_1_name: '上海',
+          weapon_1sigil_2: '32px-Superior_Sigil_of_Doom',
+          weapon_1sigil_2_name: '上海',
+          weapon_2: 'S/P',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Cleansing',
+          weapon_2sigil_1_name: '上海',
+          weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
+          weapon_2sigil_2_name: '上海',
+          rune: '32px-Superior_Rune_of_Resistance',
+          runename: '',
+          amulet: '32px-Carrion_Amulet',
+          amuletname: '',
+          rate: '5',
+          comment: ''
+        },//盗贼
+        {
+          professionicon: 'Dark-icon-thief',
+          bdname: 'Core P/D Condition',
+          skill_1: '32px-Consume_Conditions',
+          skill_1_name: '',
+          skill_2: '32px-Skill',
+          skill_2_name: '',
+           skill_3: '32px-Corrupt_Boon',
+          skill_3_name: '',
+          skill_4: '32px-Spectral_Walk',
+          skill_4_name: '',
+          skill_5: '32px-Lich_Form',
+          skill_5_name: '',
+          weapon_1: 'D/P',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Exposure',
+          weapon_1sigil_1_name: '上海',
+          weapon_1sigil_2: '32px-Superior_Sigil_of_Doom',
+          weapon_1sigil_2_name: '上海',
+          weapon_2: 'S/P',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Cleansing',
+          weapon_2sigil_1_name: '上海',
+          weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
+          weapon_2sigil_2_name: '上海',
+          rune: '32px-Superior_Rune_of_Resistance',
+          runename: '',
+          amulet: '32px-Carrion_Amulet',
+          amuletname: '',
+          rate: '5',
+          comment: ''
+        },
+      ]
+    }
   },
   components: {
     navigation
