@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Conquest from '../views/conquest.vue'
 import conquestManage from '../views/manage/conquestManage.vue'
+import bdpage from '../views/manage/bdpage.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ Vue.use(VueRouter)
     path: '/conquestManage',
     component: conquestManage,
     name: 'conquestManage',
+  },
+  {
+    path: '/bdpage',
+    component: bdpage,
+    name: 'bdpage',
   }
 ]
 
