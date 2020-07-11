@@ -9,6 +9,8 @@ import './config/server'
 import './plugins/element.js'
 import './plugins/1rem100px'
 import './plugins/public.css'
+// import './plugins/Embed_.js'
+import './plugins/embed.js'
 Vue.config.productionTip = false
 
 

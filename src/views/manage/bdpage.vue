@@ -3,7 +3,7 @@
     <navigation></navigation>
            <!-- title -->
     <div class="content">
-               <h2 class="pagetitle">Conquest</h2>
+               <h2 class="pagetitle">Herald - Condition Mallyx</h2>
                <p class="pagesubtitle">List of Conquest PvP builds ranging from good to meta.</p>
                 <div class="behindpagetitle">
                     <div>
@@ -14,72 +14,25 @@
                     </div>
               <div class="gamemode">
            <div class="title"><span>Meta</span></div>
-          <ul>
-            <!-- meta  -->
-            <li v-for="(item,i) in tableData" :key="i">
-              <div class="left">
-                <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
-              </div>
-              <!-- 职业技能 -->
-                  <ul class="skills">
-                      <li v-if="!!item.skill_1" >
-                        <a href="#javascript" :title="item.skill_1_name"><img :src="require(`@/assets/skills/${item.skill_1}.png`)" alt=""></a></li>
-                         <li v-if="!!item.skill_2">
-                        <a href="#javascript" :title="item.skill_2_name"><img :src="require(`@/assets/skills/${item.skill_2}.png`)" alt=""></a></li>
-                         <li v-if="!!item.skill_3">
-                        <a href="#javascript" :title="item.skill_3_name"><img :src="require(`@/assets/skills/${item.skill_3}.png`)" alt=""></a></li>
-                         <li v-if="!!item.skill_4">
-                        <a href="#javascript" :title="item.skill_4_name"><img :src="require(`@/assets/skills/${item.skill_4}.png`)" alt=""></a></li>
-                         <li v-if="!!item.skill_5" >
-                        <a href="#javascript" :title="item.skill_5_name"><img :src="require(`@/assets/skills/${item.skill_5}.png`)" alt=""></a></li>
-                  </ul>
-                    <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>{{item.weapon_1}}</i>
-                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
-                             
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
-
-                                </div>
-                                      <div v-if="!!item.weapon_2">
-                                    <i>{{item.weapon_2}}</i>
-                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
-                                    
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
-                                   
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
-                     
-                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
-                     
-                    </div>
-                    </div>
-         
-                  <div class="community">
-                        <div class="rate">{{item.rate}}</div>
-                         <span  class="iconfont "> &#xe662;</span>
-                       
-                  </div>
-            </li> 
-
-          </ul>
+     
 
         </div>
     </div>
-   
+    
+<iframe id="my-iframe" width="1115" height="3400"
+frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" 
+ src="../bds/Herald - Condition Mallyx.html"></iframe>
+ <!-- <div data-armory-embed="skills" data-armory-ids="5507,5508,5510,5515"></div> -->
+
 </div>
     
     
 </template>
+
 <script>
 import navigation from '@/components/navigation.vue'
+
+// import '@/plugins/Embed_.js'
 export default {
   data() {
     return {
@@ -239,7 +192,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 12rem;
+  height: 38rem;
   background-color: #1d1d1d;
   .nav {
     background-color: rgb(49, 57, 77);
@@ -437,4 +390,14 @@ export default {
     font-size: 0.14rem;
   }
 }
+
+#my-iframe{
+position: absolute;
+top: 300px;
+left: 50%;
+transform: translateX(-50%);
+// z-index: 9999;
+background-color: #111;
+}
+
 </style>
