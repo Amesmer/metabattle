@@ -17,7 +17,7 @@
            <div class="title"><span>Meta</span></div>
           <ul>
             <!-- meta  -->
-            <li v-for="(item,i) in tableData" :key="i">
+            <li v-for="(item,i) in tableData" :key="i" @click="gobdpage(i)">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -1091,6 +1091,15 @@ export default {
   },
   components: {
     navigation
+  },
+  methods:{
+    gobdpage(index){
+        console.log(index);
+        this.$router.push({
+          name:"bdpage",
+          query:{id:index}
+        })
+    }
   }
 }
 </script>
@@ -1185,6 +1194,7 @@ export default {
   li:hover {
     background-color: rgba(255, 255, 255, 0.1) !important;
     color: #f9a916;
+    cursor: pointer;
   }
 
   .left {

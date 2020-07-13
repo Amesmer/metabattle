@@ -25,7 +25,7 @@ frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"
 
 <iframe id="my-iframe" width="1115" height="3400"
 frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" 
- src="./bds/Holosmith - Explosive Sword.html"></iframe>
+ :src="`./bds/${bdpage}`" ></iframe>
 
 
  <!-- <div data-armory-embed="skills" data-armory-ids="5507,5508,5510,5515"></div> -->
@@ -42,6 +42,7 @@ import navigation from '@/components/navigation.vue'
 export default {
   data() {
     return {
+      bdpage:'',
       tableData: [
         // 魂武
         {
@@ -181,6 +182,19 @@ export default {
           comment: ''
         },
       ]
+    }
+  },
+  created(){
+    console.log(this.$route.query.id);
+    switch(this.$route.query.id){
+      case 0: 
+      this.bdpage='Herald - Condition Mallyx.html';
+      break
+      case 1:
+         this.bdpage='Holosmith - Explosive Sword.html';
+         break
+         default :
+            this.bdpage='Holosmith - Explosive Sword.html';
     }
   },
   components: {
