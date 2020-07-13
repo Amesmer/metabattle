@@ -18,10 +18,16 @@
 
         </div>
     </div>
-    
+<!--     
 <iframe id="my-iframe" width="1115" height="3400"
 frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" 
- src="./bds/Herald - Condition Mallyx.html"></iframe>
+ src="./bds/Herald - Condition Mallyx.html"></iframe> -->
+
+<iframe id="my-iframe" width="1115" height="3400"
+frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" 
+ src="./bds/Holosmith - Explosive Sword.html"></iframe>
+
+
  <!-- <div data-armory-embed="skills" data-armory-ids="5507,5508,5510,5515"></div> -->
 
 </div>
