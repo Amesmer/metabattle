@@ -23,7 +23,7 @@
 frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" 
  src="./bds/Herald - Condition Mallyx.html"></iframe> -->
 
-<iframe id="my-iframe" width="1115" height="3400"
+<iframe id="my-iframe" width="1115" height="4600"
 frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" 
  :src="`./bds/${bdpage}`" ></iframe>
 
@@ -42,7 +42,7 @@ import navigation from '@/components/navigation.vue'
 export default {
   data() {
     return {
-      bdpage:'',
+      bdpage: '',
       tableData: [
         // 魂武
         {
@@ -68,8 +68,8 @@ export default {
           amuletname: '',
           rate: '5',
           comment: ''
-        },//工程
-         {
+        }, //工程
+        {
           professionicon: 'Dark-icon-holosmith',
           bdname: 'Explosive Sword',
           skill_1: '32px-Elixir_H',
@@ -102,7 +102,7 @@ export default {
           skill_1_name: '',
           skill_2: '32px-Skill',
           skill_2_name: '',
-           skill_3: '32px-Corrupt_Boon',
+          skill_3: '32px-Corrupt_Boon',
           skill_3_name: '',
           skill_4: '32px-Spectral_Walk',
           skill_4_name: '',
@@ -124,7 +124,7 @@ export default {
           amuletname: '',
           rate: '4.9',
           comment: ''
-        },//元素
+        }, //元素
         {
           professionicon: 'Dark-icon-tempest',
           bdname: 'D/F Auramancer',
@@ -132,11 +132,11 @@ export default {
           skill_1_name: '',
           skill_2: '32px-Mist_Form',
           skill_2_name: '',
-           skill_3: '32px-Lightning_Flash',
+          skill_3: '32px-Lightning_Flash',
           skill_3_name: '',
           skill_4: '32px-Glyph_of_Renewal',
           skill_4_name: '',
-          skill_5: '32px-Tornado',  
+          skill_5: '32px-Tornado',
           skill_5_name: '',
           weapon_1: 'D/F',
           weapon_1sigil_1: '32px-Superior_Sigil_of_Cleansing',
@@ -150,7 +150,7 @@ export default {
           amuletname: '',
           rate: '4.5',
           comment: ''
-        },//盗贼
+        }, //盗贼
         {
           professionicon: 'Dark-icon-thief',
           bdname: 'Core P/D Condition',
@@ -158,7 +158,7 @@ export default {
           skill_1_name: '',
           skill_2: '32px-Skill',
           skill_2_name: '',
-           skill_3: '32px-Shadowstep',
+          skill_3: '32px-Shadowstep',
           skill_3_name: '',
           skill_4: '32px-Shadow_Refuge',
           skill_4_name: '',
@@ -180,25 +180,40 @@ export default {
           amuletname: '',
           rate: '4.5',
           comment: ''
-        },
+        }
       ]
     }
   },
-  created(){
-    console.log(this.$route.query.id);
-    switch(this.$route.query.id){
-      case 0: 
-      this.bdpage='Herald - Condition Mallyx.html';
-      break
-      case 1:
-         this.bdpage='Holosmith - Explosive Sword.html';
-         break
-         default :
-            this.bdpage='Holosmith - Explosive Sword.html';
+  created() {
+    console.log(location.href);
+    console.log(this.getQueryVariable())
+    switch (this.getQueryVariable()) {
+      case '0':
+        this.bdpage = 'Herald - Condition Mallyx.html'
+        break
+      case '1':
+        this.bdpage = 'Holosmith - Explosive Sword.html'
+        break
+      case '2':
+        this.bdpage = 'Reaper - Spectral Onslaught.html'
+        break
+      case '3':
+        this.bdpage = 'Tempest - DF Auramancer.html'
+        break
+      default:
+        this.bdpage = 'Tempest - DF Auramancer.html'
     }
   },
   components: {
     navigation
+  },
+  methods: {
+  getQueryVariable(variable)
+{
+       var query = window.location.href
+    return  query.split('=')[1]
+}
+
   }
 }
 </script>
@@ -368,7 +383,7 @@ export default {
     align-items: center;
   }
   i {
-    width: .35rem;
+    width: 0.35rem;
     text-align: center;
     font-size: 0.12rem;
     color: #ccc;
@@ -411,13 +426,12 @@ export default {
   }
 }
 
-#my-iframe{
-position: absolute;
-top: 300px;
-left: 50%;
-transform: translateX(-50%);
-// z-index: 9999;
-background-color: #111;
+#my-iframe {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  // z-index: 9999;
+  background-color: #111;
 }
-
 </style>
