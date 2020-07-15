@@ -3,7 +3,7 @@
     <navigation></navigation>
            <!-- title -->
     <div class="content">
-               <h2 class="pagetitle">Herald - Condition Mallyx</h2>
+               <h2 class="pagetitle">{{bdname}}</h2>
                <p class="pagesubtitle">List of Conquest PvP builds ranging from good to meta.</p>
                 <div class="behindpagetitle">
                     <div>
@@ -42,6 +42,7 @@ import navigation from '@/components/navigation.vue'
 export default {
   data() {
     return {
+      bdname:'',
       bdpage: '',
       tableData: [
         // 魂武
@@ -185,9 +186,11 @@ export default {
     }
   },
   created() {
-    console.log(location.href);
-    console.log(this.getQueryVariable())
-    switch (this.getQueryVariable()) {
+    let parms=this.parseUrl()
+    this.bdname=  parms.bd;
+    console.log(parms);
+
+    switch (parms.id) {
       case '0':
         this.bdpage = 'Herald - Condition Mallyx.html'
         break
@@ -208,11 +211,21 @@ export default {
     navigation
   },
   methods: {
-  getQueryVariable(variable)
-{
-       var query = window.location.href
-    return  query.split('=')[1]
-}
+    // 获取url中的参数
+    parseUrl() {
+      var url = decodeURIComponent(location.href) ;
+      console.log(url);
+      var i = url.indexOf("?");
+      if (i == -1) return;
+      var querystr = url.substr(i + 1);
+      var arr1 = querystr.split("&");
+      var arr2 = new Object();
+      for (i in arr1) {
+        var ta = arr1[i].split("=");
+        arr2[ta[0]] = ta[1];
+      }
+      return arr2;
+    }
 
   }
 }
@@ -227,7 +240,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 38rem;
+  height: 49rem;
   background-color: #1d1d1d;
   .nav {
     background-color: rgb(49, 57, 77);
