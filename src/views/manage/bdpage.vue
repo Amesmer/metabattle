@@ -203,6 +203,9 @@ export default {
       case '3':
         this.bdpage = 'Tempest - DF Auramancer.html'
         break
+         case '4':
+        this.bdpage = 'Thief - Core PD Condition.html'
+        break
       default:
         this.bdpage = 'Tempest - DF Auramancer.html'
     }
