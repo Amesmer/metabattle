@@ -41,13 +41,13 @@
             <el-menu-item index="2-1" route="/conquest">
               <div class="darkiconitem"><img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(PVP)</span></div>
               </el-menu-item>
-                          <el-menu-item index="2-2">
+                          <el-menu-item index="2-2"  route="/Fractal">
               <div class="darkiconitem"><img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>迷雾碎层</span></div>
               </el-menu-item>
                           <el-menu-item index="2-3">
               <div class="darkiconitem"><img src="@/assets/images/Pve_fp_all.png" alt=""><span>开放世界</span></div>
               </el-menu-item>
-                          <el-menu-item index="2-4">
+                          <el-menu-item index="2-4"  route="/Raid">
               <div class="darkiconitem"><img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span></div>
               </el-menu-item>
                           <el-menu-item index="2-5">

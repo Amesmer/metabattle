@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Conquest from '../views/conquest.vue'
+import Fractal from '../views/Fractal.vue'
+import Raid from '../views/raid.vue'
 import conquestManage from '../views/manage/conquestManage.vue'
 import bdpage from '../views/manage/bdpage.vue'
 
@@ -28,6 +30,16 @@ Vue.use(VueRouter)
     path: '/bdpage',
     component: bdpage,
     name: 'bdpage',
+  },
+  {
+    path: '/Fractal',
+    component: Fractal,
+    name: 'Fractal',
+  },
+  {
+    path: '/Raid',
+    component: Raid,
+    name: 'Raid',
   }
 ]
 
