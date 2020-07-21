@@ -42,7 +42,7 @@ import navigation from '@/components/navigation.vue'
 export default {
   data() {
     return {
-      bdname:'',
+      bdname: '',
       bdpage: '',
       tableData: [
         // 魂武
@@ -186,9 +186,9 @@ export default {
     }
   },
   created() {
-    let parms=this.parseUrl()
-    this.bdname=  parms.bd;
-    console.log(parms);
+    let parms = this.parseUrl()
+    this.bdname = parms.bd
+    console.log(parms)
 
     switch (parms.id) {
       case '0':
@@ -203,7 +203,7 @@ export default {
       case '3':
         this.bdpage = 'Tempest - DF Auramancer.html'
         break
-         case '4':
+      case '4':
         this.bdpage = 'Thief - Core PD Condition.html'
         break
       default:
@@ -214,22 +214,21 @@ export default {
     navigation
   },
   methods: {
-    // 获取url中的参数
-    parseUrl() {
-      var url = decodeURIComponent(location.href) ;
-      console.log(url);
-      var i = url.indexOf("?");
-      if (i == -1) return;
-      var querystr = url.substr(i + 1);
-      var arr1 = querystr.split("&");
-      var arr2 = new Object();
-      for (i in arr1) {
-        var ta = arr1[i].split("=");
-        arr2[ta[0]] = ta[1];
-      }
-      return arr2;
-    }
-
+    // 获取url中的参数
+    parseUrl() {
+      var url = decodeURIComponent(location.href)
+      console.log(url)
+      var i = url.indexOf('?')
+      if (i == -1) return
+      var querystr = url.substr(i + 1)
+      var arr1 = querystr.split('&')
+      var arr2 = new Object()
+      for (i in arr1) {
+        var ta = arr1[i].split('=')
+        arr2[ta[0]] = ta[1]
+      }
+      return arr2
+    }
   }
 }
 </script>
