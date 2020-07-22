@@ -219,7 +219,7 @@ export default {
   data() {
     return {
       tableData: [
-        {
+       {
           professionicon: 'Dark-icon-berserker',
           bdname: 'Power Bannerslave',
           skill_1: '32px-Blood_Reckoning',
@@ -383,7 +383,7 @@ export default {
         }
       ],
       tableData_great: [
-        {
+      {
           professionicon: 'Dark-icon-berserker',
           bdname: 'Condi DPS',
           skill_1: '32px-Blood_Reckoning',
