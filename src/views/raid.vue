@@ -36,32 +36,13 @@
                   </ul>
                     <span  class="iconfont ">&#xe937;</span>
                     <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>{{item.weapon_1}}</i>
-                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
-                             
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
-
-                                </div>
-                                      <div v-if="!!item.weapon_2">
-                                    <i>{{item.weapon_2}}</i>
-                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
-                                    
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
-                                   
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
-                     
-                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
-                     
+                      <div class="traits">
+                      <span>{{item.traits_1}}</span>
+                      <span>{{item.traits_2}}</span>
+                      <span>{{item.traits_3}}</span>
                     </div>
                     </div>
+                  
          
                   <div class="community">
                         <div class="rate">{{item.rate}}</div>
@@ -93,33 +74,14 @@
                         <a href="#javascript" :title="item.skill_5_name"><img :src="require(`@/assets/skills/${item.skill_5}.png`)" alt=""></a></li>
                   </ul>
                     <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>{{item.weapon_1}}</i>
-                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
-                             
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
-
-                                </div>
-                                      <div v-if="!!item.weapon_2">
-                                    <i>{{item.weapon_2}}</i>
-                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
-                                    
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
-                                   
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
-                     
-                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
-                     
+                     <div class="equment">
+                      <div class="traits">
+                      <span>{{item.traits_1}}</span>
+                      <span>{{item.traits_2}}</span>
+                      <span>{{item.traits_3}}</span>
                     </div>
                     </div>
+                  
          
                   <div class="community">
                         <div class="rate">{{item.rate}}</div>
@@ -151,33 +113,14 @@
                         <a href="#javascript" :title="item.skill_5_name"><img :src="require(`@/assets/skills/${item.skill_5}.png`)" alt=""></a></li>
                   </ul>
                     <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>{{item.weapon_1}}</i>
-                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
-                             
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
-
-                                </div>
-                                      <div v-if="!!item.weapon_2">
-                                    <i>{{item.weapon_2}}</i>
-                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
-                                    
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
-                                   
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
-                     
-                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
-                     
+                   <div class="equment">
+                      <div class="traits">
+                      <span>{{item.traits_1}}</span>
+                      <span>{{item.traits_2}}</span>
+                      <span>{{item.traits_3}}</span>
                     </div>
                     </div>
+                  
          
                   <div class="community">
                         <div class="rate">{{item.rate}}</div>
@@ -209,32 +152,13 @@
                   </ul>
                     <span  class="iconfont ">&#xe937;</span>
                     <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>{{item.weapon_1}}</i>
-                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
-                             
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
-
-                                </div>
-                                      <div v-if="!!item.weapon_2">
-                                    <i>{{item.weapon_2}}</i>
-                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
-                                    
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
-                                   
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
-                     
-                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
-                     
+                      <div class="traits">
+                      <span>{{item.traits_1}}</span>
+                      <span>{{item.traits_2}}</span>
+                      <span>{{item.traits_3}}</span>
                     </div>
                     </div>
+                  
          
                   <div class="community">
                         <div class="rate">{{item.rate}}</div>
@@ -265,33 +189,14 @@
                         <a href="#javascript" :title="item.skill_5_name"><img :src="require(`@/assets/skills/${item.skill_5}.png`)" alt=""></a></li>
                   </ul>
                     <span  class="iconfont ">&#xe937;</span>
-                    <div class="equment">
-                      <div class="weaps">
-                                <div>
-                                    <i>{{item.weapon_1}}</i>
-                                    <a href="#javascript" :title="item.weapon_1sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_1}.png`)" alt=""></a>
-                             
-                                    <img src="@/assets/images/16px-I.png" alt="">
-                                     <a href="#javascript" :title="item.weapon_1sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_1sigil_2}.png`)" alt=""></a>
-
-                                </div>
-                                      <div v-if="!!item.weapon_2">
-                                    <i>{{item.weapon_2}}</i>
-                                      <a href="#javascript" :title="item.weapon_2sigil_1_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_1}.png`)" alt=""></a>
-                                    
-                                    <img src="@/assets/images/16px-II.png" alt="">
-                                      <a href="#javascript" :title="item.weapon_2sigil_2_name"><img :src="require(`@/assets/sigil/${item.weapon_2sigil_2}.png`)" alt=""></a>
-                                   
-                                </div>
-                                
-                    </div>
-                    <div class="ra">
-                        <a href="#javascript" :title="item.runename"><img :src="require(`@/assets/superiorRune/${item.rune}.png`)" alt=""></a>
-                     
-                        <a href="#javascript" :title="item.amuletname"><img :src="require(`@/assets/amulet/${item.amulet}.png`)" alt=""></a>
-                     
+                       <div class="equment">
+                      <div class="traits">
+                      <span>{{item.traits_1}}</span>
+                      <span>{{item.traits_2}}</span>
+                      <span>{{item.traits_3}}</span>
                     </div>
                     </div>
+                  
          
                   <div class="community">
                         <div class="rate">{{item.rate}}</div>
@@ -343,7 +248,11 @@ export default {
           amulet: '32px-Carrion_Amulet',
           amuletname: '',
           rate: '5',
-          comment: ''
+          comment: '',
+          traits_1:'Arms',
+           traits_2:'Discipline',
+            traits_3:'Berserker',
+
         }, //威能战士
         {
           professionicon: 'Dark-icon-holosmith',
@@ -2063,4 +1972,17 @@ export default {
     font-size: 0.14rem;
   }
 }
+.traits{
+  width: 4.2rem;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.equipment .traits span {
+    width: 140px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
 </style>
