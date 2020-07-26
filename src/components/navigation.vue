@@ -39,22 +39,22 @@
           <el-submenu index="2">
             <template slot="title"><span class="mytitle">游戏模式</span></template>
             <el-menu-item index="2-1" route="/conquest">
-              <div class="darkiconitem"><img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(PVP)</span></div>
+              <div class="darkiconitem"><img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式PVP</span></div>
               </el-menu-item>
                           <el-menu-item index="2-2"  route="/Fractal">
               <div class="darkiconitem"><img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>迷雾碎层</span></div>
               </el-menu-item>
-                          <el-menu-item index="2-3">
+                          <!-- <el-menu-item index="2-3">
               <div class="darkiconitem"><img src="@/assets/images/Pve_fp_all.png" alt=""><span>开放世界</span></div>
-              </el-menu-item>
+              </el-menu-item> -->
                           <el-menu-item index="2-4"  route="/Raid">
               <div class="darkiconitem"><img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span></div>
               </el-menu-item>
                           <el-menu-item index="2-5" route="/WvW">
-              <div class="darkiconitem"><img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战(WVW)</span></div>
+              <div class="darkiconitem"><img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战WvW</span></div>
              </el-menu-item>
           </el-submenu>
-          <el-submenu  index="3" >
+<!--           <el-submenu  index="3" >
             <template slot="title"><span class="mytitle">导航</span></template>
             <el-menu-item index="3-1">achievement</el-menu-item>
             <el-menu-item index="3-2">pvp</el-menu-item>
@@ -66,7 +66,7 @@
             <el-menu-item index="4-1">选项1</el-menu-item>
             <el-menu-item index="4-2">选项2</el-menu-item>
             <el-menu-item index="4-3">选项3</el-menu-item>
-          </el-submenu>
+          </el-submenu> -->
         </el-menu>
         <div class="line"></div>
    </div>
