@@ -50,7 +50,7 @@
                           <el-menu-item index="2-4"  route="/Raid">
               <div class="darkiconitem"><img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span></div>
               </el-menu-item>
-                          <el-menu-item index="2-5">
+                          <el-menu-item index="2-5" route="/WvW">
               <div class="darkiconitem"><img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战(WVW)</span></div>
              </el-menu-item>
           </el-submenu>
