@@ -317,7 +317,7 @@ export default {
         // 魂武
         {
           professionicon: 'Dark-icon-herald',
-          bdname: 'Condition Mallyx',
+          bdname: '症状魂武',
           skill_1: '32px-Legendary_Demon_Stance',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Legendary_Dragon_Stance',
@@ -625,7 +625,7 @@ export default {
           amuletname: '',
           rate: '4.8',
           comment: ''
-        },
+        }
         //死灵
         // {
         //   professionicon: 'Dark-icon-reaper',
@@ -659,7 +659,7 @@ export default {
         // }
       ],
       tableData_good: [
-           // 盗贼
+        // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
           bdname: 'Marauder S/P',
@@ -690,7 +690,7 @@ export default {
           rate: '4.4',
           comment: ''
         },
-              // 盗贼
+        // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
           bdname: 'Power S/D',
@@ -721,7 +721,7 @@ export default {
           rate: '3.5',
           comment: ''
         },
-              // 盗贼
+        // 盗贼
         {
           professionicon: 'Dark-icon-deadeye',
           bdname: 'Marauder Rifle',
@@ -751,8 +751,8 @@ export default {
           amuletname: '',
           rate: '4.4',
           comment: ''
-        },//工程
-         {
+        }, //工程
+        {
           professionicon: 'Dark-icon-engineer',
           bdname: 'Core Grenadier',
           skill_1: '32px-Healing_Turret',
@@ -776,7 +776,7 @@ export default {
           amuletname: '',
           rate: '4',
           comment: ''
-        }, 
+        },
         // 守护
         {
           professionicon: 'Dark-icon-guardian',
@@ -785,30 +785,30 @@ export default {
           skill_1_name: '',
           skill_2: '32px-Contemplation_of_Purity',
           skill_2_name: '',
-          skill_3: "32px-Smite_Condition",
+          skill_3: '32px-Smite_Condition',
           skill_3_name: '',
           skill_4: "32px-Judge's_Intervention",
           skill_4_name: '',
           skill_5: '32px-Renewed_Focus',
           skill_5_name: '',
           weapon_1: 'Sw/F',
-                weapon_2sigil_1: '32px-Superior_Sigil_of_Exposure',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Exposure',
           weapon_2sigil_1_name: '上海',
           weapon_2sigil_2: '32px-Superior_Sigil_of_Doom',
           weapon_2sigil_2_name: '上海',
           weapon_2: 'Sc/T',
-              weapon_1sigil_1: '32px-Superior_Sigil_of_Doom',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Doom',
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Exposure',
           weapon_1sigil_2_name: '上海',
           rune: '32px-Superior_Rune_of_the_Traveler',
           runename: '',
-          amulet: "32px-Carrion_Amulet",
+          amulet: '32px-Carrion_Amulet',
           amuletname: '',
           rate: '4.4',
           comment: ''
         },
-     // 守护
+        // 守护
         {
           professionicon: 'Dark-icon-guardian',
           bdname: 'Core Symbol Bunker',
@@ -818,17 +818,17 @@ export default {
           skill_2_name: '',
           skill_3: "32px-Judge's_Intervention",
           skill_3_name: '',
-          skill_4: "32px-Contemplation_of_Purity",
+          skill_4: '32px-Contemplation_of_Purity',
           skill_4_name: '',
           skill_5: '32px-Renewed_Focus',
           skill_5_name: '',
           weapon_1: 'Sc/Sh',
-                weapon_2sigil_1: '32px-Superior_Sigil_of_Cleansing',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Cleansing',
           weapon_2sigil_1_name: '上海',
           weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_2sigil_2_name: '上海',
           weapon_2: 'M/F',
-              weapon_1sigil_1: '32px-Superior_Sigil_of_Intelligence',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Intelligence',
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_1sigil_2_name: '上海',
@@ -839,7 +839,7 @@ export default {
           rate: '4.5',
           comment: ''
         },
-          // 守护
+        // 守护
         {
           professionicon: 'Dark-icon-guardian',
           bdname: 'Radiant Greatsword (PvP)',
@@ -849,23 +849,23 @@ export default {
           skill_2_name: '',
           skill_3: "32px-Judge's_Intervention",
           skill_3_name: '',
-          skill_4: "32px-Smite_Condition",
+          skill_4: '32px-Smite_Condition',
           skill_4_name: '',
           skill_5: '32px-Renewed_Focus',
           skill_5_name: '',
           weapon_1: 'Gs',
-                weapon_2sigil_1: '32px-Superior_Sigil_of_Exposure',
+          weapon_2sigil_1: '32px-Superior_Sigil_of_Exposure',
           weapon_2sigil_1_name: '上海',
           weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_2sigil_2_name: '上海',
           weapon_2: 'Sw/F',
-              weapon_1sigil_1: '32px-Superior_Sigil_of_Cleansing',
+          weapon_1sigil_1: '32px-Superior_Sigil_of_Cleansing',
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_1sigil_2_name: '上海',
           rune: '32px-Superior_Rune_of_the_Lynx',
           runename: '',
-          amulet: "32px-Berserker_Amulet",
+          amulet: '32px-Berserker_Amulet',
           amuletname: '',
           rate: '4.4',
           comment: ''
@@ -878,11 +878,11 @@ export default {
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Mantra_of_Pain',
           skill_2_name: '32px-Legendary_Dragon_Stance',
-            skill_3: '32px-Blink',
+          skill_3: '32px-Blink',
           skill_3_name: '32px-Legendary_Dragon_Stance',
-            skill_4: '32px-Decoy',
+          skill_4: '32px-Decoy',
           skill_4_name: '32px-Legendary_Dragon_Stance',
-            skill_5: '32px-Mass_Invisibility',
+          skill_5: '32px-Mass_Invisibility',
           skill_5_name: '32px-Legendary_Dragon_Stance',
           weapon_1: 'Sw/T',
           weapon_1sigil_1: '32px-Superior_Sigil_of_Cleansing',
@@ -901,7 +901,7 @@ export default {
           rate: '4',
           comment: ''
         },
-            // 幻术
+        // 幻术
         {
           professionicon: 'Dark-icon-mirage',
           bdname: 'Carrion Axe',
@@ -909,11 +909,11 @@ export default {
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Signet_of_Illusions',
           skill_2_name: '32px-Legendary_Dragon_Stance',
-            skill_3: '32px-Blink',
+          skill_3: '32px-Blink',
           skill_3_name: '32px-Legendary_Dragon_Stance',
-            skill_4: '32px-Skill',
+          skill_4: '32px-Skill',
           skill_4_name: '32px-Legendary_Dragon_Stance',
-            skill_5: '32px-Jaunt',
+          skill_5: '32px-Jaunt',
           skill_5_name: '32px-Legendary_Dragon_Stance',
           weapon_1: 'A/P',
           weapon_1sigil_1: '32px-Superior_Sigil_of_Cleansing',
@@ -957,7 +957,7 @@ export default {
           rate: '4',
           comment: ''
         },
-         // 魂武
+        // 魂武
         {
           professionicon: 'Dark-icon-revenant',
           bdname: 'Core Mallyx',
@@ -982,7 +982,7 @@ export default {
           rate: '4.3',
           comment: ''
         },
-         //工程
+        //工程
         {
           professionicon: 'Dark-icon-scrapper',
           bdname: 'Explosive Hammer',
@@ -1008,9 +1008,9 @@ export default {
           amuletname: '',
           rate: '4',
           comment: ''
-        }, 
+        },
         // 游侠
-         {
+        {
           professionicon: 'Dark-icon-soulbeast',
           bdname: "Sic 'Em Sniper",
           skill_1: '32px-_We_Heal_As_One',
@@ -1040,7 +1040,7 @@ export default {
           rate: '4.5',
           comment: ''
         },
-         //战士
+        //战士
         {
           professionicon: 'Dark-icon-spellbreaker',
           bdname: 'Strength Dagger',
@@ -1070,9 +1070,9 @@ export default {
           amuletname: '',
           rate: '4.5',
           comment: ''
-        }, 
-     
-         //战士
+        },
+
+        //战士
         {
           professionicon: 'Dark-icon-warrior',
           bdname: 'Greataxe',
@@ -1121,15 +1121,15 @@ export default {
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_1sigil_2_name: '上海',
-         
+
           rune: '32px-Superior_Rune_of_Divinity',
           runename: '',
           amulet: '32px-Marauder_Amulet',
           amuletname: '',
           rate: '4.3',
           comment: ''
-        },//元素
-       {
+        }, //元素
+        {
           professionicon: 'Dark-icon-weaver',
           bdname: 'Freshweaver',
           skill_1: '32px-Glyph_of_Elemental_Harmony',
@@ -1147,7 +1147,7 @@ export default {
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_1sigil_2_name: '上海',
-         
+
           rune: '32px-Superior_Rune_of_the_Scholar',
           runename: '',
           amulet: '32px-Marauder_Amulet',
@@ -1157,7 +1157,7 @@ export default {
         }
       ],
       tableData_test: [
-                 // 盗贼
+        // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
           bdname: 'Marauder Staff',
@@ -1189,7 +1189,7 @@ export default {
           comment: ''
         },
         //工程
-         {
+        {
           professionicon: 'Dark-icon-engineer',
           bdname: 'Inspector Gadget',
           skill_1: '32px-Med_Kit',
@@ -1213,7 +1213,7 @@ export default {
           amuletname: '',
           rate: 'N/A',
           comment: ''
-        }, 
+        },
         //死灵
         {
           professionicon: 'Dark-icon-necromancer',
@@ -1245,13 +1245,13 @@ export default {
           rate: '4',
           comment: ''
         },
-          // 游侠
-         {
+        // 游侠
+        {
           professionicon: 'Dark-icon-ranger',
-          bdname: "Core Bunker",
+          bdname: 'Core Bunker',
           skill_1: '32px-Troll_Unguent',
           skill_1_name: '',
-          skill_2: "32px-_Protect_Me",
+          skill_2: '32px-_Protect_Me',
           skill_2_name: '',
           skill_3: '32px-Quickening_Zephyr',
           skill_3_name: '',
@@ -1269,14 +1269,14 @@ export default {
           weapon_2sigil_1_name: '上海',
           weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_2sigil_2_name: '上海',
-           rune: '32px-Superior_Rune_of_the_Dolyak',
+          rune: '32px-Superior_Rune_of_the_Dolyak',
           runename: '',
           amulet: "32px-Paladin's_Amulet",
           amuletname: '',
           rate: '4.7',
           comment: ''
         },
-           //死灵
+        //死灵
         {
           professionicon: 'Dark-icon-scourge',
           bdname: 'PowerScourge',
@@ -1307,8 +1307,8 @@ export default {
           rate: '4',
           comment: ''
         },
-           //工程
-         {
+        //工程
+        {
           professionicon: 'Dark-icon-scrapper',
           bdname: 'Might Scrapper',
           skill_1: '32px-Healing_Turret',
@@ -1326,21 +1326,21 @@ export default {
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Escape',
           weapon_1sigil_2_name: '上海',
-            rune: '32px-Superior_Rune_of_Strength',
+          rune: '32px-Superior_Rune_of_Strength',
           runename: '',
           amulet: "32px-Demolisher's_Amulet",
-          
+
           amuletname: '',
           rate: '4',
           comment: ''
-        }, 
-             // 游侠
-         {
+        },
+        // 游侠
+        {
           professionicon: 'Dark-icon-soulbeast',
-          bdname: "Poisonbeast",
+          bdname: 'Poisonbeast',
           skill_1: '32px-Healing_Spring',
           skill_1_name: '',
-          skill_2: "32px-_Protect_Me",
+          skill_2: '32px-_Protect_Me',
           skill_2_name: '',
           skill_3: "32px-Viper's_Nest",
           skill_3_name: '',
@@ -1358,14 +1358,14 @@ export default {
           weapon_2sigil_1_name: '上海',
           weapon_2sigil_2: '32px-Superior_Sigil_of_Energy',
           weapon_2sigil_2_name: '上海',
-        rune: '32px-Superior_Rune_of_Resistance',
+          rune: '32px-Superior_Rune_of_Resistance',
           runename: '',
           amulet: '32px-Rabid_Amulet',
           amuletname: '',
           rate: '4.5',
           comment: ''
         },
-           //战士
+        //战士
         {
           professionicon: 'Dark-icon-warrior',
           bdname: 'Chasing Whirlwind',
@@ -1395,8 +1395,8 @@ export default {
           amuletname: '',
           rate: 'N/A',
           comment: ''
-        }, 
-          //元素
+        },
+        //元素
         {
           professionicon: 'Dark-icon-weaver',
           bdname: 'CES Lightning Rod',
@@ -1415,7 +1415,7 @@ export default {
           weapon_1sigil_1_name: '上海',
           weapon_1sigil_2: '32px-Superior_Sigil_of_Cleansing',
           weapon_1sigil_2_name: '上海',
-        
+
           rune: '32px-Superior_Rune_of_Divinity',
           runename: '',
           amulet: '32px-Berserker_Amulet',
@@ -1425,8 +1425,8 @@ export default {
         }
       ],
       tableData_draft: [
-     //工程
-         {
+        //工程
+        {
           professionicon: 'Dark-icon-scrapper',
           bdname: 'Super Elite Mortar Kit Funtime',
           skill_1: '32px-Med_Kit',
@@ -1450,7 +1450,7 @@ export default {
           amuletname: '',
           rate: '',
           comment: ''
-        }, 
+        }
       ]
     }
   },
@@ -1464,7 +1464,8 @@ export default {
         name: 'bdpage',
         query: {
           id: index,
-          bd: bdname
+          bd: bdname,
+          type: 'pvp'
         }
       })
     }
