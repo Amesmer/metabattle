@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script>
+    <link rel="stylesheet" href="../css/public.css">
+    <title>Document</title>
+</head>
+<script>
+    document.GW2A_EMBED_OPTIONS = {
+        lang: 'zh',
+        persistToLocalStorage: true,
+        forceCacheClearOnNextRun: '1',
+    };
+</script>
+<body>
+    <h2><span class="mw-headline" id="Overview">Overview</span></h2>
+<dl><dd>A power DPS Chronomancer build for raids. This build deals very high burst and sustained damage against single targets. In addition it has very good CC, utility, and personal defense, and is capable of generating its own <a href="http://wiki.guildwars2.com/wiki/Might" title="Might"><img alt="Might" src="https://metabattle.com/wiki/images/thumb/7/7c/Might.png/25px-Might.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/7/7c/Might.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Might" class="extiw" title="gw2:Might">Might</a>, <a href="http://wiki.guildwars2.com/wiki/Fury" title="Fury"><img alt="Fury" src="https://metabattle.com/wiki/images/thumb/4/46/Fury.png/25px-Fury.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/4/46/Fury.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Fury" class="extiw" title="gw2:Fury">Fury</a>, <a href="http://wiki.guildwars2.com/wiki/Quickness" title="Quickness"><img alt="Quickness" src="https://metabattle.com/wiki/images/thumb/b/b4/Quickness.png/25px-Quickness.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/b/b4/Quickness.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Quickness" class="extiw" title="gw2:Quickness">Quickness</a>, and <a href="http://wiki.guildwars2.com/wiki/Alacrity" title="Alacrity"><img alt="Alacrity" src="https://metabattle.com/wiki/images/thumb/4/4c/Alacrity.png/25px-Alacrity.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/4/4c/Alacrity.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Alacrity" class="extiw" title="gw2:Alacrity">Alacrity</a>.</dd></dl>
+<dl><dd>Be aware that this build requires high uptime of <a href="http://wiki.guildwars2.com/wiki/Slow" title="Slow"><img alt="Slow" src="https://metabattle.com/wiki/images/thumb/f/f5/Slow.png/25px-Slow.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/f/f5/Slow.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Slow" class="extiw" title="gw2:Slow">Slow</a> on your target - you can ask a <a href="/wiki/Build:Chronomancer_-_Utility_Boon_Support" title="Build:Chronomancer - Utility Boon Support">Support Chronomancer</a> to bring the <span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="2009" data-armory-inline-text="wiki" data-armory-size="24"></span></span> trait if uptime is low, and/or you can take <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10377" data-armory-inline-text="wiki" data-armory-size="24"></span> and use it during your <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29830" data-armory-inline-text="wiki" data-armory-size="24"></span>.</dd></dl>
+<h2><span class="mw-headline" id="Skillbar">Skillbar</span></h2>
+<div class="skillbar-container"><div class="mskillbar-mechanics-header chronomancer"><div data-armory-embed="skills" data-armory-ids="56930,56928,56873,29830" data-armory-size="48"></div>
+</div>
+<div class="mskillbar"><span class="mskillbar-labels"><span>Sword/Sword</span><span>Healing</span><span>Utility</span><span>Elite</span></span><div class="mskillbar-main"><div class="mskillbar-weapon"><div class="standard-weapon-row"><div data-armory-embed="skills" data-armory-ids="10170,10334,10173"></div><div data-armory-embed="skills" data-armory-ids="10280,10174"></div></div></div><div class="healing-skill" data-armory-embed="skills" data-armory-ids="21750"></div><div data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="10211"></div><div data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="10202"></div><div data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="10267"></div><div class="elite-skill" data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="30359"></div></div></div><div class="mskillbar"><span class="mskillbar-labels"><span>X/Focus</span></span><div class="mskillbar-main"><div class="mskillbar-weapon"><div class="standard-weapon-row"><div data-armory-embed="skills" data-armory-ids="-1"></div><div data-armory-embed="skills" data-armory-ids="-1"></div><div data-armory-embed="skills" data-armory-ids="-1"></div><div data-armory-embed="skills" data-armory-ids="10186,10282"></div></div></div></div></div></div>
+<h3><span class="mw-headline" id="Variants">Variants</span></h3>
+<p>The <b>Focus</b> offhand can be replaced with a <b>Greatsword</b> for an alternative build, with similar damage but a different rotation.
+</p>
+<ul><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30525" data-armory-inline-text="wiki" data-armory-size="24"></span> instead of <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10202" data-armory-inline-text="wiki" data-armory-size="24"></span> if playing the Greatsword variant.</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10341" data-armory-inline-text="wiki" data-armory-size="24"></span> instead of <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span> if your target has more boons than can be removed.</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10236" data-armory-inline-text="wiki" data-armory-size="24"></span> instead of <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10202" data-armory-inline-text="wiki" data-armory-size="24"></span> if extra boon uptime is needed.</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10377" data-armory-inline-text="wiki" data-armory-size="24"></span> instead of <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30359" data-armory-inline-text="wiki" data-armory-size="24"></span> for better slow uptime.</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29519" data-armory-inline-text="wiki" data-armory-size="24"></span> if extra CC is required. Be aware of the long cooldown.</li></ul>
+<h2><span class="mw-headline" id="Traits">Traits</span></h2>
+<div class="build-template-container"><div class="build-template-code" id="build-template-1">[&amp;DQcKGgEdKDYjDwAAaQEAAGsBAACPAQAAsxIAAAAAAAAAAAAAAAAAAAAAAAA=]</div><div class="build-template-button" id="copy-button">COPY</div></div>
+<p><br />
+</p>
+<div data-armory-embed="specializations" data-armory-ids="1" data-armory-1-traits="701,708,692">
+</div>
+<p><br />
+</p>
+<div data-armory-embed="specializations" data-armory-ids="10" data-armory-10-traits="682,713,681">
+</div>
+<p><br />
+</p>
+<div data-armory-embed="specializations" data-armory-ids="40" data-armory-40-traits="1995,2009,1890">
+</div>
+<p><br />
+</p><p><b>Variants</b>
+</p>
+<ul><li><span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="686" data-armory-inline-text="wiki" data-armory-size="24"></span></span> if using the Greatsword variant.</li></ul>
+<h2><span class="mw-headline" id="Equipment">Equipment</span></h2>
+<div class="pve-equipment-wrapper"><div class="pve-equipment"><div class="pve-box-left"><div class="pve-armor"><div class="pve-armor-piece ascended head"><div class="item-img" data-armory-embed="items" data-armory-ids="48081" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended shoulders"><div class="item-img" data-armory-embed="items" data-armory-ids="48083" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended chest"><div class="item-img" data-armory-embed="items" data-armory-ids="48079" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended hands"><div class="item-img" data-armory-embed="items" data-armory-ids="48080" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended legs"><div class="item-img" data-armory-embed="items" data-armory-ids="48136" data-armory-size="44"></div><div class="stat-icon" title="Assassin"><img alt="Assassin stat icon.png" src="https://metabattle.com/wiki/images/a/a4/Assassin_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended feet"><div class="item-img" data-armory-embed="items" data-armory-ids="48078" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div><div class="pve-trinkets"><div class="pve-trinket ascended back"><div class="item-img" data-armory-embed="items" data-armory-ids="37009" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended accessory1"><div class="item-img" data-armory-embed="items" data-armory-ids="67298" data-armory-size="44"></div><div class="stat-icon" title="Assassin"><img alt="Assassin stat icon.png" src="https://metabattle.com/wiki/images/a/a4/Assassin_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended accessory2"><div class="item-img" data-armory-embed="items" data-armory-ids="67302" data-armory-size="44"></div><div class="stat-icon" title="Assassin"><img alt="Assassin stat icon.png" src="https://metabattle.com/wiki/images/a/a4/Assassin_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended amulet"><div class="item-img" data-armory-embed="items" data-armory-ids="39273" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended ring1"><div class="item-img" data-armory-embed="items" data-armory-ids="37075" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended ring2"><div class="item-img" data-armory-embed="items" data-armory-ids="37086" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div></div><div class="pve-box-right"><div class="pve-weapons"><div class="pve-weaponsets"><div class="pve-weaponset first"><div class="weapons"><div class="pve-weapon ascended s1w1"><div class="item-img" data-armory-embed="items" data-armory-ids="46774" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-weapon ascended s1w2"><div class="item-img" data-armory-embed="items" data-armory-ids="46774" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div><div class="weapon-sigils first"><div class="sigil exotic"><div class="sigil-img" data-armory-embed="items" data-armory-ids="24615" data-armory-size="38"></div></div><div class="sigil exotic"><div class="sigil-img" data-armory-embed="items" data-armory-ids="24868" data-armory-size="38"></div></div></div></div><div class="weapon-swap-icon"><img alt="PvE weapon swap.png" src="https://metabattle.com/wiki/images/c/c0/PvE_weapon_swap.png" width="24" height="24" data-file-width="24" data-file-height="24" /></div><div class="pve-weaponset second single-weapon"><div class="weapons"><div class="pve-weapon ascended s2w1"><div class="item-img" data-armory-embed="items" data-armory-ids="46761" data-armory-size="44"></div><div class="stat-icon" title="Berserker"><img alt="Berserker stat icon.png" src="https://metabattle.com/wiki/images/8/8d/Berserker_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div><div class="weapon-sigils second"><div class="sigil exotic"><div class="sigil-img" data-armory-embed="items" data-armory-ids="24868" data-armory-size="38"></div></div></div></div></div></div><div class="armor-upgrades"><div class="pve-runes"><div class="pve-armor-upgrade exotic rune"><div class="rune-img" data-armory-embed="items" data-armory-ids="24836" data-armory-size="44"></div><span class="quantity">6x</span><div class="armor-upgrade-name">Superior Rune of the Scholar</div></div></div><div class="pve-infusions"><div class="pve-armor-upgrade fine infusion"><div class="infusion-img" data-armory-embed="items" data-armory-ids="39620" data-armory-size="44"></div><span class="quantity">18x</span><div class="armor-upgrade-name">Mighty +5 Agony Infusion</div></div></div></div></div></div></div>
+<h3><span class="mw-headline" id="Variants_2">Variants</span></h3>
+<ul><li>Only a single mainhand sword is required</li>
+<li>If using the Greatsword variant, use a Greatsword instead of the Focus offhand with <span style="display:inline-block;" data-armory-embed="items" data-armory-ids="24615" data-armory-inline-text="wiki" data-armory-size="24"></span> and <span style="display:inline-block;" data-armory-embed="items" data-armory-ids="24868" data-armory-inline-text="wiki" data-armory-size="24"></span>.</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Consumables">Consumables</span></h2>
+<p><b>Food</b>
+</p>
+<ul><li><div style="display:inline-block;"><span data-armory-embed="items" data-armory-ids="41569" data-armory-inline-text="wiki" data-armory-size="24"></span></div></li>
+<li><div style="display:inline-block;"><span data-armory-embed="items" data-armory-ids="12486" data-armory-inline-text="wiki" data-armory-size="24"></span></div> if you don't have a ranger giving you <span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="1016" data-armory-inline-text="wiki" data-armory-size="24"></span></span></li></ul>
+<p><b>Utility</b>
+</p>
+<ul><li><div style="display:inline-block;"><span data-armory-embed="items" data-armory-ids="78305" data-armory-inline-text="wiki" data-armory-size="24"></span></div></li></ul>
+<h2><span class="mw-headline" id="Usage">Usage</span></h2>
+<dl><dd>The goal of the rotation is to get as many casts of your phantasm summons as possible, filling downtime with autoattack chains and <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10334" data-armory-inline-text="wiki" data-armory-size="24"></span>. In order to do this you can make clever use of <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="21750" data-armory-inline-text="wiki" data-armory-size="24"></span> and <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29830" data-armory-inline-text="wiki" data-armory-size="24"></span>, which when used together and timed correctly can effectively allow you to reset your phantasm cooldowns 3 times in short succession. This is achieved by entering <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29830" data-armory-inline-text="wiki" data-armory-size="24"></span> during the aftercast of <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="21750" data-armory-inline-text="wiki" data-armory-size="24"></span>, which will give you refreshed phantasm cooldowns for the duration of your continuum split as well as refreshing the cooldowns outside of continuum split, all while leaving <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="21750" data-armory-inline-text="wiki" data-armory-size="24"></span> off cooldown once your continuum split ends.</dd></dl>
+<h3><span class="mw-headline" id="Illusions_Rotation">Illusions Rotation</span></h3>
+<h4><span class="mw-headline" id="Opening_burst">Opening burst</span></h4>
+<p>Start on Sword/Focus.
+</p>
+<ol><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10282" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10202" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><a href="http://wiki.guildwars2.com/wiki/Weapon_swap" title="Weapon swap"><img alt="Weapon swap" src="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/25px-Weapon_swap.png" width="25" height="26" srcset="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/38px-Weapon_swap.png 1.5x, https://metabattle.com/wiki/images/f/f6/Weapon_swap.png 2x" data-file-width="46" data-file-height="48" /></a> <a href="http://wiki.guildwars2.com/wiki/Weapon_swap" class="extiw" title="gw2:Weapon swap">Weapon swap</a></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span> - enter <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29830" data-armory-inline-text="wiki" data-armory-size="24"></span> during the cast of this skill.</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="21750" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10334" data-armory-inline-text="wiki" data-armory-size="24"></span> - <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29830" data-armory-inline-text="wiki" data-armory-size="24"></span> should end during this cast</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="21750" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30359" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><a href="http://wiki.guildwars2.com/wiki/Weapon_swap" title="Weapon swap"><img alt="Weapon swap" src="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/25px-Weapon_swap.png" width="25" height="26" srcset="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/38px-Weapon_swap.png 1.5x, https://metabattle.com/wiki/images/f/f6/Weapon_swap.png 2x" data-file-width="46" data-file-height="48" /></a> <a href="http://wiki.guildwars2.com/wiki/Weapon_swap" class="extiw" title="gw2:Weapon swap">Weapon swap</a></li>
+<li>Proceed to Loop rotation</li></ol>
+<h4><span class="mw-headline" id="Loop">Loop</span></h4>
+<ol><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10282" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10334" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li>Auto attack until <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10334" data-armory-inline-text="wiki" data-armory-size="24"></span> is available</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10334" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><a href="http://wiki.guildwars2.com/wiki/Weapon_swap" title="Weapon swap"><img alt="Weapon swap" src="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/25px-Weapon_swap.png" width="25" height="26" srcset="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/38px-Weapon_swap.png 1.5x, https://metabattle.com/wiki/images/f/f6/Weapon_swap.png 2x" data-file-width="46" data-file-height="48" /></a> <a href="http://wiki.guildwars2.com/wiki/Weapon_swap" class="extiw" title="gw2:Weapon swap">Weapon swap</a></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li>Auto attack until <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span> is available</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10267" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10334" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10202" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li>Auto attack until <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span> is available</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="21750" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10174" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+<li><a href="http://wiki.guildwars2.com/wiki/Weapon_swap" title="Weapon swap"><img alt="Weapon swap" src="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/25px-Weapon_swap.png" width="25" height="26" srcset="https://metabattle.com/wiki/images/thumb/f/f6/Weapon_swap.png/38px-Weapon_swap.png 1.5x, https://metabattle.com/wiki/images/f/f6/Weapon_swap.png 2x" data-file-width="46" data-file-height="48" /></a> <a href="http://wiki.guildwars2.com/wiki/Weapon_swap" class="extiw" title="gw2:Weapon swap">Weapon swap</a></li>
+<li>Repeat from step 1</li></ol>
+<p><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.youtube.com/watch?v=AwWrEpIolI">Video Example</a>
+</p>
+<h3><span class="mw-headline" id="Variants_3">Variants</span></h3>
+<ul><li><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://www.youtube.com/watch?v=zetW3gtVpCY">Greatsword</a> - Lower DPS, but stronger in encounters with lots of adds as <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10282" data-armory-inline-text="wiki" data-armory-size="24"></span> targets nearby enemies at random.</li></ul>
+<h3><span class="mw-headline" id="Notes">Notes</span></h3>
+<ul><li>Once <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="29830" data-armory-inline-text="wiki" data-armory-size="24"></span> is available, jump to step 4 of the opening burst next time you swap to Sword/Sword.</li>
+<li>Fill gaps in between skills listed in the rotation with auto-attack chains.</li>
+<li>Make sure not to interrupt your autoattack chain as the damage from it is heavily loaded into the final strike, <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10172" data-armory-inline-text="wiki" data-armory-size="24"></span>.</li>
+<li>Use <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="56930" data-armory-inline-text="wiki" data-armory-size="24"></span> whenever you have 3 clones up. If you have 3 clones up and <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="56930" data-armory-inline-text="wiki" data-armory-size="24"></span> is on cooldown, you can shatter them with <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="56928" data-armory-inline-text="wiki" data-armory-size="24"></span> instead.</li>
+<li>Save clones to shatter with <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="56873" data-armory-inline-text="wiki" data-armory-size="24"></span> if you will need to CC in the immediate future.</li>
+<li>You can use <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10186" data-armory-inline-text="wiki" data-armory-size="24"></span> → <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10363" data-armory-inline-text="wiki" data-armory-size="24"></span> to pull adds onto the boss if needed.</li>
+<li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10211" data-armory-inline-text="wiki" data-armory-size="24"></span> should be cast as soon as there is a charge available, but make sure to never use the last charge to avoid having to re-cast the long channel.</li></ul>
+
+
+</div>
+</body>
+    
+<script>
+    const copybtn = document.getElementById('copy-button');
+    copybtn.addEventListener("click", function () {
+        toClipboard();
+    })
+    toClipboard = () => {
+        const copySpan = document.getElementById('build-template-1');
+        const range = document.createRange();
+
+        range.selectNodeContents(copySpan);
+        const selection = window.getSelection();
+        selection.removeAllRanges();//（注意）
+        selection.addRange(range);
+
+        const copyContent = document.execCommand('Copy', false, null);
+        selection.removeRange(range);
+        console.log(copyContent);
+
+        if (copyContent) {
+
+            //   console.log('复制成功', copyContent);
+
+
+        }
+    }
+
+</script>
+<style>
+body {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(1) {
+    width: 21.5em;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(2) {
+    width: 7em;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(3) {
+    width: 13em;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(4) {
+    width: 7em;
+}
+
+.mskillbar .mskillbar-main .mskillbar-weapon>.standard-weapon-row {
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+.mskillbar .mskillbar-main .healing-skill,
+.mskillbar .mskillbar-main .elite-skill {
+    margin: 0 1.5em;
+}
+
+.mskillbar-mechanics-header {
+    display: flex;
+
+}
+
+.mskillbar .mskillbar-labels {
+    display: flex;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.standard-weapon-row {
+    display: flex;
+}
+
+.mskillbar-weapon {
+    display: flex;
+}
+
+.mskillbar-main {
+    display: flex;
+}
+
+a {
+    color: #f9a916;
+    text-decoration: none;
+}
+
+.mskillbar-mechanics-header .legend-bar .color-overlay.mallyx {
+    background-color: rgba(131, 82, 178, 0.5);
+}
+
+.mskillbar-mechanics-header .legend-bar .color-overlay {
+    clip-path: polygon(1px 17px, 151px 17px, 151px 1px, 146px 6px, 81px 6px, 76px 11px, 71px 6px, 6px 6px, 1px 1px);
+    filter: saturate(1.5) brightness(1.2);
+}
+
+.mskillbar-mechanics-header .legends {
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    width: 152px;
+    justify-content: flex-end;
+}
+
+.mechanic-skills {
+    text-align: center;
+}
+
+.build-template-button {
+    padding: 8px 15px;
+    background: #f9a916;
+    color: #111;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.build-template-code {
+    background: #1d1d1d;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 0.25rem;
+    display: inline-block;
+    word-break: break-all;
+    margin: 0px 5px 5px 0px;
+}
+
+.weapon-sets.ws1,
+.weapon-sets.ws2 {
+    display: inline-block;
+}
+
+.weapon-sets>div:first-child>img {
+    top: 15px;
+}
+
+.weapon-sets>div>img {
+    position: absolute;
+    left: 48px;
+}
+
+.weapon-sets .weapon1,
+.weapon-sets .weapon2,
+.weapon-sets .sigil1,
+.weapon-sets .sigil2 {
+    background: #333;
+}
+
+.weapon-sets .weapon2 {
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+}
+
+.weapon-sets.ws1 {
+    width: 116px;
+}
+
+.weapon-sets .weapon1 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.weapon-sets>div {
+    position: relative;
+    display: flex;
+}
+
+.mbhi {
+    position: relative;
+    display: inline-block !important;
+}
+
+.weapon-sets.ws2 {
+    margin-left: 42px;
+}
+
+.weapon-sets>div:first-child>.weapon2 {
+    margin-left: 8px;
+}
+
+.mbhoveron {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.weapon-sets>div>div {
+    display: inline-block;
+}
+
+.weapon-sets .sigil2 {
+    margin-left: 32px;
+}
+
+.weapon-sets .sigil1,
+.weapon-sets .sigil2 {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #777;
+}
+
+.weapon-sets .sigil1 {
+    margin-left: 12px;
+}
+
+.weapons {
+    display: flex !important;
+}
+
+.weapons .mbinfo {
+    display: none;
+}
+
+.rune-amulet {
+    display: flex;
+    margin-top: 32px;
+
+}
+
+.rune-amulet>div {
+    margin-right: 10px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.amulet .mbinfo {
+    display: none;
+}
+
+.rune-amulet .mbinfo {
+    display: none;
+}
+
+.sigil2 .mbinfo,
+.sigil1 .mbinfo {
+    display: none;
+}
+.mskillbar .mskillbar-labels span:nth-of-type(1) {
+width: 21.5em;
+}
+.mskillbar-weapon>.standard-weapon-row {
+display: flex;
+margin-bottom: 0.2em;
+}
+.gw2a-skills-embed{
+display: flex;
+}
+.mskillbar-weapon {
+display: block;
+}
+.mskillbar-mechanics-header .berserker-bar {
+width: 224px;
+height: 16px;
+align-self: center;
+background-color: #fdb845;
+border: 1px solid rgba(0,0,0,0.87);
+margin-right: -20px;
+}
+.pve-equipment-wrapper {
+display: inline-block;
+border: 2px solid rgba(51,51,51,0.76);
+padding: 6px;
+}
+.pve-equipment {
+display: flex;
+background: linear-gradient(to bottom,transparent 5%,rgba(51,51,51,0.8));
+padding: 8px;
+}
+.pve-equipment .pve-box-left {
+border-right: 2px solid #333;
+margin-right: 8px;
+}
+.pve-equipment .pve-box-right {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+.pve-equipment .pve-armor, .pve-equipment .pve-trinkets {
+display: flex;
+flex-wrap: wrap;
+width: 19em;
+}
+.pve-equipment .pve-armor {
+margin: 0 6px 14px 0;
+}
+.pve-equipment .pve-armor-piece, .pve-equipment .pve-trinket {
+position: relative;
+padding: 0 20px 10px 20px;
+height: 5em;
+}
+.pve-equipment .pve-armor-piece, .pve-equipment .pve-trinket {
+position: relative;
+padding: 0 20px 10px 20px;
+height: 5em;
+}
+.pve-equipment .pve-armor-piece, .pve-equipment .pve-trinket {
+position: relative;
+padding: 0 20px 10px 20px;
+height: 5em;
+}
+.pve-equipment .pve-armor-piece .stat-icon img, .pve-equipment .pve-trinket .stat-icon img, .pve-equipment .pve-weapon .stat-icon img {
+vertical-align: unset;
+border-radius: 50%;
+border: none;
+}
+.pve-equipment * {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+position: relative;
+}
+.pve-equipment .pve-weaponset .weapons {
+display: flex;
+justify-content: space-around;
+width: 180px;
+}
+.pve-equipment .pve-weaponset .weapon-sigils {
+display: flex;
+justify-content: center;
+width: 180px;
+}
+.pve-equipment .pve-weaponset .weapon-sigils .sigil {
+padding-right: 20px;
+padding-top: 4px;
+}
+.pve-equipment .armor-upgrades .armor-upgrade-name {
+display: inline-block;
+padding-left: 12px;
+padding-top: 14px;
+vertical-align: top;
+font-size: 11px;
+font-weight: bold;
+}
+.pve-equipment .quantity {
+font-family: sans-serif;
+color: #e115ec;
+font-weight: bold;
+font-size: 0.78em;
+position: absolute;
+top: 32px;
+left: 34px;
+text-shadow: 1px 0 0 #eee, -1px 0 0 #eee, 0 1px 0 #eee, 0 -1px 0 #eee, 1px 1px #eee, -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee;
+cursor: default;
+}
+.gw2a--5Eoq0 {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: auto;
+height: auto;
+}
+.pve-equipment .exotic .item-img, .pve-equipment .sigil.exotic .sigil-img, .pve-equipment .rune.exotic .rune-img, .pve-equipment .infusion.exotic .infusion-img {
+border-color: #ffa405 !important;
+}
+.pve-equipment .exotic .item-img, .pve-equipment .sigil.exotic .sigil-img, .pve-equipment .rune.exotic .rune-img, .pve-equipment .infusion.exotic .infusion-img {
+border-color: #ffa405 !important;
+}
+.pve-equipment .sigil .sigil-img, .pve-equipment .rune .rune-img, .pve-equipment .infusion .infusion-img {
+vertical-align: unset;
+display: inline-block;
+border: 2px solid #eee;
+}
+.pve-equipment .fine .item-img, .pve-equipment .sigil.fine .sigil-img, .pve-equipment .rune.fine .rune-img, .pve-equipment .infusion.fine .infusion-img {
+border-color: #62a4da !important;
+}
+.pve-equipment .pve-armor-upgrade {
+position: relative;
+padding-bottom: 16px;
+}
+.pve-equipment .armor-upgrades {
+display: flex;
+flex-direction: column;
+padding-left: 10px;
+padding-top: 25px;
+}
+.pve-equipment .pve-armor-piece .stat-icon, .pve-equipment .pve-trinket .stat-icon {
+vertical-align: unset;
+position: absolute;
+left: 48px;
+top: 28px;
+width: 30px;
+height: 30px;
+text-align: center;
+border-radius: 50%;
+border: 1px solid rgba(150,150,150,0.2);
+background: radial-gradient(#000,rgba(60,60,60,0.8) 60%);
+padding: 1px;
+}
+.pve-equipment .pve-weapon .stat-icon {
+vertical-align: unset;
+position: absolute;
+left: 34px;
+top: 28px;
+width: 30px;
+height: 30px;
+text-align: center;
+border-radius: 50%;
+border: 1px solid rgba(150,150,150,0.2);
+background: radial-gradient(#000,rgba(60,60,60,0.8) 60%);
+padding: 1px;
+}
+.gw2a--1Qwly {
+width: 55px;
+height: 55px;
+font-size: 0;
+position: relative;
+background-size: cover;
+border: 1px solid #151718;
+background-image: radial-gradient(circle, #606468, #333);
+}
+.pve-equipment .ascended .item-img, .pve-equipment .sigil.ascended .sigil-img, .pve-equipment .rune.ascended .rune-img, .pve-equipment .infusion.ascended .infusion-img {
+border-color: #fb3e8d !important;
+}
+.pve-equipment .ascended {
+color: #fb3e8d !important;
+}
+.pve-equipment .item-img {
+vertical-align: unset;
+border-width: 2px;
+border-style: solid;
+width: 48px;
+}
+.pve-equipment * {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.pve-equipment .pve-weaponsets {
+display: flex;
+}
+.pve-equipment .weapon-swap-icon {
+width: 1.5em;
+margin-top: 1.5em;
+margin-right: 1.5em;
+}
+
+</style>
+
+</html>

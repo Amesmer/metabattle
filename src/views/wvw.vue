@@ -212,7 +212,7 @@
                                        <div class="title"><span>Great builds</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in smalltableData_great" :key="i" @click="gobdpage(item.bdname,i,'draft')">
+            <li v-for="(item,i) in smalltableData_great" :key="i" @click="gobdpage(item.bdname,i,'greatbuilds')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -250,7 +250,7 @@
                                               <div class="title"><span>Good builds</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in smalltableData_goodt" :key="i" @click="gobdpage(item.bdname,i,'draft')">
+            <li v-for="(item,i) in smalltableData_goodt" :key="i" @click="gobdpage(item.bdname,i,'goodbuilds')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -288,7 +288,7 @@
                                               <div class="title"><span>Test</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in smalltableData_test" :key="i" @click="gobdpage(item.bdname,i,'draft')">
+            <li v-for="(item,i) in smalltableData_test" :key="i" @click="gobdpage(item.bdname,i,'testbuilds')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -326,7 +326,7 @@
                                               <div class="title"><span>Draft</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in smalltableData_draft" :key="i" @click="gobdpage(item.bdname,i,'draft')">
+            <li v-for="(item,i) in smalltableData_draft" :key="i" @click="gobdpage(item.bdname,i,'draftbuilds')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -1436,14 +1436,15 @@ export default {
     navigation
   },
   methods: {
-    gobdpage(bdname, index) {
+    gobdpage(bdname, index,scope) {
       console.log(index)
       this.$router.push({
         name: 'bdpage',
         query: {
           id: index,
           bd: bdname,
-          type: 'fractal'
+          type: 'fractal',
+          scope:scope
         }
       })
     }

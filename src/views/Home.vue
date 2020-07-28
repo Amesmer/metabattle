@@ -9,7 +9,7 @@
         <div class="gamemode">
            <div class="title"><span>根据游戏模式划分的配置</span><i>快速浏览</i></div>
           <ul>
-            <li>
+            <li @click="goListPage('pvp')">
               <div class="left">
                 <img src="@/assets/images/Pvp_fp_icon.png" alt=""><span>征服模式(PVP)</span>
               </div>
@@ -19,7 +19,7 @@
                 <a href="">良好</a>
               </div>
             </li> 
-             <li>
+             <li @click="goListPage('fractal')">
               <div class="left">
                 <img src="@/assets/images/Fractal_fp_icon.png" alt=""><span>迷雾碎层</span>
               </div>
@@ -29,7 +29,7 @@
                 <a href="">良好</a>
               </div>
             </li>
-             <li>
+             <li @click="goListPage('openWorld')">
               <div class="left">
                 <img src="@/assets/images/Pve_fp_all.png" alt=""><span>开放世界</span>
               </div>
@@ -39,7 +39,7 @@
                 <a href="">良好</a>
               </div>
             </li>
-             <li>
+             <li @click="goListPage('raid')">
               <div class="left">
                 <img src="@/assets/images/Raid_fp_icon.png" alt=""><span>团本</span>
               </div>
@@ -49,7 +49,7 @@
                 <a href="">良好</a>
               </div>
             </li>
-             <li>
+             <li @click="goListPage('wvw')">
               <div class="left">
                 <img src="@/assets/images/Wvw_fp_icon.png" alt=""><span>世界之战(WVW)</span>
               </div>
@@ -65,7 +65,7 @@
       <div class=" profession">
           <div class="title"><span>根据职业划分的配置</span><i>快速浏览</i></div>
           <ul>
-            <li>
+            <li >
               <div class="left">
                 <img src="@/assets/images/Dark-icon-elementalist.png" alt=""><span>元素</span>
               </div>
@@ -178,7 +178,44 @@ export default {
       navigation
   },
   methods: {
+    goListPage(type){
+      switch(type){
+        case 'pvp':
+                this.$router.push({
+        name: 'conquest',
+        path:"/conquest"
 
+      })
+          break 
+           case 'fractal':
+                   this.$router.push({
+        name: 'Fractal',
+          path:"/Fractal"
+
+      })
+          break 
+           case 'openWorld':
+      //              this.$router.push({
+      //   name: 'bdpage',
+
+      // })
+          break 
+           case 'raid':
+                   this.$router.push({
+        name: 'Raid',
+          path:"/Raid"
+  
+      })
+          break 
+           case 'wvw':
+                   this.$router.push({
+        name: 'WvW',
+          path:"/WvW"
+     
+      })
+          break 
+      }
+    }
   }
 }
 </script>

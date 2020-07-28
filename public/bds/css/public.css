@@ -1,0 +1,578 @@
+
+
+body {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(1) {
+    width: 21.5em;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(2) {
+    width: 7em;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(3) {
+    width: 13em;
+}
+
+.mskillbar .mskillbar-labels span:nth-of-type(4) {
+    width: 7em;
+}
+
+.mskillbar .mskillbar-main .mskillbar-weapon>.standard-weapon-row {
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+.mskillbar .mskillbar-main .healing-skill,
+.mskillbar .mskillbar-main .elite-skill {
+    margin: 0 1.5em;
+}
+
+.mskillbar-mechanics-header {
+    display: flex;
+
+}
+
+.mskillbar .mskillbar-labels {
+    display: flex;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.standard-weapon-row {
+    display: flex;
+}
+
+.mskillbar-weapon {
+    display: flex;
+}
+
+.mskillbar-main {
+    display: flex;
+}
+
+a {
+    color: #f9a916;
+    text-decoration: none;
+}
+
+.mskillbar-mechanics-header .legend-bar .color-overlay.mallyx {
+    background-color: rgba(131, 82, 178, 0.5);
+}
+
+.mskillbar-mechanics-header .legend-bar .color-overlay {
+    clip-path: polygon(1px 17px, 151px 17px, 151px 1px, 146px 6px, 81px 6px, 76px 11px, 71px 6px, 6px 6px, 1px 1px);
+    filter: saturate(1.5) brightness(1.2);
+}
+
+.mskillbar-mechanics-header .legends {
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    width: 152px;
+    justify-content: flex-end;
+}
+
+.mechanic-skills {
+    text-align: center;
+}
+
+.build-template-button {
+    padding: 8px 15px;
+    background: #f9a916;
+    color: #111;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.build-template-code {
+    background: #1d1d1d;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 0.25rem;
+    display: inline-block;
+    word-break: break-all;
+    margin: 0px 5px 5px 0px;
+}
+
+.weapon-sets.ws1,
+.weapon-sets.ws2 {
+    display: inline-block;
+}
+
+.weapon-sets>div:first-child>img {
+    top: 15px;
+}
+
+.weapon-sets>div>img {
+    position: absolute;
+    left: 48px;
+}
+
+.weapon-sets .weapon1,
+.weapon-sets .weapon2,
+.weapon-sets .sigil1,
+.weapon-sets .sigil2 {
+    background: #333;
+}
+
+.weapon-sets .weapon2 {
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    margin-left: 8px;
+}
+
+.weapon-sets.ws1 {
+    width: 116px;
+}
+
+.weapon-sets .weapon1 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.weapon-sets>div {
+    position: relative;
+    display: flex;
+}
+
+.mbhi {
+    position: relative;
+    display: inline-block !important;
+}
+
+.weapon-sets.ws2 {
+    margin-left: 42px;
+}
+
+.weapon-sets>div:first-child>.weapon2 {
+    margin-left: 8px;
+}
+
+.mbhoveron {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.weapon-sets>div>div {
+    display: inline-block;
+}
+
+.weapon-sets .sigil2 {
+    margin-left: 32px;
+}
+
+.weapon-sets .sigil1,
+.weapon-sets .sigil2 {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #777;
+}
+
+.weapon-sets .sigil1 {
+    margin-left: 12px;
+}
+
+.weapons {
+    display: flex !important;
+}
+
+.weapons .mbinfo {
+    display: none;
+}
+
+.rune-amulet {
+    display: flex;
+    margin-top: 32px;
+
+}
+
+.rune-amulet>div {
+    margin-right: 10px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.amulet .mbinfo {
+    display: none;
+}
+
+.rune-amulet .mbinfo {
+    display: none;
+}
+
+.sigil2 .mbinfo,
+.sigil1 .mbinfo {
+    display: none;
+}
+.mskillbar .mskillbar-labels span:nth-of-type(1) {
+width: 21.5em;
+}
+.mskillbar-weapon>.standard-weapon-row {
+display: flex;
+margin-bottom: 0.2em;
+}
+.gw2a-skills-embed{
+display: flex;
+}
+.mskillbar-weapon {
+display: block;
+}
+.mskillbar-mechanics-header .berserker-bar {
+width: 224px;
+height: 16px;
+align-self: center;
+background-color: #fdb845;
+border: 1px solid rgba(0,0,0,0.87);
+margin-right: -20px;
+}
+.pve-equipment-wrapper {
+display: inline-block;
+border: 2px solid rgba(51,51,51,0.76);
+padding: 6px;
+}
+.pve-equipment {
+display: flex;
+background: linear-gradient(to bottom,transparent 5%,rgba(51,51,51,0.8));
+padding: 8px;
+}
+.pve-equipment .pve-box-left {
+border-right: 2px solid #333;
+margin-right: 8px;
+}
+.pve-equipment .pve-box-right {
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+.pve-equipment .pve-armor, .pve-equipment .pve-trinkets {
+display: flex;
+flex-wrap: wrap;
+width: 19em;
+}
+.pve-equipment .pve-armor {
+margin: 0 6px 14px 0;
+}
+.pve-equipment .pve-armor-piece, .pve-equipment .pve-trinket {
+position: relative;
+padding: 0 20px 10px 20px;
+height: 5em;
+}
+.pve-equipment .pve-armor-piece, .pve-equipment .pve-trinket {
+position: relative;
+padding: 0 20px 10px 20px;
+height: 5em;
+}
+.pve-equipment .pve-armor-piece, .pve-equipment .pve-trinket {
+position: relative;
+padding: 0 20px 10px 20px;
+height: 5em;
+}
+.pve-equipment .pve-armor-piece .stat-icon img, .pve-equipment .pve-trinket .stat-icon img, .pve-equipment .pve-weapon .stat-icon img {
+vertical-align: unset;
+border-radius: 50%;
+border: none;
+}
+.pve-equipment * {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+position: relative;
+}
+.pve-equipment .pve-weaponset .weapons {
+display: flex;
+justify-content: space-around;
+width: 180px;
+}
+.pve-equipment .pve-weaponset .weapon-sigils {
+display: flex;
+justify-content: center;
+width: 180px;
+}
+.pve-equipment .pve-weaponset .weapon-sigils .sigil {
+padding-right: 20px;
+padding-top: 4px;
+}
+.pve-equipment .armor-upgrades .armor-upgrade-name {
+display: inline-block;
+padding-left: 12px;
+padding-top: 14px;
+vertical-align: top;
+font-size: 11px;
+font-weight: bold;
+}
+.pve-equipment .quantity {
+font-family: sans-serif;
+color: #e115ec;
+font-weight: bold;
+font-size: 0.78em;
+position: absolute;
+top: 32px;
+left: 34px;
+text-shadow: 1px 0 0 #eee, -1px 0 0 #eee, 0 1px 0 #eee, 0 -1px 0 #eee, 1px 1px #eee, -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee;
+cursor: default;
+}
+.gw2a--5Eoq0 {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: auto;
+height: auto;
+}
+.pve-equipment .exotic .item-img, .pve-equipment .sigil.exotic .sigil-img, .pve-equipment .rune.exotic .rune-img, .pve-equipment .infusion.exotic .infusion-img {
+border-color: #ffa405 !important;
+}
+.pve-equipment .exotic .item-img, .pve-equipment .sigil.exotic .sigil-img, .pve-equipment .rune.exotic .rune-img, .pve-equipment .infusion.exotic .infusion-img {
+border-color: #ffa405 !important;
+}
+.pve-equipment .sigil .sigil-img, .pve-equipment .rune .rune-img, .pve-equipment .infusion .infusion-img {
+vertical-align: unset;
+display: inline-block;
+border: 2px solid #eee;
+}
+.pve-equipment .fine .item-img, .pve-equipment .sigil.fine .sigil-img, .pve-equipment .rune.fine .rune-img, .pve-equipment .infusion.fine .infusion-img {
+border-color: #62a4da !important;
+}
+.pve-equipment .pve-armor-upgrade {
+position: relative;
+padding-bottom: 16px;
+}
+.pve-equipment .armor-upgrades {
+display: flex;
+flex-direction: column;
+padding-left: 10px;
+padding-top: 25px;
+}
+.pve-equipment .pve-armor-piece .stat-icon, .pve-equipment .pve-trinket .stat-icon {
+vertical-align: unset;
+position: absolute;
+left: 48px;
+top: 28px;
+width: 30px;
+height: 30px;
+text-align: center;
+border-radius: 50%;
+border: 1px solid rgba(150,150,150,0.2);
+background: radial-gradient(#000,rgba(60,60,60,0.8) 60%);
+padding: 1px;
+}
+.pve-equipment .pve-weapon .stat-icon {
+vertical-align: unset;
+position: absolute;
+left: 34px;
+top: 28px;
+width: 30px;
+height: 30px;
+text-align: center;
+border-radius: 50%;
+border: 1px solid rgba(150,150,150,0.2);
+background: radial-gradient(#000,rgba(60,60,60,0.8) 60%);
+padding: 1px;
+}
+.gw2a--1Qwly {
+width: 55px;
+height: 55px;
+font-size: 0;
+position: relative;
+background-size: cover;
+border: 1px solid #151718;
+background-image: radial-gradient(circle, #606468, #333);
+}
+.pve-equipment .ascended .item-img, .pve-equipment .sigil.ascended .sigil-img, .pve-equipment .rune.ascended .rune-img, .pve-equipment .infusion.ascended .infusion-img {
+border-color: #fb3e8d !important;
+}
+.pve-equipment .ascended {
+color: #fb3e8d !important;
+}
+.pve-equipment .item-img {
+vertical-align: unset;
+border-width: 2px;
+border-style: solid;
+width: 48px;
+}
+.pve-equipment * {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.pve-equipment .pve-weaponsets {
+display: flex;
+}
+.pve-equipment .weapon-swap-icon {
+width: 1.5em;
+margin-top: 1.5em;
+margin-right: 1.5em;
+}
+.mbhoveron {
+    cursor: pointer;
+    display: inline-block;
+}
+.mbhi {
+    position: relative;
+    display: inline-block !important;
+}
+.mbinfo .title {
+    margin: 0px 0px .5em;
+}
+.mbinfo div.desc-det {
+    color: #aaa;
+    list-style: none outside;
+    margin: .75em 0px 0px;
+    padding: 0px;
+}
+.mbinfo div.desc-det>div {
+    display: block;
+    clear: both;
+    margin-bottom: -4px;
+}
+.mbinfo div.desc-det.food>div.len+div {
+    padding-top: 1em;
+}
+.mbinfo div.desc-det.food>div>a {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.mbinfo div.desc-det>div>span {
+    height: 32px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 13px;
+}
+.mbinfo {
+    border: 1px solid #050504;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.4);
+}
+.mbinfo div.desc-det.food>div>span>span:first-child {
+    padding-top: 0em;
+}
+.mbinfo div.desc-det.food>div>span>span {
+    display: block;
+    line-height: 1;
+    padding-top: .25em;
+}
+.mbinfo div.desc-det>div.consumable-tag {
+    margin-top: 1em;
+    color: #fff;
+}
+.mbinfo {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    line-height: 16px;
+    color: #f0f0f0;
+    display: none;
+    max-width: 295px;
+    background: #182b38 url(//metabattle.com/wiki/images/2/29/Hover-Tooltip-Texture.png) no-repeat 0px 0px;
+    text-shadow: 1px 1px #000;
+    border: 2px solid #050504;
+    opacity: .925;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.mbinfo div.desc-det.food>div>span>span {
+    display: block;
+    line-height: 1;
+    padding-top: .25em;
+}
+.mbinfo div.desc-det>div>span {
+    height: 32px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    display: block;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 13px;
+}
+.mbinfo div.desc-det>div {
+    display: block;
+    clear: both;
+    margin-bottom: -4px;
+}
+.mbinfo div.desc-det.food>div.len+div {
+    padding-top: 1em;
+}
+.mbinfo .title {
+    margin: 0px 0px .5em;
+}
+.mbinfo div.desc-det>div.consumable-tag {
+    margin-top: 1em;
+    color: #fff;
+}
+.mbinfo:hover {
+    /* display: block!important; */
+}
+.accordNext:after, .accordNext.expanded:after {
+    background-size: 36px 36px;
+    width: 36px;
+    height: 36px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 0.25em;
+}
+.accordNext {
+    background-color: #333;
+    margin: 10px 0px;
+}
+.accordNext {
+    cursor: pointer;
+    padding: 0.25em 0.75em;
+    background-color: #d9d9d9;
+}
+.accordNext:hover {
+    opacity: .5;
+}
+div#content h3 {
+    margin-top: 1em;
+}
+div#content h3 {
+    font-size: 1.375em;
+}
+.accordNext {
+    background-color: #333;
+    margin: 10px 0px;
+}
+/* .accordNext:after {
+    background-image: url(https://metabattle.com/wiki/images/1/1d/Plus_box_icon.png);
+}
+.accordNext.expanded:after {
+    background-image: url(https://metabattle.com/wiki/images/b/b5/Minus_box_icon.png);
+} */
+
+.skillbar>.titles>div.label {
+    width: 300px;
+}
+.skillbar>.skills {
+    display: table;
+}
+.skillbar>.skills>div {
+    display: inline-flex;
+    vertical-align: middle;
+}
+.skillbar>.titles>div {
+    display: inline-block;
+    text-align: center;
+}

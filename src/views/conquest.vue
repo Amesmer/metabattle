@@ -17,7 +17,7 @@
            <div class="title"><span>Meta</span></div>
           <ul>
             <!-- meta  -->
-            <li v-for="(item,i) in tableData" :key="i" @click="gobdpage(item.bdname,i)">
+            <li v-for="(item,i) in tableData" :key="i" @click="gobdpage(item.bdname,i,'meta')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -75,7 +75,7 @@
                      <div class="title"><span>Great</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in tableData_great" :key="i">
+            <li v-for="(item,i) in tableData_great" :key="i" @click="gobdpage(item.bdname,i,'great')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -133,7 +133,7 @@
                      <div class="title"><span>Good</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in tableData_good" :key="i">
+            <li v-for="(item,i) in tableData_good" :key="i" @click="gobdpage(item.bdname,i,'good')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -190,7 +190,7 @@
                            <div class="title"><span>Test</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in tableData_test" :key="i">
+            <li v-for="(item,i) in tableData_test" :key="i" @click="gobdpage(item.bdname,i,'test')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -247,7 +247,7 @@
                                      <div class="title"><span>Draft</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in tableData_draft" :key="i">
+            <li v-for="(item,i) in tableData_draft" :key="i" @click="gobdpage(item.bdname,i,'draft')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -1458,14 +1458,15 @@ export default {
     navigation
   },
   methods: {
-    gobdpage(bdname, index) {
+    gobdpage(bdname, index,scope) {
       console.log(index)
       this.$router.push({
         name: 'bdpage',
         query: {
           id: index,
           bd: bdname,
-          type: 'pvp'
+          type: 'pvp',
+          scope:scope
         }
       })
     }

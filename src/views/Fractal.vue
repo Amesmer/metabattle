@@ -14,10 +14,10 @@
                   
                     </div>
               <div class="gamemode">
-           <div class="title"><span>Meta</span></div>
+           <div class="title"><span>Recommended</span></div>
           <ul>
             <!-- meta  -->
-            <li v-for="(item,i) in tableData" :key="i" @click="gobdpage(item.bdname,i,'meta')">
+            <li v-for="(item,i) in tableData" :key="i" @click="gobdpage(item.bdname,i,'recommended')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -92,10 +92,10 @@
 
           </ul>
 
-                     <div class="title"><span>Good</span></div>
+                     <div class="title"><span>Viable</span></div>
           <ul>
             <!-- 魂武 -->
-            <li v-for="(item,i) in tableData_good" :key="i" @click="gobdpage(item.bdname,i,'good')">
+            <li v-for="(item,i) in tableData_good" :key="i" @click="gobdpage(item.bdname,i,'viable')">
               <div class="left">
                 <img :src="require(`@/assets/profession/${item.professionicon}.png`)" alt=''><span>{{item.bdname}}</span>
               </div>
@@ -1097,14 +1097,15 @@ export default {
     navigation
   },
   methods: {
-    gobdpage(bdname, index) {
+    gobdpage(bdname, index,scope) {
       console.log(index)
       this.$router.push({
         name: 'bdpage',
         query: {
           id: index,
           bd: bdname,
-          type:'fractal'
+          type:'fractal',
+          scope:scope
         }
       })
     }
