@@ -297,46 +297,70 @@ export default {
       }
     }
     // 碎层部分
-    if (parms.type == 'fractal' && parms.scope == 'Recommended') {
+    if (parms.type == 'fractal' && parms.scope == 'recommended') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'fractal_recommended_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'fractal_recommended_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'fractal_recommended_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'fractal_recommended_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'fractal_recommended_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+            case '5':
+          this.bdpage = 'fractal_recommended_6.html'
+          break
+            case '6':
+          this.bdpage = 'fractal_recommended_7.html'
+          break
+            case '7':
+          this.bdpage = 'fractal_recommended_8.html'
+          break
+            case '8':
+          this.bdpage = 'fractal_recommended_9.html'
+          break
+  
       }
     }
     if (parms.type == 'fractal' && parms.scope == 'great') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'fractal_great_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'fractal_great_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'fractal_great_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'fractal_great_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'fractal_great_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+       case '5':
+          this.bdpage = 'fractal_great_6.html'
+          break
+           case '6':
+          this.bdpage = 'fractal_great_7.html'
+          break
+           case '7':
+          this.bdpage = 'fractal_great_8.html'
+          break
+           case '8':
+          this.bdpage = 'fractal_great_9.html'
+          break
+           case '9':
+          this.bdpage = 'fractal_great_10.html'
+          break
       }
     }
     if (parms.type == 'fractal' && parms.scope == 'viable') {
