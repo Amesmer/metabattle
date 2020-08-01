@@ -1,6 +1,7 @@
 <template>
        <!-- 顶部navigation -->
    <div class="nav">
+ 
             <el-menu
                 router
              :default-active="activeIndex"
@@ -10,6 +11,9 @@
           background-color="#31394D"
           text-color="#cdcac7"
           active-text-color="#ffd04b">
+          <el-menu-item @click="gohome">
+      <i class="el-icon-s-home"></i>
+          </el-menu-item>
           <el-submenu  index="1">
             <template slot="title"><span class="mytitle">职业</span> </template>
             <el-menu-item index="1-1">
@@ -81,6 +85,9 @@ export default {
     methods: {
    tabSelect(key, keyPath) {
       console.log(key, keyPath)
+    },
+    gohome(){
+    this.$router.push('/')
     }
   }
    

@@ -1,0 +1,4646 @@
+[
+    {
+        "ZHname": "狂怒风暴",
+        "ENname": "Raging Storm",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "和风疾速",
+        "ENname": "Zephyr's Speed",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "电力激发",
+        "ENname": "Electric Discharge",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "风使训练",
+        "ENname": "Aeromancer's Training",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "风灵附体",
+        "ENname": "One with Air",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "穿心一箭",
+        "ENname": "Bolt to the Heart",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "和风增益",
+        "ENname": "Zephyr's Boon",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "雕文铭刻",
+        "ENname": "Inscription",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "狂风巨作",
+        "ENname": "Ferocious Winds",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "秘法遁逸",
+        "ENname": "Evasive Arcana",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "秘法精准",
+        "ENname": "Arcane Precision",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "终极护盾",
+        "ENname": "Final Shielding",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "元素怒涛",
+        "ENname": "Elemental Surge",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "元素协调",
+        "ENname": "Elemental Attunement",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "秘法复活",
+        "ENname": "Arcane Resurrection",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "活力充沛",
+        "ENname": "Renewing Stamina",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "秘法造诣",
+        "ENname": "Arcane Prowess",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "岩石力量",
+        "ENname": "Strength of Stone",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "大地祝福",
+        "ENname": "Earthen Blessing",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "护体石肤",
+        "ENname": "Stone Flesh",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "大地冲击",
+        "ENname": "Earthen Blast",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "地使训练",
+        "ENname": "Geomancer's Training",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "固若磐石",
+        "ENname": "Rock Solid",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "大地护拥",
+        "ENname": "Earth's Embrace",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "石刻纹章",
+        "ENname": "Written in Stone",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "元素护盾",
+        "ENname": "Elemental Shielding",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "火使威势",
+        "ENname": "Pyromancer's Puissance",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "燃烧精准",
+        "ENname": "Burning Precision",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "太阳黑子",
+        "ENname": "Sunspot",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "火使训练",
+        "ENname": "Pyromancer's Training",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "赐威烈焰",
+        "ENname": "Empowering Flame",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "怒火焚身",
+        "ENname": "Burning Rage",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "咒唤大师",
+        "ENname": "Conjurer",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "威力满溢",
+        "ENname": "Power Overwhelming",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "燃烧烈焰",
+        "ENname": "Burning Fire",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "窒息光环",
+        "ENname": "Smothering Auras",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "抚伤寒冰",
+        "ENname": "Soothing Ice",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "行云流水",
+        "ENname": "Flow like Water",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "抚伤迷雾",
+        "ENname": "Soothing Mist",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "治疗涟漪",
+        "ENname": "Healing Ripple",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "净化水波",
+        "ENname": "Cleansing Wave",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "复原翻滚",
+        "ENname": "Stop, Drop, and Roll",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "强效光环",
+        "ENname": "Powerful Aura",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "流水净化",
+        "ENname": "Cleansing Water",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "碎冰穿刺",
+        "ENname": "Piercing Shards",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "抚伤法咒",
+        "ENname": "Soothing Disruption",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "超能盾牌",
+        "ENname": "Over Shield",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "活力提速",
+        "ENname": "Invigorating Speed",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "聚合药剂",
+        "ENname": "Compounding Chemicals",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "聚能炸药",
+        "ENname": "Shaped Charge",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "爆破进击",
+        "ENname": "Explosive Entrance",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "燃烧火药",
+        "ENname": "Incendiary Powder",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "机械假腿",
+        "ENname": "Mecha Legs",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "隐藏药瓶",
+        "ENname": "Hidden Flask",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "紧急试剂",
+        "ENname": "Emergency Elixir",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "医用背包",
+        "ENname": "Backpack Regenerator",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "抗腐蚀涂层",
+        "ENname": "Anticorrosion Plating",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "生长激素",
+        "ENname": "HGH",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "追踪火箭",
+        "ENname": "Aim-Assisted Rocket",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "逆向转化",
+        "ENname": "Transmute",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "飞散弹片",
+        "ENname": "Shrapnel",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "自动防御炸弹弹射装置",
+        "ENname": "Autodefense Bomb Dispenser",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "重建力场",
+        "ENname": "Reconstruction Enclosure",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "防护注入",
+        "ENname": "Protection Injection",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "无畏战士",
+        "ENname": "Juggernaut",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "快捷工具",
+        "ENname": "Streamlined Kits",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "投弹专家",
+        "ENname": "Grenadier",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "狙击能手",
+        "ENname": "Sharpshooter",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "抑制凝血",
+        "ENname": "Serrated Steel",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "钢片炸药",
+        "ENname": "Steel-Packed Powder",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "协同净化",
+        "ENname": "Cleansing Synergy",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "增幅治疗",
+        "ENname": "Energy Amplifier",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "反馈治疗",
+        "ENname": "Comeback Cure",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "生命保障",
+        "ENname": "Health Insurance",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "激素植入",
+        "ENname": "Adrenal Implant",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "速燃引线",
+        "ENname": "Short Fuse",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "弹药改装",
+        "ENname": "Modified Ammunition",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "强力扳手",
+        "ENname": "Power Wrench",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "静电释放",
+        "ENname": "Static Discharge",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "流血追击",
+        "ENname": "Hematic Focus",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "纯洁之心",
+        "ENname": "Pure of Heart",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "无私英勇",
+        "ENname": "Selfless Daring",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "纯净之音",
+        "ENname": "Pure of Voice",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "战斗灵气",
+        "ENname": "Battle Presence",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "荣耀法杖",
+        "ENname": "Honorable Staff",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "坚毅令状",
+        "ENname": "Writ of Persistence",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "守护复苏",
+        "ENname": "Protective Reviver",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "强化力量",
+        "ENname": "Empowering Might",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "愤怒精神",
+        "ENname": "Wrathful Spirit",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "活力精准",
+        "ENname": "Vigorous Precision",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "正义惩戒",
+        "ENname": "Retribution",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "强壮右臂",
+        "ENname": "Right-Hand Strength",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "光耀火焰",
+        "ENname": "Radiant Fire",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "光耀力量",
+        "ENname": "Radiant Power",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "正义复兴",
+        "ENname": "Renewed Justice",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "盲目正义",
+        "ENname": "Justice is Blind",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "医者惩戒",
+        "ENname": "Healer's Retribution",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "心灵之火",
+        "ENname": "Inner Fire",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "正义之怒",
+        "ENname": "Wrath of Justice",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "完美铭刻",
+        "ENname": "Perfect Inscriptions",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "顽强防御",
+        "ENname": "Stalwart Defender",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "疗伤恩赐",
+        "ENname": "Smiter's Boon",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "无畏防御",
+        "ENname": "Valorous Defense",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "防卫之力",
+        "ENname": "Might of the Protector",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "众志成城",
+        "ENname": "Strength in Numbers",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "无私治疗",
+        "ENname": "Altruistic Healing",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "僧侣专注",
+        "ENname": "Monk's Focus",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "冰川之心",
+        "ENname": "Glacial Heart",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "求生之力",
+        "ENname": "Strength of the Fallen",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "顽强防御",
+        "ENname": "Tenacious Defense",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "恒定勇气",
+        "ENname": "Steadfast Courage",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "美德激励",
+        "ENname": "Inspiring Virtue",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "惩戒美德",
+        "ENname": "Virtue of Retribution",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "纯粹决心",
+        "ENname": "Absolute Resolution",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "不屈勇气",
+        "ENname": "Indomitable Courage",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "奉献大师",
+        "ENname": "Master of Consecrations",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "美德之力",
+        "ENname": "Power of the Virtuous",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "美德启发",
+        "ENname": "Inspired Virtue",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "愤怒侵染",
+        "ENname": "Permeating Wrath",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "无伤斗魂",
+        "ENname": "Unscathed Contender",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "一心惩戒",
+        "ENname": "Retaliatory Subconscious",
+        "profession": "美德",
+        "professionName": "Virtues"
+    },
+    {
+        "ZHname": "暴怒聚集",
+        "ENname": "Furious Focus",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "聚能专精",
+        "ENname": "Focus Mastery",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "炽热之怒",
+        "ENname": "Fiery Wrath",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "永恒军械",
+        "ENname": "Eternal Armory",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "迸裂圣盾",
+        "ENname": "Shattered Aegis",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "揭露符印",
+        "ENname": "Symbolic Exposure",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "狂徒之怒",
+        "ENname": "Zealot's Speed",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "强力符印",
+        "ENname": "Symbolic Power",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "狂热利刃",
+        "ENname": "Zealous Blade",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "防护复苏",
+        "ENname": "Protector's Restoration",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "抽象回春",
+        "ENname": "Metaphysical Rejuvenation",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "幻象防护",
+        "ENname": "Illusionary Membrane",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "混乱转移",
+        "ENname": "Chaotic Transference",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "混乱抑制",
+        "ENname": "Chaotic Dampening",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "疯狂法则",
+        "ENname": "Method of Madness",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "混乱打断",
+        "ENname": "Chaotic Interruption",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "痛苦吉兆",
+        "ENname": "Auspicious Anguish",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "万华领悟",
+        "ENname": "Prismatic Understanding",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "幻象壁垒",
+        "ENname": "Illusionary Defense",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "操纵大师",
+        "ENname": "Master of Manipulation",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "精神折磨",
+        "ENname": "Mental Anguish",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "恶意显露",
+        "ENname": "Vicious Expression",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "强能幻象",
+        "ENname": "Empowered Illusions",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "脆弱错觉",
+        "ENname": "Illusion of Vulnerability",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "飞刃反弹",
+        "ENname": "Bountiful Blades",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "粉碎裂击",
+        "ENname": "Rending Shatter",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "烈火誓约",
+        "ENname": "The Pledge",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "优越自尊",
+        "ENname": "Superiority Complex",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "粉碎专注",
+        "ENname": "Shattered Concentration",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "炫目炽光",
+        "ENname": "Dazzling",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "决斗戒律",
+        "ENname": "Duelist's Discipline",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "幻影之怒",
+        "ENname": "Phantasmal Fury",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "欺诈闪避",
+        "ENname": "Deceptive Evasion",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "绝境诱饵",
+        "ENname": "Desperate Decoy",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "致命灌注",
+        "ENname": "Critical Infusion",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "剑术大师",
+        "ENname": "Master Fencer",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "灵活剑客",
+        "ENname": "Fencer's Finesse",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "锐利幻象",
+        "ENname": "Sharper Images",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "暴怒打断",
+        "ENname": "Furious Interruption",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "自我中心",
+        "ENname": "Egotism",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "粉碎风暴",
+        "ENname": "Shatter Storm",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "逃生大师",
+        "ENname": "Escape Artist",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "魔能汇聚",
+        "ENname": "Compounding Power",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "急速幻影",
+        "ENname": "Phantasmal Haste",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "误导大师",
+        "ENname": "Master of Misdirection",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "幻影原力",
+        "ENname": "Phantasmal Force",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "痛苦之吼",
+        "ENname": "Cry of Pain",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "咒语回复",
+        "ENname": "Restorative Mantras",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "幻象回复",
+        "ENname": "Restorative Illusions",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "同情容貌",
+        "ENname": "Sympathetic Visage",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "聚能反馈",
+        "ENname": "Warden's Feedback",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "模糊铭文",
+        "ENname": "Blurred Inscriptions",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "恶意巫术",
+        "ENname": "Malicious Sorcery",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "医者反馈",
+        "ENname": "Medic's Feedback",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "纯洁修护",
+        "ENname": "Mender's Purity",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "鲜血输送",
+        "ENname": "Transfusion",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "生命仪式",
+        "ENname": "Ritual of Life",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "血库",
+        "ENname": "Blood Bank",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "吸血出击",
+        "ENname": "Vampiric",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "疾速渴嗜",
+        "ENname": "Quickening Thirst",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "起死回生",
+        "ENname": "Life from Death",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "闪避印记",
+        "ENname": "Mark of Evasion",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "女妖之嚎",
+        "ENname": "Banshee's Wail",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "诅咒萦绕",
+        "ENname": "Lingering Curse",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "倒刺精准",
+        "ENname": "Barbed Precision",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "狂怒渡化",
+        "ENname": "Furious Demise",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "弱点追击",
+        "ENname": "Target the Weak",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "恐怖追击",
+        "ENname": "Terror",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "衰弱帷幕",
+        "ENname": "Weakening Shroud",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "寒冰暗幕",
+        "ENname": "Chilling Darkness",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "腐化大师",
+        "ENname": "Master of Corruption",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "血肉赐予",
+        "ENname": "Flesh of the Master",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "唤醒痛苦",
+        "ENname": "Awaken the Pain",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "灵魂参悟",
+        "ENname": "Soul Comprehension",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "死亡新星",
+        "ENname": "Death Nova",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "死亡迫近",
+        "ENname": "Close to Death",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "致命力量",
+        "ENname": "Deadly Strength",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "铁甲帷幕",
+        "ENname": "Armored Shroud",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "腐烂防御",
+        "ENname": "Putrid Defense",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "唤灵腐化",
+        "ENname": "Necromantic Corruption",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "黑暗蔑视",
+        "ENname": "Dark Defiance",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "现世妄执",
+        "ENname": "Vital Persistence",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "灵魂电池",
+        "ENname": "Soul Battery",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "破势爆弹",
+        "ENname": "Unyielding Blast",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "血肉暴食",
+        "ENname": "Gluttony",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "暗影疾速",
+        "ENname": "Speed of Shadows",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "无尽生命",
+        "ENname": "Eternal Life",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "凶恶帷幕",
+        "ENname": "Sinister Shroud",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "死亡恐惧",
+        "ENname": "Fear of Death",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "致命洞察",
+        "ENname": "Death Perception",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "灵魂倒钩",
+        "ENname": "Soul Barbs",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "灵魂印记",
+        "ENname": "Soul Marks",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "死亡冰寒",
+        "ENname": "Chill of Death",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "恶灵附体",
+        "ENname": "Spiteful Spirit",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "德姆火焰",
+        "ENname": "Dhuumfire",
+        "profession": "摄魂",
+        "professionName": "Soul Reaping"
+    },
+    {
+        "ZHname": "苦难纹章",
+        "ENname": "Signets of Suffering",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "夺魂威能",
+        "ENname": "Reaper's Might",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "恨意护符",
+        "ENname": "Spiteful Talisman",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "死亡之拥",
+        "ENname": "Death's Embrace",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "恶怨新生",
+        "ENname": "Spiteful Renewal",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "虹吸力量",
+        "ENname": "Siphoned Power",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "恐惧",
+        "ENname": "Dread",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "乘风音律",
+        "ENname": "Windborne Notes",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "活力降临",
+        "ENname": "Spirited Arrival",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "和风疾速",
+        "ENname": "Zephyr's Speed",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "自然治愈",
+        "ENname": "Natural Healing",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "破空长哨",
+        "ENname": "Loud Whistle",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "枯萎打击",
+        "ENname": "Wilting Strike",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "直觉反应",
+        "ENname": "Instinctive Reaction",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "野性号角",
+        "ENname": "Clarion Bond",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "猎食突袭",
+        "ENname": "Predator's Onslaught",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "远视",
+        "ENname": "Farsighted",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "蛮力封印",
+        "ENname": "Brutish Seals",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "优势物种",
+        "ENname": "Alpha Focus",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "先发制人",
+        "ENname": "Opening Strike",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "精准出击",
+        "ENname": "Precise Strike",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "猎手凝视",
+        "ENname": "Hunter's Gaze",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "赶尽杀绝",
+        "ENname": "Remorseless",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "眼观六路",
+        "ENname": "Spotter",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "岩石形态",
+        "ENname": "Stoneform",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "自然之仇",
+        "ENname": "Nature's Vengeance",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "双手训练",
+        "ENname": "Two-Handed Training",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "净化遁逸",
+        "ENname": "Evasive Purity",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "生命再生",
+        "ENname": "Rejuvenation",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "强化契约",
+        "ENname": "Fortifying Bond",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "魔法萦绕",
+        "ENname": "Lingering Magic",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "盟友救助",
+        "ENname": "Allies' Aid",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "多福猎手",
+        "ENname": "Bountiful Hunter",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "疾速箭射",
+        "ENname": "Quick Draw",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "宠物威勇",
+        "ENname": "Pet's Prowess",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "精磨砺斧",
+        "ENname": "Honed Axes",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "荒蛮反射",
+        "ENname": "Primal Reflexes",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "捕猎战术",
+        "ENname": "Hunter's Tactics",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "尖锐刃锋",
+        "ENname": "Sharpened Edges",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "醉生梦死",
+        "ENname": "Moment of Clarity",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "强力盟友",
+        "ENname": "Potent Ally",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "陷阱专长",
+        "ENname": "Trapper's Expertise",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "乘风破浪",
+        "ENname": "Tail Wind",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "暴怒抓握",
+        "ENname": "Furious Grip",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "橡心药膏",
+        "ENname": "Oakheart Salve",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "粗糙生长",
+        "ENname": "Rugged Growth",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "同伴之御",
+        "ENname": "Companion's Defense",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "情义相连",
+        "ENname": "Empathic Bond",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "自然活力",
+        "ENname": "Natural Vigor",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "大地之子",
+        "ENname": "Child of Earth",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "品尝危险",
+        "ENname": "Taste for Danger",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "分担痛苦",
+        "ENname": "Shared Anguish",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "成双巧手",
+        "ENname": "Ambidexterity",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "快速反应",
+        "ENname": "Instant Reflexes",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "猛毒榨取",
+        "ENname": "Leeching Venoms",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "遁入暗影",
+        "ENname": "Cloaked in Shadow",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "暗影再生",
+        "ENname": "Shadow's Rejuvenation",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "暗影融合",
+        "ENname": "Meld with Shadows",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "利己主义",
+        "ENname": "Kleptomaniac",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "引导攻击",
+        "ENname": "Lead Attacks",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "手法娴熟",
+        "ENname": "Sleight of Hand",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "追击阻断",
+        "ENname": "Uncatchable",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "怜悯伏击",
+        "ENname": "Merciful Ambush",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "撕裂阴影",
+        "ENname": "Rending Shade",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "致命快感",
+        "ENname": "Thrill of the Crime",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "致命野心",
+        "ENname": "Deadly Ambition",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "灵感一现",
+        "ENname": "Improvisation",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "扳回劣势",
+        "ENname": "Even the Odds",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "碎裂暗影",
+        "ENname": "Sundering Shade",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "快速切换",
+        "ENname": "Quick Pockets",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "超荷打击",
+        "ENname": "Pressure Striking",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "欺诈平衡",
+        "ENname": "Swindler's Equilibrium",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "刺客之怒",
+        "ENname": "Assassin's Fury",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "趁胜追击",
+        "ENname": "Unrelenting Strikes",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "出其不意",
+        "ENname": "Hidden Killer",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "准备就绪",
+        "ENname": "Preparedness",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "猫之优雅",
+        "ENname": "Feline Grace",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "疼痛反应",
+        "ENname": "Pain Response",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "刺客奖赏",
+        "ENname": "Assassin's Reward",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "迅捷闪避",
+        "ENname": "Expeditious Dodger",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "谨慎出击",
+        "ENname": "Guarded Initiation",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "无尽耐力",
+        "ENname": "Endless Stamina",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "匕首训练",
+        "ENname": "Dagger Training",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "敏捷爆发",
+        "ENname": "Burst of Agility",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "破绽揭露",
+        "ENname": "Exposed Weakness",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "威能纹章",
+        "ENname": "Signets of Power",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "双牙撕咬",
+        "ENname": "Twin Fangs",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "无情处决",
+        "ENname": "Executioner",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "千锤百炼",
+        "ENname": "Practiced Tolerance",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "妙手生花",
+        "ENname": "Mug",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "慷慨无私",
+        "ENname": "Bountiful Theft",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "蛇毒之触",
+        "ENname": "Serpent's Touch",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "莲花毒素",
+        "ENname": "Lotus Poison",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "敏锐观察",
+        "ENname": "Keen Observer",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "恶毒打击",
+        "ENname": "Ferocious Strikes",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "隐秘潜行",
+        "ENname": "Hidden Thief",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "技巧大师",
+        "ENname": "Trickster",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "活力恢复",
+        "ENname": "Vigorous Recovery",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "逃脱大师",
+        "ENname": "Hard to Catch",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "强效毒药",
+        "ENname": "Potent Poison",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "惊惧打击",
+        "ENname": "Panic Strike",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "暗影环绕",
+        "ENname": "Shadow's Embrace",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "隐秘复苏",
+        "ENname": "Concealing Restoration",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "抢占先机",
+        "ENname": "Upper Hand",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "暗影救星",
+        "ENname": "Shadow Savior",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "致命瞄准",
+        "ENname": "Deadly Aim",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "闪烁暗影",
+        "ENname": "Flickering Shadows",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "天降奇兵",
+        "ENname": "Unsuspecting Foe",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "碎裂爆发",
+        "ENname": "Sundering Burst",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "凝聚专注",
+        "ENname": "Heightened Focus",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "碎裂射击",
+        "ENname": "Crack Shot",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "剑术大师",
+        "ENname": "Blademaster",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "优势打击",
+        "ENname": "Opportunist",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "爆发精准",
+        "ENname": "Burst Precision",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "鲜血狂热",
+        "ENname": "Bloodlust",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "强力巨剑",
+        "ENname": "Forceful Greatsword",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "狂怒爆发",
+        "ENname": "Furious Burst",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "破甲打击",
+        "ENname": "Deep Strikes",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "纹章专精",
+        "ENname": "Signet Mastery",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "怒气迸发",
+        "ENname": "Furious",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "怒气恢复",
+        "ENname": "Adrenal Health",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "坚毅皮肤",
+        "ENname": "Thick Skin",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "粉碎钉锤",
+        "ENname": "Sundering Mace",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "蔑视痛苦",
+        "ENname": "Defy Pain",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "斧系专精",
+        "ENname": "Axe Mastery",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "剔除弱者",
+        "ENname": "Cull the Weak",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "稳如泰山",
+        "ENname": "Last Stand",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "盾牌大师",
+        "ENname": "Shield Master",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "装甲攻势",
+        "ENname": "Armored Attack",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "尖刺护甲",
+        "ENname": "Spiked Armor",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "复仇之心",
+        "ENname": "Vengeful Return",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "战士冲锋",
+        "ENname": "Warrior's Sprint",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "通用怒火",
+        "ENname": "Versatile Rage",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "眼疾手快",
+        "ENname": "Fast Hands",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "通用威力",
+        "ENname": "Versatile Power",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "狂战之力",
+        "ENname": "Berserker's Power",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "无情巨锤",
+        "ENname": "Merciless Hammer",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "巅峰表现",
+        "ENname": "Peak Performance",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "野蛮闪避",
+        "ENname": "Reckless Dodge",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "英勇神行",
+        "ENname": "Brave Stride",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "澎湃动力",
+        "ENname": "Building Momentum",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "刚毅不屈",
+        "ENname": "Great Fortitude",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "力量恢复",
+        "ENname": "Restorative Strength",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "力量尖峰",
+        "ENname": "Pinnacle of Strength",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "强力正义",
+        "ENname": "Might Makes Right",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "创伤精准",
+        "ENname": "Wounding Precision",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "斩腿专家",
+        "ENname": "Leg Specialist",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "活力战吼",
+        "ENname": "Vigorous Shouts",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "军号怒吼",
+        "ENname": "Roaring Reveille",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "士兵安慰",
+        "ENname": "Soldier's Comfort",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "重振旗鼓",
+        "ENname": "Shrug It Off",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "行军号令",
+        "ENname": "Marching Orders",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "治愈威能",
+        "ENname": "Mending Might",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "强化盟友",
+        "ENname": "Empower Allies",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "双重战旗",
+        "ENname": "Doubled Standards",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "力量聚集",
+        "ENname": "Empowered",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "战士智慧",
+        "ENname": "Warrior's Cunning",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "秘法复苏",
+        "ENname": "Arcane Restoration",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "顽强不屈",
+        "ENname": "Dogged March",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "能者灾厄",
+        "ENname": "Destruction of the Empowered",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "风暴之魂",
+        "ENname": "Stormsoul",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "清新气流",
+        "ENname": "Fresh Air",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "锯齿之岩",
+        "ENname": "Serrated Stones",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "金刚石肤",
+        "ENname": "Diamond Skin",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "长效怒火",
+        "ENname": "Persisting Flames",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "富饶力量",
+        "ENname": "Bountiful Power",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "闪光弹",
+        "ENname": "Flashbang",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "炽火狂热",
+        "ENname": "Kindled Zeal",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "嘹亮回响",
+        "ENname": "Resounding Timbre",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "净化之怒",
+        "ENname": "Cleansing Ire",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "爆发专精",
+        "ENname": "Burst Mastery",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "武术节奏",
+        "ENname": "Martial Cadence",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "导雷神针",
+        "ENname": "Lightning Rod",
+        "profession": "空气",
+        "professionName": "Air"
+    },
+    {
+        "ZHname": "元素封锁",
+        "ENname": "Elemental Lockdown",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "磐石之心",
+        "ENname": "Stone Heart",
+        "profession": "大地",
+        "professionName": "Earth"
+    },
+    {
+        "ZHname": "致盲灰烬",
+        "ENname": "Blinding Ashes",
+        "profession": "火焰",
+        "professionName": "Fire"
+    },
+    {
+        "ZHname": "水使训练",
+        "ENname": "Aquamancer's Training",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "试验炮台",
+        "ENname": "Experimental Turrets",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "配件达人",
+        "ENname": "Gadgeteer",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "工事瓦解",
+        "ENname": "Bunker Down",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "意志之力",
+        "ENname": "Force of Will",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "正义本能",
+        "ENname": "Righteous Instincts",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "群体防御",
+        "ENname": "Communal Defenses",
+        "profession": "英勇",
+        "professionName": "Valor"
+    },
+    {
+        "ZHname": "纯净之躯",
+        "ENname": "Purity of Body",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "怒火横肆",
+        "ENname": "Amplified Wrath",
+        "profession": "光辉",
+        "professionName": "Radiance"
+    },
+    {
+        "ZHname": "富饶幻灭",
+        "ENname": "Bountiful Disillusionment",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "力量阻隔",
+        "ENname": "Power Block",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "幻灭伤残",
+        "ENname": "Maim the Disillusioned",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "不洁殉难",
+        "ENname": "Unholy Martyr",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "腐化暗霜",
+        "ENname": "Path of Corruption",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "不洁庇护",
+        "ENname": "Unholy Sanctuary",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "寄生蔓延",
+        "ENname": "Parasitic Contagion",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "活力契约",
+        "ENname": "Invigorating Bond",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "顺风动势",
+        "ENname": "Lead the Wind",
+        "profession": "射手",
+        "professionName": "Marksmanship"
+    },
+    {
+        "ZHname": "荒野知识",
+        "ENname": "Wilderness Knowledge",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "迅步防御",
+        "ENname": "Strider's Defense",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "毒药大师",
+        "ENname": "Poison Master",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "重生精准",
+        "ENname": "Invigorating Precision",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "永不止步",
+        "ENname": "Don't Stop",
+        "profession": "特技",
+        "professionName": "Acrobatics"
+    },
+    {
+        "ZHname": "突袭特训",
+        "ENname": "Revealed Training",
+        "profession": "武艺",
+        "professionName": "Deadly Arts"
+    },
+    {
+        "ZHname": "暗影汲取",
+        "ENname": "Shadow Siphoning",
+        "profession": "暗影",
+        "professionName": "Shadow Arts"
+    },
+    {
+        "ZHname": "困惑伏击",
+        "ENname": "Bewildering Ambush",
+        "profession": "诡诈",
+        "professionName": "Trickery"
+    },
+    {
+        "ZHname": "双持专精",
+        "ENname": "Dual Wielding",
+        "profession": "武器",
+        "professionName": "Arms"
+    },
+    {
+        "ZHname": "强韧反激",
+        "ENname": "Rousing Resilience",
+        "profession": "防御",
+        "professionName": "Defense"
+    },
+    {
+        "ZHname": "混斗复元",
+        "ENname": "Brawler's Recovery",
+        "profession": "纪律",
+        "professionName": "Discipline"
+    },
+    {
+        "ZHname": "方阵力量",
+        "ENname": "Phalanx Strength",
+        "profession": "战术",
+        "professionName": "Tactics"
+    },
+    {
+        "ZHname": "坚毅决心",
+        "ENname": "Determined Resolution",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "苦痛契约",
+        "ENname": "Pact of Pain",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "残忍暴行",
+        "ENname": "Brutality",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "升腾动能",
+        "ENname": "Rising Momentum",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "迷雾翻腾",
+        "ENname": "Roiling Mists",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "凶残韧性",
+        "ENname": "Fiendish Tenacity",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "瘟疫侵染",
+        "ENname": "Permeating Pestilence",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "毁灭冲击",
+        "ENname": "Destructive Impulses",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "恶魔抗性",
+        "ENname": "Demonic Resistance",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "地狱酷寒",
+        "ENname": "Abyssal Chill",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "远距规避",
+        "ENname": "Close Quarters",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "顽强执念",
+        "ENname": "Hardening Persistence",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "净化引导",
+        "ENname": "Cleansing Channel",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "巨龙坚韧",
+        "ENname": "Draconic Fortitude",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "威能共享",
+        "ENname": "Shared Empowerment",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "矮人训练",
+        "ENname": "Dwarven Battle Training",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "恢复绝望",
+        "ENname": "Replenishing Despair",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "闪耀天相",
+        "ENname": "Shining Aspects",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "强烈渴嗜",
+        "ENname": "Yearning Empowerment",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "高尚慈悲",
+        "ENname": "Elevated Compassion",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "迷雾之歌",
+        "ENname": "Song of the Mists",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "死亡舞蹈",
+        "ENname": "Dance of Death",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "战斗伤疤",
+        "ENname": "Battle Scarred",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "坚定闪避",
+        "ENname": "Unwavering Avoidance",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "凶恶侵略",
+        "ENname": "Ferocious Aggression",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "活力涌流",
+        "ENname": "Rapid Flow",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "升腾潮水",
+        "ENname": "Rising Tide",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "名声狼藉",
+        "ENname": "Notoriety",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "以牙还牙",
+        "ENname": "Eye for an Eye",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "意外打击",
+        "ENname": "Unsuspecting Strikes",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "脾气收敛",
+        "ENname": "Contained Temper",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "石刻造诣",
+        "ENname": "Versed in Stone",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "龙吟回响",
+        "ENname": "Draconic Echo",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "灵魂增益",
+        "ENname": "Spirit Boon",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "敏捷好斗",
+        "ENname": "Aggressive Agility",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "水晶使者",
+        "ENname": "Crystal Harbinger",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "唤魂之怒",
+        "ENname": "Invoker's Rage",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "强力复仇",
+        "ENname": "Vicious Reprisal",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "怒火迸射",
+        "ENname": "Incensed Response",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "闪避反击",
+        "ENname": "Retaliatory Evasion",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "耐力恢复",
+        "ENname": "Enduring Recovery",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "耀眼决心",
+        "ENname": "Glaring Resolve",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "刺客灵气",
+        "ENname": "Assassin's Presence",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "强化效力",
+        "ENname": "Reinforced Potency",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "恶魔藐视",
+        "ENname": "Demonic Defiance",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "恒定回春",
+        "ENname": "Steadfast Rejuvenation",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "迷雾涌能",
+        "ENname": "Charged Mists",
+        "profession": "唤魂",
+        "professionName": "Invocation"
+    },
+    {
+        "ZHname": "定点毁灭",
+        "ENname": "Targeted Destruction",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "折磨侍僧",
+        "ENname": "Acolyte of Torment",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "魔王炼狱",
+        "ENname": "Diabolic Inferno",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "唤醒折磨",
+        "ENname": "Invoking Torment",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "迅捷处决",
+        "ENname": "Swift Termination",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "涌动恶意",
+        "ENname": "Seething Malice",
+        "profession": "腐化",
+        "professionName": "Corruption"
+    },
+    {
+        "ZHname": "战斗狂热",
+        "ENname": "Thrill of Combat",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "强力执念",
+        "ENname": "Forceful Persistence",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "核心价值",
+        "ENname": "Core Value",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "防御暴露",
+        "ENname": "Expose Defenses",
+        "profession": "毁灭",
+        "professionName": "Devastation"
+    },
+    {
+        "ZHname": "精魂清算",
+        "ENname": "Spiritual Reckoning",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "位面保护",
+        "ENname": "Planar Protection",
+        "profession": "惩戒",
+        "professionName": "Retribution"
+    },
+    {
+        "ZHname": "长者舒缓",
+        "ENname": "Elder's Respite",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "静谧回春",
+        "ENname": "Serene Rejuvenation",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "慷慨丰腴",
+        "ENname": "Generous Abundance",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "医者馈赠",
+        "ENname": "Healer's Gift",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "坚韧气魄",
+        "ENname": "Resilient Spirit",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "和谐咒唤",
+        "ENname": "Invoking Harmony",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "谴责文字",
+        "ENname": "Words of Censure",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "无私奉献",
+        "ENname": "Selfless Amplification",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "生命协调",
+        "ENname": "Life Attunement",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "祥和平衡",
+        "ENname": "Tranquil Balance",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "生命祝福",
+        "ENname": "Vital Blessing",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "耀目真理",
+        "ENname": "Blinding Truths",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "不屈奉献",
+        "ENname": "Unyielding Devotion",
+        "profession": "救赎",
+        "professionName": "Salvation"
+    },
+    {
+        "ZHname": "长弓精通",
+        "ENname": "Longbow Proficiency",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "火炬精通",
+        "ENname": "Torch Proficiency",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "原始狂怒",
+        "ENname": "Primal Rage",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "弹药拆装",
+        "ENname": "Takedown Round",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "莲舞训练",
+        "ENname": "Lotus Training",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "治愈引爆",
+        "ENname": "Soothing Detonation",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "侵略狂热",
+        "ENname": "Zealot's Aggression",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "妙手耐力",
+        "ENname": "Endurance Thief",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "延迟反应",
+        "ENname": "Delayed Reactions",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "超验风暴",
+        "ENname": "Transcendent Tempest",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "吸血光环",
+        "ENname": "Vampiric Presence",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "隐匿倒钩",
+        "ENname": "Hidden Barbs",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "德行化身",
+        "ENname": "Virtuous Action",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "施加斥力",
+        "ENname": "Applied Force",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "群体失真",
+        "ENname": "Inspiring Distortion",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "铁血硬汉",
+        "ENname": "Iron Blooded",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "动力电池",
+        "ENname": "Kinetic Battery",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "时流不息",
+        "ENname": "Time Marches On",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "万物运动",
+        "ENname": "Object in Motion",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "致盲射击",
+        "ENname": "Go for the Eyes",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "生命传递",
+        "ENname": "Live Vicariously",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "破甲冰冻",
+        "ENname": "Bitter Chill",
+        "profession": "怨恨",
+        "professionName": "Spite"
+    },
+    {
+        "ZHname": "混沌执念",
+        "ENname": "Chaotic Persistence",
+        "profession": "混沌",
+        "professionName": "Chaos"
+    },
+    {
+        "ZHname": "幻象灵感",
+        "ENname": "Illusionary Inspiration",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "质量动能",
+        "ENname": "Mass Momentum",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "清澈体态",
+        "ENname": "Druidic Clarity",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "回忆留影",
+        "ENname": "Persistence of Memory",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "刻意净化",
+        "ENname": "Purity of Purpose",
+        "profession": "炼金",
+        "professionName": "Alchemy"
+    },
+    {
+        "ZHname": "机械部署",
+        "ENname": "Mechanized Deployment",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "天界生物",
+        "ENname": "Celestial Being",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "血契之约",
+        "ENname": "Blood Bond",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "冲击专家",
+        "ENname": "Impact Savant",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "化学弹药",
+        "ENname": "Chemical Rounds",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "恐惧寒栗",
+        "ENname": "Shivers of Dread",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "玻璃大炮",
+        "ENname": "Glass Cannon",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "蓄意扰乱",
+        "ENname": "Insidious Disruption",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "法杖大师",
+        "ENname": "Staff Master",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "动荡传导",
+        "ENname": "Unstable Conduit",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "弱化打击",
+        "ENname": "Weakening Strikes",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "严酷追猎",
+        "ENname": "Vicious Quarry",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "目盲幻碎",
+        "ENname": "Blinding Dissipation",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "时空幻映",
+        "ENname": "Chronophantasma",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "暴风咏叹",
+        "ENname": "Tempestuous Aria",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "脾气爆发",
+        "ENname": "Explosive Temper",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "浩劫专家",
+        "ENname": "Havoc Specialist",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "防御信条",
+        "ENname": "Defender's Dogma",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "穿刺之光",
+        "ENname": "Piercing Light",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "活力壁垒",
+        "ENname": "Invigorated Bulwark",
+        "profession": "荣耀",
+        "professionName": "Honor"
+    },
+    {
+        "ZHname": "兽群头领",
+        "ENname": "Pack Alpha",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "自动医护",
+        "ENname": "Automated Medical Response",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "和谐传导",
+        "ENname": "Harmonious Conduit",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "越战越勇",
+        "ENname": "No Quarter",
+        "profession": "致命",
+        "professionName": "Critical Strikes"
+    },
+    {
+        "ZHname": "帷幕骑士",
+        "ENname": "Shroud Knight",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "猎人工事",
+        "ENname": "Hunter's Fortification",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "盾牌精通",
+        "ENname": "Shield Proficiency",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "毁灭高翔",
+        "ENname": "Soaring Devastation",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "灵巧作战",
+        "ENname": "Light on your Feet",
+        "profession": "游击",
+        "professionName": "Skirmishing"
+    },
+    {
+        "ZHname": "幻觉回荡",
+        "ENname": "Illusionary Reversion",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "优质枪械",
+        "ENname": "High Caliber",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "治疗棱镜",
+        "ENname": "Healing Prism",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "分散治疗",
+        "ENname": "Medical Dispersion Field",
+        "profession": "发明",
+        "professionName": "Inventions"
+    },
+    {
+        "ZHname": "机械加速",
+        "ENname": "Gyroscopic Acceleration",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "致命冰冻",
+        "ENname": "Deathly Chill",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "幕化移除",
+        "ENname": "Shrouded Removal",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "粗略瞄准",
+        "ENname": "No Scope",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "狂热节杖",
+        "ENname": "Zealous Scepter",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "望远平川",
+        "ENname": "Pure of Sight",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "时间涌流",
+        "ENname": "Flow of Time",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "鲜血狂吼",
+        "ENname": "Bloody Roar",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "帷幕尽头",
+        "ENname": "Beyond the Veil",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "血腥阵列",
+        "ENname": "Sanguine Array",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "临终仪式",
+        "ENname": "Last Rites",
+        "profession": "鲜血",
+        "professionName": "Blood Magic"
+    },
+    {
+        "ZHname": "瘟疫增益",
+        "ENname": "Blighter's Boon",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "劫掠强韧",
+        "ENname": "Marauder's Resilience",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "原始回音",
+        "ENname": "Primal Echoes",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "能量充沛",
+        "ENname": "Excessive Energy",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "集中聚能",
+        "ENname": "Gathered Focus",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "堕落狂热",
+        "ENname": "Corrupter's Fervor",
+        "profession": "死亡",
+        "professionName": "Death Magic"
+    },
+    {
+        "ZHname": "脆弱躯体",
+        "ENname": "Fragility",
+        "profession": "支配",
+        "professionName": "Domination"
+    },
+    {
+        "ZHname": "时光流逝",
+        "ENname": "Lost Time",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "巨型壁垒",
+        "ENname": "Bulwark",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "冲击护盾",
+        "ENname": "Blast Shield",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "蛮兽监守",
+        "ENname": "Beastly Warden",
+        "profession": "兽王",
+        "professionName": "Beastmastery"
+    },
+    {
+        "ZHname": "暗中锁定",
+        "ENname": "Lock On",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "超然爆发",
+        "ENname": "Big Boomer",
+        "profession": "炸药",
+        "professionName": "Explosives"
+    },
+    {
+        "ZHname": "坚固传导",
+        "ENname": "Hardy Conduit",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "顽强斗士",
+        "ENname": "Brawler's Tenacity",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "障目强光",
+        "ENname": "Ineptitude",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "重锤精通",
+        "ENname": "Hammer Proficiency",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "狂风之歌",
+        "ENname": "Gale Song",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "伤害抑制",
+        "ENname": "Damage Dampener",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "巨兽猎杀",
+        "ENname": "Big Game Hunter",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "法杖精通",
+        "ENname": "Staff Proficiency",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "功能机械",
+        "ENname": "Function Gyro",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "闪避镜壁",
+        "ENname": "Evasive Mirror",
+        "profession": "决斗",
+        "professionName": "Dueling"
+    },
+    {
+        "ZHname": "精力暗涌",
+        "ENname": "Latent Stamina",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "重击之光",
+        "ENname": "Heavy Light",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "神行无阻",
+        "ENname": "Unhindered Combatant",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "法杖精通",
+        "ENname": "Staff Proficiency",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "灵魂吞噬",
+        "ENname": "Soul Eater",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "系统震荡",
+        "ENname": "System Shocker",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "死亡占卜",
+        "ENname": "Augury of Death",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "扰乱攻击",
+        "ENname": "Impacting Disruption",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "野蛮本能",
+        "ENname": "Savage Instinct",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "强化敏捷",
+        "ENname": "Improved Alacrity",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "优化激活",
+        "ENname": "Optimized Activation",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "幻影保护",
+        "ENname": "Protected Phantasms",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "应激护甲",
+        "ENname": "Adaptive Armor",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "知觉麻木",
+        "ENname": "Dulled Senses",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "精确分布",
+        "ENname": "Pinpoint Distribution",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "巨剑精通",
+        "ENname": "Greatsword Proficiency",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "元素棱堡",
+        "ENname": "Elemental Bastion",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "善始善终",
+        "ENname": "All's Well That Ends Well",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "防护结界",
+        "ENname": "Protective Ward",
+        "profession": "自然",
+        "professionName": "Nature Magic"
+    },
+    {
+        "ZHname": "自然修护",
+        "ENname": "Natural Mender",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "侵略冲击",
+        "ENname": "Burst of Aggression",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "体术权威",
+        "ENname": "Physical Supremacy",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "时不我待",
+        "ENname": "Time Catches Up",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "应激镜片",
+        "ENname": "Reactive Lenses",
+        "profession": "工具",
+        "professionName": "Tools"
+    },
+    {
+        "ZHname": "检查专家",
+        "ENname": "Expert Examination",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "沉重打击",
+        "ENname": "Body Blow",
+        "profession": "力量",
+        "professionName": "Strength"
+    },
+    {
+        "ZHname": "翠绿蚀刻",
+        "ENname": "Verdant Etching",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "生死逆转",
+        "ENname": "Dead or Alive",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "元素附魔",
+        "ENname": "Elemental Enchantment",
+        "profession": "秘法",
+        "professionName": "Arcane"
+    },
+    {
+        "ZHname": "精神防御",
+        "ENname": "Mental Defense",
+        "profession": "灵感",
+        "professionName": "Inspiration"
+    },
+    {
+        "ZHname": "热能视觉",
+        "ENname": "Thermal Vision",
+        "profession": "枪械",
+        "professionName": "Firearms"
+    },
+    {
+        "ZHname": "霜冻凯歌",
+        "ENname": "Chilling Victory",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "危机时刻",
+        "ENname": "Danger Time",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "鲜血感应",
+        "ENname": "Blood Reaction",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "传播瘟疫",
+        "ENname": "Plague Sending",
+        "profession": "诅咒",
+        "professionName": "Curses"
+    },
+    {
+        "ZHname": "步调一致",
+        "ENname": "Speed of Synergy",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "活力洪流",
+        "ENname": "Invigorating Torrents",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "高等协同",
+        "ENname": "Cultivated Synergy",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "复仇符印",
+        "ENname": "Symbolic Avenger",
+        "profession": "热诚",
+        "professionName": "Zeal"
+    },
+    {
+        "ZHname": "冷眼旁观",
+        "ENname": "Cold Shoulder",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "冰冻新星",
+        "ENname": "Chilling Nova",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "夺魂灭屠",
+        "ENname": "Reaper's Onslaught",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "机不可失",
+        "ENname": "Seize the Moment",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "逃生坚忍",
+        "ENname": "Escapist's Fortitude",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "元素奇点",
+        "ENname": "Singularity",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "无情追击",
+        "ENname": "Relentless Pursuit",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "抚伤之力",
+        "ENname": "Soothing Power",
+        "profession": "流水",
+        "professionName": "Water"
+    },
+    {
+        "ZHname": "时空分裂",
+        "ENname": "Time Splitter",
+        "profession": "时空术士",
+        "professionName": "Chronomancer"
+    },
+    {
+        "ZHname": "防御瓦解",
+        "ENname": "Decimate Defenses",
+        "profession": "夺魂者",
+        "professionName": "Reaper"
+    },
+    {
+        "ZHname": "精炼毒药",
+        "ENname": "Refined Toxins",
+        "profession": "生存",
+        "professionName": "Wilderness Survival"
+    },
+    {
+        "ZHname": "清澈奇点",
+        "ENname": "Lucid Singularity",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "破碎大师",
+        "ENname": "Master of Fragmentation",
+        "profession": "幻象",
+        "professionName": "Illusions"
+    },
+    {
+        "ZHname": "战号精通",
+        "ENname": "Warhorn Proficiency",
+        "profession": "暴风使",
+        "professionName": "Tempest"
+    },
+    {
+        "ZHname": "猎手决心",
+        "ENname": "Hunter's Determination",
+        "profession": "猎龙者",
+        "professionName": "Dragonhunter"
+    },
+    {
+        "ZHname": "火焰之王",
+        "ENname": "King of Fires",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "终焉炽火",
+        "ENname": "Last Blaze",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "炽热灵魂",
+        "ENname": "Heat the Soul",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "永恒战王",
+        "ENname": "Eternal Champion",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "致命狂暴",
+        "ENname": "Fatal Frenzy",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "弹跳闪避",
+        "ENname": "Bounding Dodger",
+        "profession": "独行侠",
+        "professionName": "Daredevil"
+    },
+    {
+        "ZHname": "怒震山河",
+        "ENname": "Smash Brawler",
+        "profession": "狂战士",
+        "professionName": "Berserker"
+    },
+    {
+        "ZHname": "盾牌精通",
+        "ENname": "Shield Proficiency",
+        "profession": "预告者",
+        "professionName": "Herald"
+    },
+    {
+        "ZHname": "稳定动能",
+        "ENname": "Kinetic Stabilizers",
+        "profession": "机械师",
+        "professionName": "Scrapper"
+    },
+    {
+        "ZHname": "天界幽影",
+        "ENname": "Celestial Shadow",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "远古种子",
+        "ENname": "Ancient Seeds",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "自然神行",
+        "ENname": "Natural Stride",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "大地恩泽",
+        "ENname": "Grace of the Land",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "萦绕之光",
+        "ENname": "Lingering Light",
+        "profession": "德鲁伊",
+        "professionName": "Druid"
+    },
+    {
+        "ZHname": "沙漠强化",
+        "ENname": "Desert Empowerment",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "武者栓缚",
+        "ENname": "Magebane Tether",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "迅速复仇",
+        "ENname": "Swift Revenge",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "敏捷学者",
+        "ENname": "Swift Scholar",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "沉言重词",
+        "ENname": "Weighty Terms",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "光能爆破",
+        "ENname": "Photonic Blasting Module",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "热能释阀",
+        "ENname": "Thermal Release Valve",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "酷虐灼热",
+        "ENname": "Sadistic Searing",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "游牧民的耐力",
+        "ENname": "Nomad's Endurance",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "无限视界",
+        "ENname": "Infinite Horizon",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "人生苦短",
+        "ENname": "Live Fast",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "不破之盟",
+        "ENname": "Unstoppable Union",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "斧系精通",
+        "ENname": "Axe Proficiency",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "崩塌信标",
+        "ENname": "Fell Beacon",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "无情之判",
+        "ENname": "Unrelenting Criticism",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "稳健急速",
+        "ENname": "Stalwart Speed",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "元素振兴",
+        "ENname": "Elemental Refreshment",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "报应",
+        "ENname": "Payback",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "鲜血狂怒",
+        "ENname": "Blood Fury",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "腐化喂养",
+        "ENname": "Feed from Corruption",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "元素复调",
+        "ENname": "Elemental Polyphony",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "复元绿洲",
+        "ENname": "Renewing Oasis",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "钢铁瞄具",
+        "ENname": "Iron Sight",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "速度本质",
+        "ENname": "Essence of Speed",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "密语档案",
+        "ENname": "Archivist of Whispers",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "斧系精通",
+        "ENname": "Axe Proficiency",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "匕首精通",
+        "ENname": "Dagger Proficiency",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "纯洁言词",
+        "ENname": "Purity of Word",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "穿梭滑步",
+        "ENname": "Woven Stride",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "水晶形态：和风",
+        "ENname": "Crystal Configuration: Zephyr",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "心脏穿透",
+        "ENname": "Heartpiercer",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "非快即死",
+        "ENname": "Be Quick or Be Killed",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "辩证澄清",
+        "ENname": "Vindication",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "日月同辉",
+        "ENname": "Sun and Moon Style",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "如沙之血",
+        "ENname": "Blood as Sand",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "迟缓反击",
+        "ENname": "Slow Counter",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "镜像利斧",
+        "ENname": "Mirrored Axes",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "短弓精通",
+        "ENname": "Short Bow Proficiency",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "永恒遗产",
+        "ENname": "Lasting Legacy",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "解放之誓",
+        "ENname": "Liberator's Vow",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "丰饶灰烬",
+        "ENname": "Nourishing Ashes",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "水晶形态：风暴",
+        "ENname": "Crystal Configuration: Storm",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "泰然处之",
+        "ENname": "Stoic Demeanor",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "太阳聚镜",
+        "ENname": "Solar Focusing Lens",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "纯净打击",
+        "ENname": "Pure Strike",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "人人为我",
+        "ENname": "All for One",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "编织者",
+        "ENname": "Weaver",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "沙漠谜题",
+        "ENname": "Riddle of Sand",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "七级邪恶",
+        "ENname": "Maleficent Seven",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "黄沙仆从",
+        "ENname": "Sand Savant",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "莫测思维",
+        "ENname": "Elusive Mind",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "密光增幅",
+        "ENname": "Light Density Amplifier",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "大师坚韧",
+        "ENname": "Master's Fortitude",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "传奇学识",
+        "ENname": "Legendary Lore",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "黄沙疾速",
+        "ENname": "Speed of Sand",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "沉默隐望",
+        "ENname": "Silent Scope",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "双层皮肤",
+        "ENname": "Second Skin",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "锻铁意志",
+        "ENname": "Wrought-Iron Will",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "黄沙贤者",
+        "ENname": "Sand Sage",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "激光利刃",
+        "ENname": "Laser's Edge",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "悲伤预告",
+        "ENname": "Herald of Sorrow",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "匕首精通",
+        "ENname": "Dagger Proficiency",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "单手剑精通",
+        "ENname": "Sword Proficiency",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "规避损失",
+        "ENname": "Loss Aversion",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "狂暴双体",
+        "ENname": "Twice as Vicious",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "群体领袖",
+        "ENname": "Leader of the Pack",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "步枪精通",
+        "ENname": "Rifle Proficiency",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "洞察袭击",
+        "ENname": "Attacker's Insight",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "愤怒元素",
+        "ENname": "Elements of Rage",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "英勇逆转",
+        "ENname": "Bold Reversal",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "血肉强化",
+        "ENname": "Fresh Reinforcement",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "热量疗法",
+        "ENname": "Heat Therapy",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "密室死斗",
+        "ENname": "One in the Chamber",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "强化储存单元",
+        "ENname": "Enhanced Capacity Storage Unit",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "活力打击",
+        "ENname": "Invigorating Strikes",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "无路可逃",
+        "ENname": "No Escape",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "自欺欺人",
+        "ENname": "Self-Deception",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "残暴冲力",
+        "ENname": "Brutal Momentum",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "压迫优势",
+        "ENname": "Oppressive Superiority",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "火炬精通",
+        "ENname": "Torch Proficiency",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "恶意企图",
+        "ENname": "Malicious Intent",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "致命火力",
+        "ENname": "Fire for Effect",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "黄沙斗篷",
+        "ENname": "Mantle of Sand",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "急速灌注",
+        "ENname": "Imbued Haste",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "单手剑精通",
+        "ENname": "Sword Proficiency",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "幻象斗篷",
+        "ENname": "Mirage Cloak",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "高尚联结",
+        "ENname": "Elevated Bond",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "水晶形态：日蚀",
+        "ENname": "Crystal Configuration: Eclipse",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "守护反击",
+        "ENname": "Guard Counter",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "无尽仇恨",
+        "ENname": "Endless Enmity",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "永恒联结",
+        "ENname": "Eternal Bond",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "暴怒之力",
+        "ENname": "Furious Strength",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "万华转换",
+        "ENname": "Prismatic Converter",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "光子投影",
+        "ENname": "Photon Projector",
+        "profession": "全息师",
+        "professionName": "Holosmith"
+    },
+    {
+        "ZHname": "博学之士",
+        "ENname": "Loremaster",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "提前布局",
+        "ENname": "Premeditation",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "狡诈掠食",
+        "ENname": "Predator's Cunning",
+        "profession": "魂兽师",
+        "professionName": "Soulbeast"
+    },
+    {
+        "ZHname": "驱法之力",
+        "ENname": "Dispelling Force",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "附魔崩塌",
+        "ENname": "Enchantment Collapse",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "恶魔学识",
+        "ENname": "Demonic Lore",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "元素追踪",
+        "ENname": "Elemental Pursuit",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "灰烬形体",
+        "ENname": "Ashen Demeanor",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "沙砾碾磨",
+        "ENname": "Abrasive Grit",
+        "profession": "灾厄师",
+        "professionName": "Scourge"
+    },
+    {
+        "ZHname": "复仇反击",
+        "ENname": "Revenge Counter",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "沙丘遮隐",
+        "ENname": "Dune Cloak",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "加固元素",
+        "ENname": "Bolstered Elements",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "亡眼凝视",
+        "ENname": "Deadeye's Gaze",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "复元凝视",
+        "ENname": "Renewing Gaze",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "附带伤害",
+        "ENname": "Collateral Damage",
+        "profession": "神枪手",
+        "professionName": "Deadeye"
+    },
+    {
+        "ZHname": "幻象披风",
+        "ENname": "Mirage Mantle",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "破法定罪",
+        "ENname": "Spellbreaker's Conviction",
+        "profession": "破法者",
+        "professionName": "Spellbreaker"
+    },
+    {
+        "ZHname": "超级元素",
+        "ENname": "Superior Elements",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "沙漠失真",
+        "ENname": "Desert Distortion",
+        "profession": "幻象术士",
+        "professionName": "Mirage"
+    },
+    {
+        "ZHname": "急速射击",
+        "ENname": "Quickfire",
+        "profession": "燃火者",
+        "professionName": "Firebrand"
+    },
+    {
+        "ZHname": "编织者的威勇",
+        "ENname": "Weaver's Prowess",
+        "profession": "编织者",
+        "professionName": "Weaver"
+    },
+    {
+        "ZHname": "伏击指挥",
+        "ENname": "Ambush Commander",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    },
+    {
+        "ZHname": "公正反叛",
+        "ENname": "Righteous Rebel",
+        "profession": "龙魂使",
+        "professionName": "Renegade"
+    }
+]
