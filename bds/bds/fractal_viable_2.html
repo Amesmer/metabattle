@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script>
+    <!-- <script src="./js/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="./css/public.css">
+    <title>Document</title>
+</head>
+<script>
+    document.GW2A_EMBED_OPTIONS = {
+        lang: 'zh',
+        persistToLocalStorage: true,
+        forceCacheClearOnNextRun: '1',
+    };
+</script>
+
+<body>
+
+</body>
+
+<script>
+    const copybtn = document.getElementById('copy-button');
+    copybtn.addEventListener("click", function () {
+        toClipboard();
+    })
+    toClipboard = () => {
+        const copySpan = document.getElementById('build-template-1');
+        const range = document.createRange();
+
+        range.selectNodeContents(copySpan);
+        const selection = window.getSelection();
+        selection.removeAllRanges();//（注意）
+        selection.addRange(range);
+
+        const copyContent = document.execCommand('Copy', false, null);
+        selection.removeRange(range);
+        console.log(copyContent);
+
+        if (copyContent) {
+
+            //   console.log('复制成功', copyContent);
+
+
+        }
+    }
+
+</script>
+
+
+
+</html>

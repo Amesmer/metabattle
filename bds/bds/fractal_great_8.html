@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script>
+    <!-- <script src="./js/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="./css/public.css">
+    <title>Document</title>
+</head>
+<script>
+    document.GW2A_EMBED_OPTIONS = {
+        lang: 'zh',
+        persistToLocalStorage: true,
+        forceCacheClearOnNextRun: '1',
+    };
+</script>
+
+
+<body>
+    <h2><span class="mw-headline" id="Overview">Overview</span></h2>
+    <dl><dd>A condition DPS and utility build for Scourge. While not the highest DPS build, this build provides decent sustained DPS and ridiculously strong AoE cleave with <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10606" data-armory-inline-text="wiki" data-armory-size="24"></span>. It also provides strong incidental support for its party by generating <a href="http://wiki.guildwars2.com/wiki/Might" title="Might"><img alt="Might" src="https://metabattle.com/wiki/images/thumb/7/7c/Might.png/25px-Might.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/7/7c/Might.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Might" class="extiw" title="gw2:Might">Might</a>, cleansing conditions, and overhealing allies with barriers.</dd></dl>
+    <dl><dd>While Scourge is not normally considered a strong DPS class, its defensive support makes it great for carrying weaker groups. It can fill an off-support role in the line of <a href="/wiki/Build:Druid_-_Boon_Support_Condi_DPS" title="Build:Druid - Boon Support Condi DPS">Druid - Boon Support Condi DPS</a> as it can both heal and do good damage. Note that barrier is unaffected by the healing reduction of <a href="http://wiki.guildwars2.com/wiki/Agony" title="Agony"><img alt="Agony" src="https://metabattle.com/wiki/images/thumb/b/be/Agony.png/25px-Agony.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/b/be/Agony.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Agony" class="extiw" title="gw2:Agony">Agony</a>, which means in some situations a Scourge will heal for more than a dedicated healer.</dd></dl>
+    <dl><dd>This guide is focused on fractals. For the raid version see <a href="/wiki/Build:Scourge_-_Utility_Condi_DPS" title="Build:Scourge - Utility Condi DPS">Scourge - Utility Condi DPS</a>.</dd></dl>
+    <h2><span class="mw-headline" id="Skill_Bar">Skill Bar</span></h2>
+    <div class="skillbar-container"><div class="mskillbar-mechanics-header scourge"><div class="mechanic-skills"><div data-armory-embed="skills" data-armory-ids="44946" data-armory-size="42"></div><div class="shades" title="Sand Shades"><div class="shade"></div><div class="shade"></div><div class="shade"></div></div><div data-armory-embed="skills" data-armory-ids="40813,43448,44428,44663" data-armory-size="42"></div></div><div class="shroud-mechanics"><div class="sand-life-force-bar" title="Life force bar"></div></div>
+    </div>
+    <div class="mskillbar"><span class="mskillbar-labels"><span>Scepter/Torch</span><span>Healing</span><span>Utility</span><span>Elite</span></span><div class="mskillbar-main"><div class="mskillbar-weapon"><div class="standard-weapon-row"><div data-armory-embed="skills" data-armory-ids="10698,10532,10709"></div><div data-armory-embed="skills" data-armory-ids="45846,44296"></div></div></div><div class="healing-skill" data-armory-embed="skills" data-armory-ids="43148"></div><div data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="10544"></div><div data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="10606"></div><div data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="40274"></div><div class="elite-skill" data-armory-embed="skills" data-armory-blank-text="Optional" data-armory-ids="10549"></div></div></div><div class="mskillbar"><span class="mskillbar-labels"><span>X/Warhorn</span></span><div class="mskillbar-main"><div class="mskillbar-weapon"><div class="standard-weapon-row"><div data-armory-embed="skills" data-armory-ids="-1"></div><div data-armory-embed="skills" data-armory-ids="-1"></div><div data-armory-embed="skills" data-armory-ids="-1"></div><div data-armory-embed="skills" data-armory-ids="10556,10557"></div></div></div></div></div></div>
+    <h3><span class="mw-headline" id="Skill_Variants">Skill Variants</span></h3>
+    <p><b>Utility Skills</b>
+    </p>
+    <ul><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10589" data-armory-inline-text="wiki" data-armory-size="24"></span> if you don't need <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10606" data-armory-inline-text="wiki" data-armory-size="24"></span>.</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10689" data-armory-inline-text="wiki" data-armory-size="24"></span> if projectile absorb is needed.</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="42917" data-armory-inline-text="wiki" data-armory-size="24"></span> - 900 range portal, useful for mobility or skips.</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10543" data-armory-inline-text="wiki" data-armory-size="24"></span> - 1200 range teleport. Can also bodyblock certain projectiles (e.g. Old Tom's poison whirl).</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10620" data-armory-inline-text="wiki" data-armory-size="24"></span> - AoE pull for easier cleaving.</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10672" data-armory-inline-text="wiki" data-armory-size="24"></span> - AoE blind, useful if party members are downing to trash.</li></ul>
+    <p><b>Elite Skills</b>
+    </p>
+    <ul><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10646" data-armory-inline-text="wiki" data-armory-size="24"></span> for more CC.</li></ul>
+    <h2><span class="mw-headline" id="Specializations">Specializations</span></h2>
+    <div data-armory-embed="specializations" data-armory-ids="39" data-armory-39-traits="2013,816,801">
+    </div>
+    <p><br />
+    </p>
+    <div data-armory-embed="specializations" data-armory-ids="50" data-armory-50-traits="875,861,905">
+    </div>
+    <p><br />
+    </p>
+    <div data-armory-embed="specializations" data-armory-ids="60" data-armory-60-traits="2074,2067,2164">
+    </div>
+    <p><b>Variants</b>
+    </p>
+    <ul><li>Use <span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="1696" data-armory-inline-text="wiki" data-armory-size="24"></span></span> for strong self heal at a ~15% DPS loss.</li></ul>
+    <h3><span class="mw-headline" id="Blood_Magic_Variant">Blood Magic Variant</span></h3>
+    <dl><dd>Taking Blood Magic instead of Soul Reaping is a loss of ~1000 DPS, but provides more support through minor healing and <span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="778" data-armory-inline-text="wiki" data-armory-size="24"></span></span>. Usually not worth running, but can be helpful in training runs or struggling groups.</dd></dl>
+    <p><br />
+    </p>
+    <div data-armory-embed="specializations" data-armory-ids="19" data-armory-19-traits="1876,1844,778">
+    </div>
+    <p><b>Variants</b>
+    </p>
+    <ul><li>Use <span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="788" data-armory-inline-text="wiki" data-armory-size="24"></span></span> for extra run speed when on Scepter/Dagger.</li></ul>
+    <h2><span class="mw-headline" id="Equipment">Equipment</span></h2>
+    <div class="pve-equipment-wrapper"><div class="pve-equipment"><div class="pve-box-left"><div class="pve-armor"><div class="pve-armor-piece ascended head"><div class="item-img" data-armory-embed="items" data-armory-ids="75770" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended shoulders"><div class="item-img" data-armory-embed="items" data-armory-ids="73225" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended chest"><div class="item-img" data-armory-embed="items" data-armory-ids="71436" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended hands"><div class="item-img" data-armory-embed="items" data-armory-ids="73852" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended legs"><div class="item-img" data-armory-embed="items" data-armory-ids="75378" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-armor-piece ascended feet"><div class="item-img" data-armory-embed="items" data-armory-ids="74264" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div><div class="pve-trinkets"><div class="pve-trinket ascended back"><div class="item-img" data-armory-embed="items" data-armory-ids="79830" data-armory-79830-stat="1130" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended accessory1"><div class="item-img" data-armory-embed="items" data-armory-ids="79444" data-armory-79444-stat="1130" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended accessory2"><div class="item-img" data-armory-embed="items" data-armory-ids="79745" data-armory-79745-stat="1130" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended amulet"><div class="item-img" data-armory-embed="items" data-armory-ids="80241" data-armory-80241-stat="1130" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended ring1"><div class="item-img" data-armory-embed="items" data-armory-ids="79124" data-armory-79124-stat="1130" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-trinket ascended ring2"><div class="item-img" data-armory-embed="items" data-armory-ids="79712" data-armory-79712-stat="1130" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div></div><div class="pve-box-right"><div class="pve-weapons"><div class="pve-weaponsets"><div class="pve-weaponset first"><div class="weapons"><div class="pve-weapon ascended s1w1"><div class="item-img" data-armory-embed="items" data-armory-ids="76688" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div><div class="pve-weapon ascended s1w2"><div class="item-img" data-armory-embed="items" data-armory-ids="76271" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div><div class="weapon-sigils first"><div class="sigil exotic"><div class="sigil-img" data-armory-embed="items" data-armory-ids="44944" data-armory-size="38"></div></div><div class="sigil exotic"><div class="sigil-img" data-armory-embed="items" data-armory-ids="24560" data-armory-size="38"></div></div></div></div><div class="weapon-swap-icon"><img alt="PvE weapon swap.png" src="https://metabattle.com/wiki/images/c/c0/PvE_weapon_swap.png" width="24" height="24" data-file-width="24" data-file-height="24" /></div><div class="pve-weaponset second single-weapon"><div class="weapons"><div class="pve-weapon ascended s2w1"><div class="item-img" data-armory-embed="items" data-armory-ids="75325" data-armory-size="44"></div><div class="stat-icon" title="Viper"><img alt="Viper stat icon.png" src="https://metabattle.com/wiki/images/1/13/Viper_stat_icon.png" width="25" height="25" data-file-width="25" data-file-height="25" /></div></div></div><div class="weapon-sigils second"><div class="sigil exotic"><div class="sigil-img" data-armory-embed="items" data-armory-ids="24560" data-armory-size="38"></div></div></div></div></div></div><div class="armor-upgrades"><div class="pve-runes"><div class="pve-armor-upgrade exotic rune"><div class="rune-img" data-armory-embed="items" data-armory-ids="24688" data-armory-size="44"></div><span class="quantity">6x</span><div class="armor-upgrade-name">Superior Rune of the Lich</div></div></div><div class="pve-infusions"><div class="pve-armor-upgrade fine infusion"><div class="infusion-img" data-armory-embed="items" data-armory-ids="85971" data-armory-size="44"></div><span class="quantity">1x</span><div class="armor-upgrade-name">Spiteful +5 Agony Infusion</div></div><div class="pve-armor-upgrade fine infusion"><div class="infusion-img" data-armory-embed="items" data-armory-ids="39619" data-armory-size="44"></div><span class="quantity">17x</span><div class="armor-upgrade-name">Malign +5 Agony Infusion</div></div></div></div></div></div></div>
+    <h2><span class="mw-headline" id="Consumables">Consumables</span></h2>
+    <p><b>Food:</b>
+    </p>
+    <ul><li><a href="http://wiki.guildwars2.com/wiki/Plate_of_Beef_Rendang" title="Plate of Beef Rendang"><img alt="Plate of Beef Rendang" src="https://metabattle.com/wiki/images/thumb/d/d0/Plate_of_Beef_Rendang.png/25px-Plate_of_Beef_Rendang.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/thumb/d/d0/Plate_of_Beef_Rendang.png/38px-Plate_of_Beef_Rendang.png 1.5x, https://metabattle.com/wiki/images/thumb/d/d0/Plate_of_Beef_Rendang.png/50px-Plate_of_Beef_Rendang.png 2x" data-file-width="64" data-file-height="64" /></a> <a href="http://wiki.guildwars2.com/wiki/Plate_of_Beef_Rendang" class="extiw" title="gw2:Plate of Beef Rendang">Plate of Beef Rendang</a></li></ul>
+    <p><b>Utility:</b>
+    </p>
+    <ul><li><div class="mbhi"> <div class="mbhoveron"><a href="http://wiki.guildwars2.com/wiki/Tuning_Icicle" title="Tuning Icicle"><img alt="Tuning Icicle" src="https://metabattle.com/wiki/images/thumb/7/75/Tuning_Icicle.png/22px-Tuning_Icicle.png" width="22" height="22" srcset="https://metabattle.com/wiki/images/thumb/7/75/Tuning_Icicle.png/33px-Tuning_Icicle.png 1.5x, https://metabattle.com/wiki/images/thumb/7/75/Tuning_Icicle.png/44px-Tuning_Icicle.png 2x" data-file-width="64" data-file-height="64" /></a> <span class="label">Tuning Icicle</span></div> <div class="mbinfo"> <div class="mbinfo-main"> <div class="title"> <div class="title-details"> </div> <div class="title-name"><img alt="Tuning Icicle.png" src="https://metabattle.com/wiki/images/thumb/7/75/Tuning_Icicle.png/32px-Tuning_Icicle.png" width="32" height="32" srcset="https://metabattle.com/wiki/images/thumb/7/75/Tuning_Icicle.png/48px-Tuning_Icicle.png 1.5x, https://metabattle.com/wiki/images/7/75/Tuning_Icicle.png 2x" data-file-width="64" data-file-height="64" /><span class="magic">Tuning Icicle</span></div> <div class="clear"></div> </div> <div class="clear"></div> <div class="desc-det food"> <div class="len">Nourishment (30 m):</div> <div><a href="/wiki/File:Potion.png" class="image"><img alt="Potion.png" src="https://metabattle.com/wiki/images/7/7a/Potion.png" width="32" height="32" data-file-width="32" data-file-height="32" /></a><span><span>Gain Condition Damage equal to 3% of your Precision</span><span>Gain Condition Damage equal to 8% of your Expertise</span><span>+10% Experience from Kills</span></span></div> <div class="consumable-tag">Consumable</div> </div> </div> <div class="mbinfo-ext"> </div> </div></div> or <a href="http://wiki.guildwars2.com/wiki/Potent_Master_Tuning_Crystal" title="Potent Master Tuning Crystal"><img alt="Potent Master Tuning Crystal" src="https://metabattle.com/wiki/images/thumb/5/59/Potent_Master_Tuning_Crystal.png/25px-Potent_Master_Tuning_Crystal.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/thumb/5/59/Potent_Master_Tuning_Crystal.png/38px-Potent_Master_Tuning_Crystal.png 1.5x, https://metabattle.com/wiki/images/thumb/5/59/Potent_Master_Tuning_Crystal.png/50px-Potent_Master_Tuning_Crystal.png 2x" data-file-width="64" data-file-height="64" /></a> <a href="http://wiki.guildwars2.com/wiki/Potent_Master_Tuning_Crystal" class="extiw" title="gw2:Potent Master Tuning Crystal"> Potent Master Tuning Crystal</a></li></ul>
+    <h2><span class="mw-headline" id="Usage">Usage</span></h2>
+    <h3><span class="mw-headline" id="DPS_Priority">DPS Priority</span></h3>
+    <ol><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="44946" data-armory-inline-text="wiki" data-armory-size="24"></span> if you have less than 2 shades.
+    <ol><li>Cast <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="40274" data-armory-inline-text="wiki" data-armory-size="24"></span> or <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="43148" data-armory-inline-text="wiki" data-armory-size="24"></span> before every shade to proc <span style="display:inline-block;"><span data-armory-embed="traits" data-armory-ids="2067" data-armory-inline-text="wiki" data-armory-size="24"></span></span>.</li></ol></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="44663" data-armory-inline-text="wiki" data-armory-size="24"></span> <span class="change-to">⇒</span> <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10544" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10709" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="45846" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10532" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="44296" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li>Scepter autoattack chain</li></ol>
+    <h3><span class="mw-headline" id="General_Tips">General Tips</span></h3>
+    <ul><li>If using <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10606" data-armory-inline-text="wiki" data-armory-size="24"></span>, use it whenever there are enemies near the main target.</li>
+    <li>Feel free to use <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="40813" data-armory-inline-text="wiki" data-armory-size="24"></span>, <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="43448" data-armory-inline-text="wiki" data-armory-size="24"></span>, or <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="44428" data-armory-inline-text="wiki" data-armory-size="24"></span> if life force is over capping, or to support your teammates with cleanses, barriers, and CC.</li></ul>
+    <h3><span class="mw-headline" id="Breakbar">Breakbar</span></h3>
+    <ul><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="44296" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li>Your best option without losing DPS are soft CCs such as cripple, blindness, and fear from <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="44428" data-armory-inline-text="wiki" data-armory-size="24"></span>.</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10646" data-armory-inline-text="wiki" data-armory-size="24"></span> is one of the strongest crowd control skills the necromancer has, but you give up <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10549" data-armory-inline-text="wiki" data-armory-size="24"></span> by taking it.</li>
+    <li>In emergencies, you can swap to warhorn for <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10556" data-armory-inline-text="wiki" data-armory-size="24"></span>.</li></ul>
+    <h2><span class="mw-headline" id="Encounter-specific_Tips">Encounter-specific Tips</span></h2>
+    <h3><span class="mw-headline" id="Fractals_of_the_Mists">Fractals of the Mists</span></h3>
+    <div class="accordNext"><b>Aquatic Ruins</b>
+    </div>
+    <div>
+    <ul><li>Reaper is better than Scourge underwater. Consider looking up a reaper build.</li>
+    <li>Your rotation consists of
+    <ul><li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10629" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li>auto attack</li>
+    <li>weapon swap</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10616" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30792" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li>auto attack until <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30557" data-armory-inline-text="wiki" data-armory-size="24"></span> is ready</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30557" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30504" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="30961" data-armory-inline-text="wiki" data-armory-size="24"></span></li>
+    <li>weapon swap</li>
+    <li>repeat</li></ul></li></ul>
+    </div>
+    <div class="accordNext"><b>Chaos</b>
+    </div>
+    <div>
+    <ul><li>The platforms in the final fight inflict <a href="http://wiki.guildwars2.com/wiki/Confusion" title="Confusion"><img alt="Confusion" src="https://metabattle.com/wiki/images/thumb/e/e6/Confusion.png/25px-Confusion.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/e/e6/Confusion.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Confusion" class="extiw" title="gw2:Confusion">Confusion</a>, you can convert this every few seconds to <a href="http://wiki.guildwars2.com/wiki/Quickness" title="Quickness"><img alt="Quickness" src="https://metabattle.com/wiki/images/thumb/b/b4/Quickness.png/25px-Quickness.png" width="25" height="25" srcset="https://metabattle.com/wiki/images/b/b4/Quickness.png 1.5x" data-file-width="32" data-file-height="32" /></a> <a href="http://wiki.guildwars2.com/wiki/Quickness" class="extiw" title="gw2:Quickness">Quickness</a>.</li></ul>
+    </div>
+    <div class="accordNext"><b>Snowblind</b>
+    </div>
+    <div>
+    <ul><li>Take <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10689" data-armory-inline-text="wiki" data-armory-size="24"></span> and place it on top of the attackable elemental at 75%, 50% and 25% to prevent it from shooting at the fires.</li></ul>
+    </div>
+    <div class="accordNext"><b>Shattered Observatory</b>
+    </div>
+    <div>
+    <ul><li>Use <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="42917" data-armory-inline-text="wiki" data-armory-size="24"></span> to save yourself or hurry into the protective dome.</li>
+    <li>Use <span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10689" data-armory-inline-text="wiki" data-armory-size="24"></span> to destroy the targeting flying orbs from the boss.</li>
+    <li><span style="display: inline-block;" data-armory-embed="skills" data-armory-ids="10606" data-armory-inline-text="wiki" data-armory-size="24"></span> can be useful to kill adds or occasionally the anomaly on CM.</li></ul>
+    </div>
+    
+    
+    </div>
+    
+    </div>
+</body>
+
+<script>
+    const copybtn = document.getElementById('copy-button');
+    copybtn.addEventListener("click", function () {
+        toClipboard();
+    })
+    toClipboard = () => {
+        const copySpan = document.getElementById('build-template-1');
+        const range = document.createRange();
+
+        range.selectNodeContents(copySpan);
+        const selection = window.getSelection();
+        selection.removeAllRanges();//（注意）
+        selection.addRange(range);
+
+        const copyContent = document.execCommand('Copy', false, null);
+        selection.removeRange(range);
+        console.log(copyContent);
+
+        if (copyContent) {
+
+            //   console.log('复制成功', copyContent);
+
+
+        }
+    }
+
+</script>
+
+
+
+</html>
+
+
+
+
+
