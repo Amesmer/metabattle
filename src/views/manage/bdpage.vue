@@ -194,22 +194,24 @@ export default {
     if (parms.type == 'pvp' && parms.scope == 'meta') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'pvp_meta_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'pvp_meta_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'pvp_meta_3.html'
           break
-        case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+               case '3':
+          this.bdpage = 'pvp_meta_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'pvp_meta_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'pvp_meta_6.html'
+          break
+ 
       }
     } //此处开始 ike
     if (parms.type == 'pvp' && parms.scope == 'great') {
