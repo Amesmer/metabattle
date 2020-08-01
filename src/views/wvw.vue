@@ -1084,7 +1084,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-deadeye",
-          bdname: "Malicious Oneshot Roamer",
+          bdname: "一枪流",
           skill_1: "32px-Hide_in_Shadows",
           skill_2: "32px-Infiltrator's_Signet",
           skill_3: "32px-Assassin's_Signet",
@@ -1102,7 +1102,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-dragonhunter",
-          bdname: "Meditrapper Roamer",
+          bdname: "冥想陷阱猎龙",
           skill_1: "32px-Purification",
           skill_2: "32px-Smite_Condition",
           skill_3: "32px-Test_of_Faith",
@@ -1120,7 +1120,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-druid",
-          bdname: "Stealth Trapper",
+          bdname: "陷阱师隐身德鲁伊",
           skill_1: "32px-Healing_Spring",
           skill_2: "32px-Skill",
           skill_3: "32px-Flame_Trap",
@@ -1138,7 +1138,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-elementalist",
-          bdname: "S/F Fresh air roamer",
+          bdname: "节聚清新空气元素",
           skill_1: "32px-Glyph_of_Elemental_Harmony",
           skill_2: "32px-Arcane_Shield",
           skill_3: "32px-Lightning_Flash",
@@ -1156,7 +1156,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-mirage",
-          bdname: "Chaotic Condition Roamer",
+          bdname: "混沌症状幻想术士",
           skill_1: "32px-False_Oasis",
           skill_2: "32px-Illusionary_Ambush",
           skill_3: "32px-Blink",
@@ -1174,7 +1174,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-necromancer",
-          bdname: "Core Condi Roamer",
+          bdname: "老版症状死灵",
           skill_1: "32px-Consume_Conditions",
           skill_2: "32px-Spectral_Walk",
           skill_3: "32px-Corrupt_Boon",
@@ -1192,7 +1192,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-necromancer",
-          bdname: "Core Signet Roamer",
+          bdname: "老版文章死灵",
           skill_1: "32px-Signet_of_Vampirism",
           skill_2: "32px-Spectral_Armor",
           skill_3: "32px-Spectral_Walk",
@@ -1210,7 +1210,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-reaper",
-          bdname: "Greatsword Roamer",
+          bdname: "大剑夺魂",
           skill_1: "32px-Consume_Conditions",
           skill_2: "32px-Spectral_Armor",
           skill_3: "32px-Spectral_Walk",
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-weaver",
-          bdname: "Fresh Air Roamer",
+          bdname: "清新空气编织",
           skill_1: "32px-Glyph_of_Elemental_Harmony",
           skill_2: "32px-Twist_of_Fate",
           skill_3: "32px-Lightning_Flash",
@@ -1246,7 +1246,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-weaver",
-          bdname: "Lightning Rod Roamer",
+          bdname: "导雷神针编织",
           skill_1: "32px-Signet_of_Restoration",
           skill_2: "32px-Twist_of_Fate",
           skill_3: "32px-Lightning_Flash",
@@ -1264,7 +1264,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-weaver",
-          bdname: "Starfire Roamer",
+          bdname: "星火编织",
           skill_1: "32px-Signet_of_Restoration",
           skill_2: "32px-Twist_of_Fate",
           skill_3: "32px-Glyph_of_Elemental_Power",
@@ -1284,7 +1284,7 @@ export default {
       smalltableData_test: [
         {
           professionicon: "Dark-icon-daredevil",
-          bdname: "P/D Condi Roamer",
+          bdname: "枪匕症状独行侠",
           skill_1: "32px-Hide_in_Shadows",
           skill_2: "32px-Blinding_Powder",
           skill_3: "32px-Spider_Venom",
@@ -1302,7 +1302,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-daredevil",
-          bdname: "Permadodge Condi Roamer",
+          bdname: "无限闪避症状独行侠",
           skill_1: "32px-Signet_of_Malice",
           skill_2: "32px-Roll_for_Initiative",
           skill_3: "32px-Shadowstep",
@@ -1320,7 +1320,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-deadeye",
-          bdname: "Poisonous Rifle Roamer",
+          bdname: "毒药步枪贼",
           skill_1: "32px-Hide_in_Shadows",
           skill_2: "32px-Blinding_Powder",
           skill_3: "32px-Shadowstep",
@@ -1338,7 +1338,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-druid",
-          bdname: "Longbow Roamer",
+          bdname: "长弓德鲁伊",
           skill_1: "32px-_We_Heal_As_One",
           skill_2: "32px-Signet_of_Stone",
           skill_3: "32px-Skill",
@@ -1356,7 +1356,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-mesmer",
-          bdname: "Core Shatter Roamer",
+          bdname: "老版粉碎幻",
           skill_1: "32px-Mirror",
           skill_2: "32px-Mantra_of_Pain",
           skill_3: "32px-Blink",
@@ -1374,7 +1374,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-ranger",
-          bdname: "Core Longbow Roamer",
+          bdname: "老版长弓游侠",
           skill_1: "32px-_We_Heal_As_One",
           skill_2: "32px-Skill",
           skill_3: "32px-Quickening_Zephyr",
@@ -1392,7 +1392,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-thief",
-          bdname: "Sentry Trapper Roamer",
+          bdname: "暗影陷阱贼",
           skill_1: "32px-Withdraw",
           skill_2: "32px-Pitfall",
           skill_3: "32px-Thousand_Needles",
@@ -1410,7 +1410,7 @@ export default {
         },
         {
           professionicon: "Dark-icon-warrior",
-          bdname: "Core Tactics Roamer",
+          bdname: "老战术线战士",
           skill_1: "32px-Mending",
           skill_2: "32px-_Shake_It_Off_",
           skill_3: "32px-Bull's_Charge",

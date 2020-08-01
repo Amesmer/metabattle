@@ -341,7 +341,7 @@ export default {
         }, //工程
         {
           professionicon: 'Dark-icon-holosmith',
-          bdname: 'Explosive Sword',
+          bdname: '炸药线剑盾工程',
           skill_1: '32px-Elixir_H',
           skill_1_name: '',
           skill_2: '32px-Elixir_S',
@@ -367,7 +367,7 @@ export default {
         }, //死灵
         {
           professionicon: 'Dark-icon-necromancer',
-          bdname: 'Vanilla Condi Necro',
+          bdname: '老症状死灵',
           skill_1: '32px-Consume_Conditions',
           skill_1_name: '',
           skill_2: '32px-Skill',
@@ -398,7 +398,7 @@ export default {
          //死灵
         {
           professionicon: 'Dark-icon-reaper',
-          bdname: 'Spectral Onslaught',
+          bdname: '鬼灵灭屠夺魂',
           skill_1: '32px-Consume_Conditions',
           skill_1_name: '',
           skill_2: '32px-Summon_Flesh_Wurm',
@@ -429,7 +429,7 @@ export default {
         //元素
         {
           professionicon: 'Dark-icon-tempest',
-          bdname: 'D/F Auramancer',
+          bdname: '匕聚光环暴风使',
           skill_1: '32px-_Wash_the_Pain_Away_',
           skill_1_name: '',
           skill_2: '32px-Mist_Form',
@@ -455,7 +455,7 @@ export default {
         }, //盗贼
         {
           professionicon: 'Dark-icon-thief',
-          bdname: 'Core P/D Condition',
+          bdname: '枪匕症状贼',
           skill_1: '32px-Hide_in_Shadows',
           skill_1_name: '',
           skill_2: '32px-Skill',
@@ -488,7 +488,7 @@ export default {
         // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
-          bdname: 'Dagger/Pistol',
+          bdname: '匕枪独行侠',
           skill_1: '32px-Hide_in_Shadows',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Signet_of_Agility',
@@ -518,7 +518,7 @@ export default {
         }, //燃火
         {
           professionicon: 'Dark-icon-firebrand',
-          bdname: 'Sagebrand',
+          bdname: '圣者项链燃火',
           skill_1: '32px-Mantra_of_Solace',
           skill_1_name: '',
           skill_2: '32px-Purging_Flames',
@@ -549,7 +549,7 @@ export default {
         //燃火
         {
           professionicon: 'Dark-icon-firebrand',
-          bdname: 'Symbolbrand',
+          bdname: '符印燃火',
           skill_1: '32px-Mantra_of_Solace',
           skill_1_name: '',
           skill_2: '32px-_Save_Yourselves',
@@ -579,7 +579,7 @@ export default {
         }, //魂武
         {
           professionicon: 'Dark-icon-herald',
-          bdname: 'Power Shiro',
+          bdname: '毁灭直伤魂武',
           skill_1: '32px-Legendary_Assassin_Stance',
           skill_1_name: '',
           skill_2: '32px-Legendary_Dragon_Stance',
@@ -604,7 +604,7 @@ export default {
         }, //魂武
         {
           professionicon: 'Dark-icon-herald',
-          bdname: 'Retribution Shiro',
+          bdname: '惩戒直伤魂武',
           skill_1: '32px-Legendary_Assassin_Stance',
           skill_1_name: '',
           skill_2: '32px-Legendary_Dragon_Stance',
@@ -630,7 +630,7 @@ export default {
         //游侠
         {
           professionicon: 'Dark-icon-ranger',
-          bdname: 'Power Survival',
+          bdname: '生存直伤游侠',
           skill_1: '32px-_We_Heal_As_One',
           skill_1_name: '',
           skill_2: '32px-_Protect_Me',
@@ -694,7 +694,7 @@ export default {
         // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
-          bdname: 'Marauder S/P',
+          bdname: '剑枪独行',
           skill_1: '32px-Withdraw',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Roll_for_Initiative',
@@ -725,7 +725,7 @@ export default {
         // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
-          bdname: 'Power S/D',
+          bdname: '剑匕独行',
           skill_1: '32px-Withdraw',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Roll_for_Initiative',
@@ -756,7 +756,7 @@ export default {
         // 盗贼
         {
           professionicon: 'Dark-icon-deadeye',
-          bdname: 'Marauder Rifle',
+          bdname: '劫掠者步枪贼',
           skill_1: '32px-Withdraw',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Mercy',
@@ -786,7 +786,7 @@ export default {
         }, //工程
         {
           professionicon: 'Dark-icon-engineer',
-          bdname: 'Core Grenadier',
+          bdname: '老投弹工程',
           skill_1: '32px-Healing_Turret',
           skill_1_name: '',
           skill_2: '32px-Elixir_S',
@@ -812,7 +812,7 @@ export default {
         // 守护
         {
           professionicon: 'Dark-icon-guardian',
-          bdname: 'Burst Burning',
+          bdname: '爆发燃烧守护',
           skill_1: '32px-Litany_of_Wrath',
           skill_1_name: '',
           skill_2: '32px-Contemplation_of_Purity',
@@ -843,7 +843,7 @@ export default {
         // 守护
         {
           professionicon: 'Dark-icon-guardian',
-          bdname: 'Core Symbol Bunker',
+          bdname: '符印坦守护',
           skill_1: '32px-Litany_of_Wrath',
           skill_1_name: '',
           skill_2: '32px-Smite_Condition',
@@ -874,7 +874,7 @@ export default {
         // 守护
         {
           professionicon: 'Dark-icon-guardian',
-          bdname: 'Radiant Greatsword (PvP)',
+          bdname: '光辉大剑直伤守护',
           skill_1: '32px-Shelter',
           skill_1_name: '',
           skill_2: '32px-Contemplation_of_Purity',
@@ -905,7 +905,7 @@ export default {
         // 幻术
         {
           professionicon: 'Dark-icon-mesmer',
-          bdname: 'Core Shatter',
+          bdname: '粉碎幻',
           skill_1: '32px-Mirror',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Mantra_of_Pain',
@@ -936,7 +936,7 @@ export default {
         // 幻术
         {
           professionicon: 'Dark-icon-mirage',
-          bdname: 'Carrion Axe',
+          bdname: '腐朽斧幻',
           skill_1: '32px-False_Oasis',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Signet_of_Illusions',
@@ -967,7 +967,7 @@ export default {
         // 魂武
         {
           professionicon: 'Dark-icon-renegade',
-          bdname: 'Retribution Kalla',
+          bdname: '惩戒龙魂',
           skill_1: '32px-Legendary_Renegade_Stance',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Legendary_Dwarf_Stance',
@@ -992,7 +992,7 @@ export default {
         // 魂武
         {
           professionicon: 'Dark-icon-revenant',
-          bdname: 'Core Mallyx',
+          bdname: '恶魔症状魂武',
           skill_1: '32px-Legendary_Demon_Stance',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Legendary_Dwarf_Stance',
@@ -1017,7 +1017,7 @@ export default {
         //工程
         {
           professionicon: 'Dark-icon-scrapper',
-          bdname: 'Explosive Hammer',
+          bdname: '炸药线大锤工程',
           skill_1: '32px-Healing_Turret',
           skill_1_name: '',
           skill_2: '32px-Elixir_U',
@@ -1044,7 +1044,7 @@ export default {
         // 游侠
         {
           professionicon: 'Dark-icon-soulbeast',
-          bdname: "Sic 'Em Sniper",
+          bdname: "长弓狙击兽魂",
           skill_1: '32px-_We_Heal_As_One',
           skill_1_name: '',
           skill_2: "32px-_Sic_'Em_",
@@ -1075,7 +1075,7 @@ export default {
         //战士
         {
           professionicon: 'Dark-icon-spellbreaker',
-          bdname: 'Strength Dagger',
+          bdname: '力量线匕首破法',
           skill_1: '32px-Mending',
           skill_1_name: '',
           skill_2: '32px-_Shake_It_Off_',
@@ -1107,7 +1107,7 @@ export default {
         //战士
         {
           professionicon: 'Dark-icon-warrior',
-          bdname: 'Greataxe',
+          bdname: '大剑斧盾战士',
           skill_1: '32px-Mending',
           skill_1_name: '',
           skill_2: '32px-_Shake_It_Off_',
@@ -1137,7 +1137,7 @@ export default {
         }, //元素
         {
           professionicon: 'Dark-icon-weaver',
-          bdname: 'D/F Lightning Rod',
+          bdname: '匕聚导雷编织',
           skill_1: '32px-Signet_of_Restoration',
           skill_1_name: '',
           skill_2: '32px-Twist_of_Fate',
@@ -1163,7 +1163,7 @@ export default {
         }, //元素
         {
           professionicon: 'Dark-icon-weaver',
-          bdname: 'Freshweaver',
+          bdname: '清新气流编织',
           skill_1: '32px-Glyph_of_Elemental_Harmony',
           skill_1_name: '',
           skill_2: '32px-Twist_of_Fate',
@@ -1192,7 +1192,7 @@ export default {
         // 盗贼
         {
           professionicon: 'Dark-icon-daredevil',
-          bdname: 'Marauder Staff',
+          bdname: '法杖独行侠',
           skill_1: '32px-Withdraw',
           skill_1_name: '32px-Legendary_Dragon_Stance',
           skill_2: '32px-Signet_of_Agility',
@@ -1249,7 +1249,7 @@ export default {
         //死灵
         {
           professionicon: 'Dark-icon-necromancer',
-          bdname: 'Well Bunker',
+          bdname: '法池肉死灵',
           skill_1: '32px-Well_of_Blood',
           skill_1_name: '',
           skill_2: '32px-Well_of_Power',
@@ -1280,7 +1280,7 @@ export default {
         // 游侠
         {
           professionicon: 'Dark-icon-ranger',
-          bdname: 'Core Bunker',
+          bdname: '老肉游侠',
           skill_1: '32px-Troll_Unguent',
           skill_1_name: '',
           skill_2: '32px-_Protect_Me',
@@ -1311,7 +1311,7 @@ export default {
         //死灵
         {
           professionicon: 'Dark-icon-scourge',
-          bdname: 'PowerScourge',
+          bdname: '直伤灾厄',
           skill_1: '32px-Well_of_Blood',
           skill_1_name: '',
           skill_2: '32px-Signet_of_Undeath',
@@ -1342,7 +1342,7 @@ export default {
         //工程
         {
           professionicon: 'Dark-icon-scrapper',
-          bdname: 'Might Scrapper',
+          bdname: '威能机械师',
           skill_1: '32px-Healing_Turret',
           skill_1_name: '',
           skill_2: '32px-Elixir_Gun',
@@ -1369,7 +1369,7 @@ export default {
         // 游侠
         {
           professionicon: 'Dark-icon-soulbeast',
-          bdname: 'Poisonbeast',
+          bdname: '中毒兽魂',
           skill_1: '32px-Healing_Spring',
           skill_1_name: '',
           skill_2: '32px-_Protect_Me',
@@ -1400,7 +1400,7 @@ export default {
         //战士
         {
           professionicon: 'Dark-icon-warrior',
-          bdname: 'Chasing Whirlwind',
+          bdname: '旋风冲锋战士',
           skill_1: '32px-Mending',
           skill_1_name: '',
           skill_2: '32px-_Shake_It_Off_',
@@ -1431,7 +1431,7 @@ export default {
         //元素
         {
           professionicon: 'Dark-icon-weaver',
-          bdname: 'CES Lightning Rod',
+          bdname: '地磁护盾导雷神针元素',
           skill_1: '32px-Signet_of_Restoration',
           skill_1_name: '',
           skill_2: '32px-Lightning_Flash',
@@ -1460,7 +1460,7 @@ export default {
         //工程
         {
           professionicon: 'Dark-icon-scrapper',
-          bdname: 'Super Elite Mortar Kit Funtime',
+          bdname: '炮击精英娱乐向工程',
           skill_1: '32px-Med_Kit',
           skill_1_name: '',
           skill_2: '32px-Elixir_U',
