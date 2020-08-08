@@ -560,24 +560,24 @@ export default {
           skill_5_name: "",
           rate: "4.5"
         },
-        {
-          professionicon: "Dark-icon-reaper",
-          bdname: "直伤夺魂者",
-          skill_1: "32px-Consume_Conditions",
-          skill_2: "32px-Well_of_Corruption",
-          skill_3: "32px-Well_of_Suffering",
-          skill_4: "32px-_Nothing_can_save_you_",
-          skill_5: "32px-_Chilled_to_the_Bone_",
-          traits_1: "死亡",
-          traits_2: "摄魂",
-          traits_3: "夺魂者",
-          skill_1_name: "",
-          skill_2_name: "",
-          skill_3_name: "",
-          skill_4_name: "",
-          skill_5_name: "",
-          rate: "4.8"
-        },
+        // {
+        //   professionicon: "Dark-icon-reaper",
+        //   bdname: "直伤夺魂者",
+        //   skill_1: "32px-Consume_Conditions",
+        //   skill_2: "32px-Well_of_Corruption",
+        //   skill_3: "32px-Well_of_Suffering",
+        //   skill_4: "32px-_Nothing_can_save_you_",
+        //   skill_5: "32px-_Chilled_to_the_Bone_",
+        //   traits_1: "死亡",
+        //   traits_2: "摄魂",
+        //   traits_3: "夺魂者",
+        //   skill_1_name: "",
+        //   skill_2_name: "",
+        //   skill_3_name: "",
+        //   skill_4_name: "",
+        //   skill_5_name: "",
+        //   rate: "4.8"
+        // },
         {
           professionicon: "Dark-icon-reaper",
           bdname: "直伤法池夺魂",
@@ -808,24 +808,24 @@ export default {
           skill_5_name: "",
           rate: "4.4"
         },
-        {
-          professionicon: "Dark-icon-scrapper",
-          bdname: "大锤支援机械师",
-          skill_1: "32px-Med_Kit",
-          skill_2: "32px-Bulwark_Gyro",
-          skill_3: "32px-Elixir_Gun",
-          skill_4: "32px-Purge_Gyro",
-          skill_5: "32px-Elite_Mortar_Kit",
-          traits_1: "发明",
-          traits_2: "炼金",
-          traits_3: "机械师",
-          skill_1_name: "",
-          skill_2_name: "",
-          skill_3_name: "",
-          skill_4_name: "",
-          skill_5_name: "",
-          rate: "4"
-        }
+        // {
+        //   professionicon: "Dark-icon-scrapper",
+        //   bdname: "大锤支援机械师",
+        //   skill_1: "32px-Med_Kit",
+        //   skill_2: "32px-Bulwark_Gyro",
+        //   skill_3: "32px-Elixir_Gun",
+        //   skill_4: "32px-Purge_Gyro",
+        //   skill_5: "32px-Elite_Mortar_Kit",
+        //   traits_1: "发明",
+        //   traits_2: "炼金",
+        //   traits_3: "机械师",
+        //   skill_1_name: "",
+        //   skill_2_name: "",
+        //   skill_3_name: "",
+        //   skill_4_name: "",
+        //   skill_5_name: "",
+        //   rate: "4"
+        // }
       ],
       tableData_test: [
         {

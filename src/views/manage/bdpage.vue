@@ -723,9 +723,9 @@ export default {
         case '11':
           this.bdpage = 'wvw_zerg_great_12.html'
           break
-        case '12':
-          this.bdpage = 'wvw_zerg_great_13.html'
-          break
+        // case '12':
+        //   this.bdpage = 'wvw_zerg_great_13.html'
+        //   break
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'good') {
