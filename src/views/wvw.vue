@@ -1441,7 +1441,7 @@ export default {
         query: {
           id: index,
           bd: bdname,
-          type: 'fractal',
+          type: 'wvw',
           scope:scope
         }
       })

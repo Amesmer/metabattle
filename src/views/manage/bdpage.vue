@@ -202,7 +202,7 @@ export default {
         case '2':
           this.bdpage = 'pvp_meta_3.html'
           break
-               case '3':
+        case '3':
           this.bdpage = 'pvp_meta_4.html'
           break
         case '4':
@@ -211,7 +211,6 @@ export default {
         case '5':
           this.bdpage = 'pvp_meta_6.html'
           break
- 
       }
     } //此处开始 ike
     if (parms.type == 'pvp' && parms.scope == 'great') {
@@ -317,7 +316,6 @@ export default {
         case '7':
           this.bdpage = 'pvp_test_8.html'
           break
-
       }
     }
     if (parms.type == 'pvp' && parms.scope == 'draft') {
@@ -325,7 +323,6 @@ export default {
         case '0':
           this.bdpage = 'pvp_draft_1.html'
           break
- 
       }
     }
     // 碎层部分
@@ -509,263 +506,369 @@ export default {
           this.bdpage = 'raid_recommended_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'raid_recommended_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'raid_recommended_6.html'
+          break
+        case '6':
+          this.bdpage = 'raid_recommended_7.html'
+          break
+        case '7':
+          this.bdpage = 'raid_recommended_8.html'
+          break
+        case '8':
+          this.bdpage = 'raid_recommended_9.html'
+          break
+        case '9':
+          this.bdpage = 'raid_recommended_10.html'
+          break
+        case '10':
+          this.bdpage = 'raid_recommended_11.html'
+          break
+        case '11':
+          this.bdpage = 'raid_recommended_12.html'
+          break
+        case '12':
+          this.bdpage = 'raid_recommended_13.html'
+          break
+        case '13':
+          this.bdpage = 'raid_recommended_14.html'
+          break
+        case '14':
+          this.bdpage = 'raid_recommended_15.html'
+          break
+        case '15':
+          this.bdpage = 'raid_recommended_16.html'
+          break
+        case '16':
+          this.bdpage = 'raid_recommended_17.html'
+          break
+        case '17':
+          this.bdpage = 'raid_recommended_18.html'
+          break
       }
     }
     if (parms.type == 'raid' && parms.scope == 'great') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'raid_draft_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'raid_draft_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'raid_draft_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'raid_draft_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'raid_draft_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'raid_draft_6.html'
+          break
+        case '6':
+          this.bdpage = 'raid_draft_7.html'
+          break
+        case '7':
+          this.bdpage = 'raid_draft_8.html'
+          break
+        case '8':
+          this.bdpage = 'raid_draft_9.html'
+          break
+        case '9':
+          this.bdpage = 'raid_draft_10.html'
+          break
+        case '10':
+          this.bdpage = 'raid_draft_11.html'
+          break
+        case '11':
+          this.bdpage = 'raid_draft_12.html'
+          break
+        case '12':
+          this.bdpage = 'raid_draft_13.html'
+          break
       }
     }
     if (parms.type == 'raid' && parms.scope == 'viable') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'raid_viable_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'raid_viable_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'raid_viable_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'raid_viable_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'raid_viable_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'raid_viable_6.html'
+          break
+        case '6':
+          this.bdpage = 'raid_viable_7.html'
+          break
+        case '7':
+          this.bdpage = 'raid_viable_8.html'
+          break
+        case '8':
+          this.bdpage = 'raid_viable_9.html'
+          break
+        case '9':
+          this.bdpage = 'raid_viable_10.html'
+          break
+        case '10':
+          this.bdpage = 'raid_viable_11.html'
+          break
+        case '11':
+          this.bdpage = 'raid_viable_12.html'
+          break
+        case '12':
+          this.bdpage = 'raid_viable_13.html'
+          break
       }
     }
     if (parms.type == 'raid' && parms.scope == 'test') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'raid_test_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'raid_test_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'raid_test_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'raid_test_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'raid_test_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
       }
     }
     if (parms.type == 'raid' && parms.scope == 'draft') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'raid_draft_1.html'
           break
-        case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
-          break
-        case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
-          break
-        case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
-          break
-        case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
-          break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
       }
     }
     // 战场部分
     if (parms.type == 'wvw' && parms.scope == 'meta') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'wvw_zerg_meta_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'wvw_zerg_meta_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'wvw_zerg_meta_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'wvw_zerg_meta_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage = 'wvw_zerg_meta_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'wvw_zerg_meta_6.html'
+          break
+  
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'great') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'wvw_zerg_great_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'wvw_zerg_great_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'wvw_zerg_great_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'wvw_zerg_great_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage ='wvw_zerg_great_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'wvw_zerg_great_6.html'
+          break
+        case '6':
+          this.bdpage = 'wvw_zerg_great_7.html'
+          break
+        case '7':
+          this.bdpage = 'wvw_zerg_great_8.html'
+          break
+        case '8':
+          this.bdpage = 'wvw_zerg_great_9.html'
+          break
+        case '9':
+          this.bdpage = 'wvw_zerg_great_10.html'
+          break
+        case '10':
+          this.bdpage = 'wvw_zerg_great_11.html'
+          break
+        case '11':
+          this.bdpage = 'wvw_zerg_great_12.html'
+          break
+        case '12':
+          this.bdpage = 'wvw_zerg_great_13.html'
+          break
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'good') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'wvw_zerg_good_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage =  'wvw_zerg_good_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage =  'wvw_zerg_good_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage =  'wvw_zerg_good_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage =  'wvw_zerg_good_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+         case '5':
+          this.bdpage =  'wvw_zerg_good_6.html'
+          break
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'test') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'wvw_zerg_test_1.html'
           break
-        case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
-          break
-        case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
-          break
-        case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
-          break
-        case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
-          break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'draft') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'wvw_zerg_draft_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage =  'wvw_zerg_draft_1.html'
           break
-        case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
-          break
-        case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
-          break
-        case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
-          break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+ 
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'greatbuilds') {
       switch (parms.id) {
-        case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+         case '0':
+          this.bdpage = 'wvw_small_great_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'wvw_small_great_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'wvw_small_great_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'wvw_small_great_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage ='wvw_small_great_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'wvw_small_great_6.html'
+          break
+        case '6':
+          this.bdpage = 'wvw_small_great_7.html'
+          break
+        case '7':
+          this.bdpage = 'wvw_small_great_8.html'
+          break
+        case '8':
+          this.bdpage = 'wvw_small_great_9.html'
+          break
+        case '9':
+          this.bdpage = 'wvw_small_great_10.html'
+          break
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'goodbuilds') {
       switch (parms.id) {
         case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+          this.bdpage = 'wvw_small_good_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'wvw_small_good_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage = 'wvw_small_good_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage = 'wvw_small_good_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage ='wvw_small_good_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage = 'wvw_small_good_6.html'
+          break
+        case '6':
+          this.bdpage = 'wvw_small_good_7.html'
+          break
+        case '7':
+          this.bdpage = 'wvw_small_good_8.html'
+          break
+        case '8':
+          this.bdpage = 'wvw_small_good_9.html'
+          break
+        case '9':
+          this.bdpage = 'wvw_small_good_10.html'
+          break
+        case '10':
+          this.bdpage = 'wvw_small_good_11.html'
+          break
+        case '11':
+          this.bdpage = 'wvw_small_good_12.html'
+          break
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'testbuilds') {
       switch (parms.id) {
-        case '0':
-          this.bdpage = 'Herald - Condition Mallyx.html'
+           case '0':
+          this.bdpage = 'wvw_small_test_1.html'
           break
         case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
+          this.bdpage = 'wvw_small_test_2.html'
           break
         case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
+          this.bdpage ='wvw_small_test_3.html'
           break
         case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
+          this.bdpage ='wvw_small_test_4.html'
           break
         case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
+          this.bdpage ='wvw_small_test_5.html'
           break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+        case '5':
+          this.bdpage ='wvw_small_test_6.html'
+          break
+        case '6':
+          this.bdpage = 'wvw_small_test_7.html'
+          break
+        case '7':
+          this.bdpage ='wvw_small_test_8.html'
+          break
       }
     }
     if (parms.type == 'wvw' && parms.scope == 'draftbuilds') {
@@ -773,20 +876,7 @@ export default {
         case '0':
           this.bdpage = 'Herald - Condition Mallyx.html'
           break
-        case '1':
-          this.bdpage = 'Holosmith - Explosive Sword.html'
-          break
-        case '2':
-          this.bdpage = 'Reaper - Spectral Onslaught.html'
-          break
-        case '3':
-          this.bdpage = 'Tempest - DF Auramancer.html'
-          break
-        case '4':
-          this.bdpage = 'Thief - Core PD Condition.html'
-          break
-        default:
-          this.bdpage = 'Tempest - DF Auramancer.html'
+     
       }
     }
   },
