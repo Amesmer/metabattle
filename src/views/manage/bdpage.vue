@@ -1000,12 +1000,15 @@ export default {
     font-size: 0.14rem;
     justify-content: space-between;
     align-items: center;
+       
     span {
       width: 2.64rem;
+     
     }
   }
   .left span:hover {
     color: #f9a916;
+      cursor: pointer;
   }
   li img {
     width: 0.32rem;
